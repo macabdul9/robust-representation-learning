@@ -4,15 +4,16 @@ import json
 import torch
 import argparse
 import tqdm
-
+import pandas as pd
 from config import config
 from dataset.dataset import create_loaders
 from evaluation import evaluate
 from utils import *
-
 import pytorch_lightning as pl
 from transformers import AutoTokenizer
 from Trainer import LightningModel
+import warnings
+warnings.filterwarnings('ignore')
 
 if __name__=="__main__":
 
@@ -30,67 +31,95 @@ if __name__=="__main__":
 
     model_list = config["models"]
 
-    for model_name in tqdm.tqdm(model_list):
+    model_src_trg = []
+    accuracy_scores = []
+    f1_scores = []
 
-        tokenizer = AutoTokenizer.from_pretrained(model_name, usefast=True, use_lower_case=True)
-        loaders = create_loaders(task=task, tokenizer=tokenizer)
+    # for model_name in tqdm.tqdm(model_list):
 
-        for source in tqdm.tqdm(loaders):
+    model_name = 'distilroberta-base'
 
-            if(len(loaders[source])!=2):
-                continue
+    tokenizer = AutoTokenizer.from_pretrained(model_name, usefast=True, use_lower_case=True)
+    loaders = create_loaders(task=task, tokenizer=tokenizer)
 
-            lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
+    for source in tqdm.tqdm(loaders):
 
-            # create the checkpoint path
-            PATH = os.path.join(os.getcwd(), "outputs", task, model_name)
-            MODEL_PATH = os.path.join(PATH, source)  # to load model
+        if(len(loaders[source])!=2):
+            continue
 
-            os.makedirs(PATH, exist_ok=True)
-            os.makedirs(MODEL_PATH, exist_ok=True)
+        lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
 
-            run_name = task+"$"+model_name +"$"+source
+        # create the checkpoint path
+        PATH = os.path.join(os.getcwd(), "outputs", task, model_name)
+        MODEL_PATH = os.path.join(PATH, source)  # to load model
 
-            trainer = create_trainer(callback_config=config['callback_config'], path=PATH, run_name=run_name)
+        os.makedirs(PATH, exist_ok=True)
+        os.makedirs(MODEL_PATH, exist_ok=True)
 
-            train_loader, valid_loader = loaders[source]['train'], loaders[source]['valid']
+        run_name = task+"$"+model_name +"$"+source
 
-            trainer.fit(lm, train_loader, valid_loader)
+        trainer = create_trainer(callback_config=config['callback_config'], path=PATH, run_name=run_name)
 
-            # # load best checkpoint
-            lm.load_from_checkpoint(MODEL_PATH)
-            trainer.test(
-                model=lm,
-                test_dataloaders=valid_loader,
-                verbose=False,
-                ckpt_path="best",
+        train_loader, valid_loader = loaders[source]['train'], loaders[source]['valid']
+
+        # trainer.fit(lm, train_loader, valid_loader)
+
+        # # load best checkpoint
+        # lm.load_from_checkpoint(MODEL_PATH)
+
+        trainer.test(
+            model=lm,
+            test_dataloaders=valid_loader,
+            verbose=False,
+            ckpt_path="best",
+        )
+        
+
+        # evaluate the best model on target domains
+        for target in tqdm.tqdm(loaders):
+
+            f1, accuracy, cr  = evaluate(model=lm, loader=loaders[target]['valid'], device=device)
+            
+            
+            results = update_results(
+                task=task, 
+                model_name=model_name,
+                source=source,target=target, f1=f1, accuracy=accuracy, results=results
             )
+                
+
+            model_src_trg.append((model_name, source, target))
+            accuracy_scores.append(accuracy)
+            f1_scores.append(f1)
+                
+            # save the classification report
+            with open(os.path.join(MODEL_PATH, target+".txt"), "w") as file:
+                file.write(cr)
+            
             
 
-            # evaluate the best model on target domains
-            for target in tqdm.tqdm(loaders):
-
-                f1, accuracy, cr  = evaluate(model=lm, loader=loaders[target]['valid'], device=device)
-                
-                
-                results = update_results(
-                    task=task, 
-                    model_name=model_name,
-                    source=source,target=target, f1=f1, accuracy=accuracy, results=results
-                )
-                    
-                    
-                # save the classification report
-                # with open(os.path.join(MODEL_PATH, target+".txt"), "w") as file:
-                #     file.write(cr)
-                
-
-            # delete model
-            del lm
-            gc.collect()
-            torch.cuda.empty_cache()
+        # delete model
+        del lm
+        gc.collect()
+        torch.cuda.empty_cache()
 
 
+    # df = pd.DataFrame(
+    #     data={
+    #         "model_src_trg":model_src_trg,
+    #         "accuracy_scores":accuracy_scores,
+    #         "f1_scores":f1_scores,
+    #     }
+    # )
+    # df.to_csv(os.path.join(os.getcwd(), "outputs", "results.csv"), index=False)
+    # del df
+    # gc.collect()
     # save the results into json file at outputs/
-    with open(os.path.join(os.getcwd(), "outputs", "results.json"), "w") as file:
+    with open(os.path.join(os.getcwd(), "outputs", task, model_name,  "results.json"), "w") as file:
         json.dump(results, file)
+
+    gc.collect()
+
+
+    
+

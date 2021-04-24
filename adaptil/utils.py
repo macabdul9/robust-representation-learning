@@ -45,7 +45,7 @@ def create_trainer(callback_config, run_name, path):
 
     trainer = pl.Trainer(
         logger=logger,
-        gpus=[0],
+        # gpus=[0],
         checkpoint_callback=checkpoints,
         callbacks=[early_stopping],
         max_epochs=config['tasks'][task]["epochs"],

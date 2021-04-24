@@ -29,7 +29,12 @@ def sa_loaders(tokenizer):
 
         train_dataset = load_dataset('csv', data_files=path_to_csv, split='train[:80%]')
         val_dataset = load_dataset('csv', data_files=path_to_csv, split='train[80%:]')
-        
+
+        # train_dataset['label'] = train_dataset['sentiment']
+        # valid_dataset['label'] = train_dataset['sentiment']
+
+
+        # # does not work with datasets version that have unless I install from git
         train_dataset = train_dataset.rename_column('sentiment', 'label') 
         val_dataset = val_dataset.rename_column('sentiment', 'label')
 

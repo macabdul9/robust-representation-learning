@@ -6,7 +6,7 @@ config = {
             "domains":["books", "dvd", "electronics", "kitchen_housewares"],
             # "domains":["books"],
             "lr":2e-5,
-            "batch_size":8,
+            "batch_size":32,
             "epochs":1,
             "average":"macro",
 
@@ -25,7 +25,7 @@ config = {
     "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base', 'distilroberta-base'],
     # "models":['distilbert-base-uncased'],
 
-    "max_seq_length": 128,
+    "max_seq_length": 256,
     "num_workers":4,
 
 

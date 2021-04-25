@@ -41,7 +41,7 @@ class LightningModel(pl.LightningModule):
         return logits
 
     def configure_optimizers(self):
-        return optim.AdamW(params=self.parameters(), lr=self.config['lr'])
+        return optim.Adam(params=self.parameters(), lr=self.config['lr'])
 
     def training_step(self, batch, batch_idx):
 
@@ -50,6 +50,7 @@ class LightningModel(pl.LightningModule):
         loss = F.cross_entropy(logits, targets)
 
         acc = accuracy_score(targets.cpu(), logits.argmax(dim=1).cpu())
+
         f1 = f1_score(targets.cpu(), logits.argmax(dim=1).cpu(), average=self.config['average'])
         wandb.log({"loss":loss, "accuracy":acc, "f1_score":f1})
         return {"loss":loss, "accuracy":acc, "f1_score":f1}

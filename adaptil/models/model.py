@@ -21,8 +21,8 @@ class Model(nn.Module):
     def forward(self, input_ids, attention_mask=None):
 
         last_hidden_state = self.base_model(input_ids, attention_mask)[0]
-        cls_token = last_hidden_state[:, 0]
-        logits = self.classifier(cls_token)
+        cls_tokens = last_hidden_state[:, 0]
+        logits = self.classifier(cls_tokens)
         return logits
 
 

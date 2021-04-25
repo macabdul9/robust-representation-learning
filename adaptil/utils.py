@@ -50,10 +50,7 @@ def create_trainer(callback_config, run_name, path):
         callbacks=[early_stopping],
         max_epochs=config['tasks'][task]["epochs"],
         precision=config['callback_config']["precision"],
-        automatic_optimization=True,
-        limit_train_batches = 0.01,
-        limit_val_batches = 0.05,
-        limit_test_batches = 0.05,
+        
     )
 
     return trainer

@@ -41,7 +41,7 @@ class LightningModel(pl.LightningModule):
         return logits
 
     def configure_optimizers(self):
-        return optim.Adam(params=self.parameters(), lr=self.config['lr'])
+        return optim.AdamW(params=self.parameters(), lr=self.config['lr'])
 
     def training_step(self, batch, batch_idx):
 

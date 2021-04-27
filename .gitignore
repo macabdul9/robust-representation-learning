@@ -5,7 +5,7 @@ __pycache__/
 
 *.zip
 
-adaptil.zip
+./adaptil.zip
 
 # C extensions
 *.so

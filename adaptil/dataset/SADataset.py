@@ -38,5 +38,5 @@ class SADataset(Dataset):
         return {
             "input_ids":input_encoding['input_ids'].squeeze(),
             "attention_mask":input_encoding['attention_mask'].squeeze(),
-            "label":torch.Tensor([label])
+            "label":torch.tensor([label], dtype=torch.long)
         }

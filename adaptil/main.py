@@ -2,6 +2,8 @@ import os
 import gc
 import json
 import torch
+import numpy as np
+import random
 import argparse
 import tqdm
 import pandas as pd
@@ -17,16 +19,30 @@ warnings.filterwarnings('ignore')
 
 if __name__=="__main__":
 
-    # parser = argparse.ArgumentParser()
+    torch.manual_seed(0)
+    random.seed(0)
+    np.random.seed(0)
+
+
+
+    parser = argparse.ArgumentParser("main.py", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
 
     # parser.add_argument("-t", "--Task", help="'sa' for sentiment analysis, 'mnli' for multi_nli")
 
-    # args = parser.parse_args()
 
-    
+
+    parser.add_argument("--model", type=str, default="bert-base-uncased",
+                        help="model to train")
+    parser.add_argument("--task", type=str, default="sa",
+                        help="model to train")
+
+    args = parser.parse_args()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+    # device = torch.device("cpu")
 
-    os.environ["TOKENIZERS_PARALLELISM"] = 'false'
+    # os.environ["TOKENIZERS_PARALLELISM"] = 'false'
 
 
     results = {}
@@ -38,8 +54,8 @@ if __name__=="__main__":
     # f1_scores = []
 
     # for model_name in tqdm.tqdm(model_list):
-    task = "sa" #args.Task  # define your task here
-    model_name = 'distilbert-base-uncased'
+    task = args.__dict__['task']#"sa" #args.Task  # define your task here
+    model_name = args.__dict__['model']#'bert-base-uncased'# 'bert-base-uncased'
 
     PATH = os.path.join(os.getcwd(), "outputs", task, model_name)
     os.makedirs(PATH, exist_ok=True)
@@ -48,7 +64,6 @@ if __name__=="__main__":
     loaders = create_loaders(task=task, tokenizer=tokenizer)
 
     for source in tqdm.tqdm(loaders):
-
 
 
         lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
@@ -69,6 +84,7 @@ if __name__=="__main__":
         # load best checkpoint
         # lm.load_from_checkpoint(MODEL_PATH)
 
+        # this loads the best checkpoint
         trainer.test(
             model=lm,
             test_dataloaders=test_loader,
@@ -91,9 +107,9 @@ if __name__=="__main__":
             )
                 
 
-            model_src_trg.append((model_name, source, target))
-            accuracy_scores.append(accuracy)
-            f1_scores.append(f1)
+            # model_src_trg.append((model_name, source, target))
+            # accuracy_scores.append(accuracy)
+            # f1_scores.append(f1)
                 
             # save the classification report
             with open(os.path.join(MODEL_PATH, target+".txt"), "w") as file:
@@ -104,7 +120,7 @@ if __name__=="__main__":
         del lm
         gc.collect()
         torch.cuda.empty_cache()
-        break
+        # break
 
     
     # save the results into json file at outputs/

@@ -5,6 +5,8 @@ from config import config
 
 from datasets import load_dataset
 from torch.utils.data import DataLoader
+from .SADataset import SADataset
+
 
 def sa_loaders(tokenizer):
     '''
@@ -21,20 +23,25 @@ def sa_loaders(tokenizer):
     domain_list = config['tasks']['sa']['domains']
 
     for domain in domain_list:  # iterate through all domains and save loaders
-
-        path_to_csv = os.path.join(os.getcwd(), "data", "amazon-review", domain+".csv")
-
-        train_dataset = load_dataset('csv', data_files=path_to_csv, split='train[:80%]')
-        val_dataset = load_dataset('csv', data_files=path_to_csv, split='train[80%:]')
         
-        train_dataset = train_dataset.rename_column('sentiment', 'label') 
-        val_dataset = val_dataset.rename_column('sentiment', 'label')
+        
+        encoded_train_dataset = SADataset(tokenizer=tokenizer, file_name=os.path.join(config['tasks']['sa']['dataset_path'], domain, "train.csv"))
+        encoded_val_dataset = SADataset(tokenizer=tokenizer, file_name=os.path.join(config['tasks']['sa']['dataset_path'], domain, "valid.csv"))
+        # train = SADataset(tokenizer=tokenizer, file_name=os.path.join(config['dataset_path'], domain, "train.csv"))
+        
+        # path_to_csv = os.path.join(os.getcwd(), "data", "amazon-review", domain+".csv")
 
-        encoded_train_dataset = train_dataset.map(lambda x: tokenizer(x['review_text'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
-        encoded_val_dataset = val_dataset.map(lambda x: tokenizer(x['review_text'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
+        # train_dataset = load_dataset('csv', data_files=path_to_csv, split='train[:80%]')
+        # val_dataset = load_dataset('csv', data_files=path_to_csv, split='train[80%:]')
+        
+        # train_dataset = train_dataset.rename_column('sentiment', 'label') 
+        # val_dataset = val_dataset.rename_column('sentiment', 'label')
 
-        encoded_train_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
-        encoded_val_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
+        # encoded_train_dataset = train_dataset.map(lambda x: tokenizer(x['review_text'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
+        # encoded_val_dataset = val_dataset.map(lambda x: tokenizer(x['review_text'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
+
+        # encoded_train_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
+        # encoded_val_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
 
         train_data_loader = torch.utils.data.DataLoader(dataset = encoded_train_dataset, batch_size=config['tasks']['sa']["batch_size"], shuffle=True, num_workers=4)
         val_data_loader = torch.utils.data.DataLoader(dataset = encoded_val_dataset, batch_size=config['tasks']['sa']["batch_size"], shuffle=False, num_workers=4)

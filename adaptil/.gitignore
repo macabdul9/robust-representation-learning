@@ -4,6 +4,7 @@ wandb/
 lightning_logs/
 outputs/
 results/
+representations/
 
 *.zip
 

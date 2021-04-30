@@ -35,7 +35,7 @@ class Model(nn.Module):
 
         outputs = self.base(input_ids=input_ids, attention_mask=attention_mask)
         
-        pooler = outputs[1]
+        
         # pooler.shape = [batch_size, hidden_size]
 
         logits = self.classfier(pooler)

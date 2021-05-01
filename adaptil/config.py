@@ -27,7 +27,7 @@ config = {
     "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base', 'distilroberta-base'],
     # "models":['distilbert-base-uncased'],
 
-    "max_seq_length": 256,
+    "max_seq_length": 128,
     "num_workers":4,
 
 

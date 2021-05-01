@@ -117,8 +117,8 @@ def mnli_loaders(tokenizer):
     for domain in domain_list:  # iterate through all domains and save loaders
 
         domain_dataset = dataset.filter(lambda example: example['genre'] == domain)
-        domain_dataset['train'] = domain_dataset['train'].select(range(77306))  # same for training across all domains
-        domain_dataset['validation_matched'] = domain_dataset['validation_matched'].select(range(1945)) # same for validation across all domains
+        domain_dataset['train'] = domain_dataset['train'].select(range(50))  # this is actual value 77306# same for training across all domains
+        domain_dataset['validation_matched'] = domain_dataset['validation_matched'].select(range(500)) # 1945 # same for validation across all domains
 
         encoded_domain_dataset = domain_dataset.map(lambda x: tokenizer(x['premise'], x['hypothesis'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
         encoded_domain_dataset['train'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])

@@ -6,6 +6,8 @@ outputs/
 results/
 representations/
 
+data/toxic-comments/
+
 *.zip
 
 # Byte-compiled / optimized / DLL files

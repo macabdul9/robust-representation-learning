@@ -22,6 +22,19 @@ config = {
             "epochs":1,
             "average":"macro",
         },
+        "toxic-comments":{
+            "num_classes":2,
+            "domains":['male',
+                        'female',
+                        'LGBTQ',
+                        'christian',
+                        'muslim',
+                        'other_religions',
+                        'black',
+                        'white'],
+            "batch_size":32,
+            
+        }
 
     },
     "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base', 'distilroberta-base'],

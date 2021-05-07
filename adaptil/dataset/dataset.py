@@ -7,6 +7,8 @@ from datasets import load_dataset
 from torch.utils.data import DataLoader
 from .SADataset import SADataset
 
+from .imdb_sst2 import imdb_sst2_loaders
+
 
 def sa_loaders(tokenizer):
     '''
@@ -153,9 +155,14 @@ def mnli_loaders(tokenizer):
 
 
 def create_loaders(task, tokenizer):
-    if task == "sa":
+    
+    if task == "amazon_sa":
         return sa_loaders(tokenizer=tokenizer)
-    else:
+    
+    elif task == "imdb_sst2_sa":
+        return imdb_sst2_loaders(config=config['tasks'][task], tokenizer=tokenizer)
+    
+    elif task == "mnli" :
         return mnli_loaders(tokenizer=tokenizer)
 
 

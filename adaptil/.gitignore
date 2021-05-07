@@ -7,6 +7,7 @@ results/
 representations/
 
 data/toxic-comments/
+data/paraphrase/
 
 *.zip
 

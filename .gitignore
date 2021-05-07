@@ -5,6 +5,8 @@ __pycache__/
 
 *.zip
 
+./adaptil/data/
+
 ./adaptil.zip
 
 # C extensions

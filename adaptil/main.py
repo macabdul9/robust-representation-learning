@@ -5,7 +5,7 @@ import torch
 import numpy as np
 import random
 import argparse
-import tqdm
+from tqdm.notebook import tqdm
 import pandas as pd
 from config import config
 from dataset.dataset import create_loaders
@@ -34,13 +34,16 @@ if __name__=="__main__":
 
     parser.add_argument("--model", type=str, default="bert-base-uncased",
                         help="model to train")
-    parser.add_argument("--task", type=str, default="sa",
+    parser.add_argument("--task", type=str, default="amazon_sa",
                         help="model to train")
 
     args = parser.parse_args()
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    # device = torch.device("cpu")
+    
+    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    
+    device = torch.device("cpu")
+
 
     # os.environ["TOKENIZERS_PARALLELISM"] = 'false'
 
@@ -63,7 +66,7 @@ if __name__=="__main__":
     tokenizer = AutoTokenizer.from_pretrained(model_name, usefast=True, use_lower_case=True)
     loaders = create_loaders(task=task, tokenizer=tokenizer)
 
-    for source in tqdm.tqdm(loaders):
+    for source in tqdm(loaders):
 
 
         lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
@@ -94,7 +97,7 @@ if __name__=="__main__":
         
 
         # evaluate the best model on target domains
-        for target in tqdm.tqdm(loaders):
+        for target in tqdm(loaders):
 
 
             f1, accuracy, cr  = evaluate(model=lm, loader=loaders[target]['valid'], device=device)

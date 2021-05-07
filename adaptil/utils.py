@@ -45,14 +45,14 @@ def create_trainer(callback_config, run_name, path):
 
     trainer = pl.Trainer(
         logger=logger,
-        gpus=[0],
+        # gpus=[0],
         checkpoint_callback=checkpoints,
         callbacks=[early_stopping],
         max_epochs=config['tasks'][task]["epochs"],
         precision=config['callback_config']["precision"],
-        limit_train_batches=1.0,
-        limit_val_batches=0.50,
-        limit_test_batches=0.50,
+        limit_train_batches=0.05,
+        limit_val_batches=0.05,
+        limit_test_batches=0.05,
     )
 
     return trainer

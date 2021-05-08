@@ -33,6 +33,7 @@ config = {
             "batch_size":32,
             "epochs":1,
             "average":"macro",
+            "max_seq_length": 128,
         },
         "toxic-comments":{
             "num_classes":2,

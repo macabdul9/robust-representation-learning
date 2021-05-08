@@ -9,7 +9,7 @@ def imdb_sst2_loaders(config, tokenizer):
     """
 
     sst2 = load_dataset("toriving/sst2") # sst2 has train, valid and test. We're mering test and valid set into test set
-    imdb = load_dataset("imdb")
+    imdb = load_dataset("toriving/imdb")
 
     # try this if ood problem does not get fixed load_dataset("toriving/imdb")
 

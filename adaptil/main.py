@@ -17,12 +17,13 @@ from Trainer import LightningModel
 import warnings
 warnings.filterwarnings('ignore')
 
+
+SEED = 42
+torch.manual_seed(SEED)
+random.seed(SEED)
+np.random.seed(SEED)
+    
 if __name__=="__main__":
-
-    torch.manual_seed(0)
-    random.seed(0)
-    np.random.seed(0)
-
 
 
     parser = argparse.ArgumentParser("main.py", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -40,9 +41,9 @@ if __name__=="__main__":
     args = parser.parse_args()
     
     
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    device = torch.device("cpu")
+    # device = torch.device("cpu")
 
 
     # os.environ["TOKENIZERS_PARALLELISM"] = 'false'

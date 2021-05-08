@@ -34,6 +34,7 @@ def mnli_loaders(config, tokenizer):
 
         for domain in domains:
 
+            # filter by domain and by label # later all labels will be merged
             train = dataset['train'].filter(lambda example:example['genre']==domain).filter(lambda example:example['label']==label).select(range(train_label_dist))
             test = dataset['validation_matched'].filter(lambda example:example['genre']==domain).filter(lambda example:example['label']==label).select(range(test_label_dist))
 

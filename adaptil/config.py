@@ -33,8 +33,21 @@ config = {
             "batch_size":32,
             "epochs":1,
             "average":"macro",
-            "max_seq_length": 128,
+            "max_seq_length": 256,
         },
+        
+        "paraphrase":{
+            "num_classes":2,
+            "domains":['qqp', 'paws'],
+            "lr":2e-5,
+            "batch_size":32,
+            "epochs":1,
+            "average":"macro",
+            "max_seq_length": 256,
+        },
+        
+        
+        
         "toxic-comments":{
             "num_classes":2,
             "domains":['male',

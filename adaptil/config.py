@@ -28,10 +28,9 @@ config = {
         "mnli":{
             "num_classes":3,
             "domains":['government', 'telephone', 'fiction', 'travel', 'slate'],
-            "mismatched_domains": ['letters', 'verbatim', 'facetoface', 'oup', 'nineeleven'],
             "lr":2e-5,
-            "batch_size":32,
-            "epochs":1,
+            "batch_size":16,
+            "epochs":10,
             "average":"macro",
             "max_seq_length": 256,
         },
@@ -45,8 +44,6 @@ config = {
             "average":"macro",
             "max_seq_length": 256,
         },
-        
-        
         
         "toxic-comments":{
             "num_classes":2,
@@ -66,7 +63,7 @@ config = {
     "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base', 'distilroberta-base'],
     # "models":['distilbert-base-uncased'],
 
-    "max_seq_length": 128,
+    # "max_seq_length": 128, # moved to respective task section
     "num_workers":4,
 
 

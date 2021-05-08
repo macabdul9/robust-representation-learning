@@ -8,6 +8,7 @@ from torch.utils.data import DataLoader
 from .SADataset import SADataset
 
 from .imdb_sst2 import imdb_sst2_loaders
+from .mnli import mnli_loaders
 
 
 def sa_loaders(tokenizer):
@@ -108,50 +109,50 @@ def sa_loaders(tokenizer):
 #     return domain_loaders
 
 
-def mnli_loaders(tokenizer):
+# def mnli_loaders(tokenizer):
 
-    dataset = load_dataset("multi_nli")
-    dataset.remove_columns(['pairID', 'promptID', 'premise_binary_parse', 'premise_parse', 'hypothesis_binary_parse', 'hypothesis_parse'])
+#     dataset = load_dataset("multi_nli")
+#     dataset.remove_columns(['pairID', 'promptID', 'premise_binary_parse', 'premise_parse', 'hypothesis_binary_parse', 'hypothesis_parse'])
 
-    domain_loaders = {}
-    domain_list = config['tasks']['mnli']['domains']
+#     domain_loaders = {}
+#     domain_list = config['tasks']['mnli']['domains']
 
-    for domain in domain_list:  # iterate through all domains and save loaders
+#     for domain in domain_list:  # iterate through all domains and save loaders
 
-        domain_dataset = dataset.filter(lambda example: example['genre'] == domain)
-        domain_dataset['train'] = domain_dataset['train'].select(range(50))  # this is actual value 77306# same for training across all domains
-        domain_dataset['validation_matched'] = domain_dataset['validation_matched'].select(range(500)) # 1945 # same for validation across all domains
+#         domain_dataset = dataset.filter(lambda example: example['genre'] == domain)
+#         domain_dataset['train'] = domain_dataset['train'].select(range(50))  # this is actual value 77306# same for training across all domains
+#         domain_dataset['validation_matched'] = domain_dataset['validation_matched'].select(range(500)) # 1945 # same for validation across all domains
 
-        encoded_domain_dataset = domain_dataset.map(lambda x: tokenizer(x['premise'], x['hypothesis'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
-        encoded_domain_dataset['train'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
-        encoded_domain_dataset['validation_matched'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
+#         encoded_domain_dataset = domain_dataset.map(lambda x: tokenizer(x['premise'], x['hypothesis'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
+#         encoded_domain_dataset['train'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
+#         encoded_domain_dataset['validation_matched'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
 
-        train_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['train'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=True, num_workers=4)
-        val_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['validation_matched'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=False, num_workers=4)
+#         train_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['train'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=True, num_workers=4)
+#         val_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['validation_matched'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=False, num_workers=4)
 
-        domain_loaders[domain] = {
-            "train": train_data_loader,
-            "valid": val_data_loader
-        }
+#         domain_loaders[domain] = {
+#             "train": train_data_loader,
+#             "valid": val_data_loader
+#         }
 
-    # # We are not going to to this
-    # mismatched_domain_list = config['tasks']['mnli']['mismatched_domains']
+#     # # We are not going to to this
+#     # mismatched_domain_list = config['tasks']['mnli']['mismatched_domains']
 
-    # for domain in mismatched_domain_list:  # iterate through all domains and save loaders
+#     # for domain in mismatched_domain_list:  # iterate through all domains and save loaders
 
-    #     domain_dataset = dataset.filter(lambda example: example['genre'] == domain)
-    #     domain_dataset['validation_mismatched'] = domain_dataset['validation_mismatched'].select(range(1945)) # same for validation across all domains
+#     #     domain_dataset = dataset.filter(lambda example: example['genre'] == domain)
+#     #     domain_dataset['validation_mismatched'] = domain_dataset['validation_mismatched'].select(range(1945)) # same for validation across all domains
 
-    #     encoded_domain_dataset = domain_dataset.map(lambda x: tokenizer(x['premise'], x['hypothesis'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
-    #     encoded_domain_dataset['validation_mismatched'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
+#     #     encoded_domain_dataset = domain_dataset.map(lambda x: tokenizer(x['premise'], x['hypothesis'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
+#     #     encoded_domain_dataset['validation_mismatched'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
 
-    #     val_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['validation_mismatched'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=False, num_workers=4)
+#     #     val_data_loader = torch.utils.data.DataLoader(dataset = encoded_domain_dataset['validation_mismatched'], batch_size=config['tasks']['mnli']["batch_size"], shuffle=False, num_workers=4)
 
-    #     domain_loaders[domain] = {
-    #         "valid": val_data_loader
-    #     }
+#     #     domain_loaders[domain] = {
+#     #         "valid": val_data_loader
+#     #     }
 
-    return domain_loaders
+#     return domain_loaders
 
 
 def create_loaders(task, tokenizer):
@@ -161,9 +162,9 @@ def create_loaders(task, tokenizer):
     
     elif task == "imdb_sst2_sa":
         return imdb_sst2_loaders(config=config['tasks'][task], tokenizer=tokenizer)
-    
+
     elif task == "mnli" :
-        return mnli_loaders(tokenizer=tokenizer)
+        return mnli_loaders(config=config['tasks'][task], tokenizer=tokenizer)
 
 
 

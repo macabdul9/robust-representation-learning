@@ -5,7 +5,7 @@ import torch
 import numpy as np
 import random
 import argparse
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 import pandas as pd
 from config import config
 from dataset.dataset import create_loaders
@@ -29,10 +29,6 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser("main.py", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 
-    # parser.add_argument("-t", "--Task", help="'sa' for sentiment analysis, 'mnli' for multi_nli")
-
-
-
     parser.add_argument("--model", type=str, default="bert-base-uncased",
                         help="model to train")
     parser.add_argument("--task", type=str, default="amazon_sa",
@@ -43,19 +39,9 @@ if __name__=="__main__":
     
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
-    # device = torch.device("cpu")
-
-
-    # os.environ["TOKENIZERS_PARALLELISM"] = 'false'
-
 
     results = {}
 
-    # model_list = config["models"]
-
-    # model_src_trg = []
-    # accuracy_scores = []
-    # f1_scores = []
 
     # for model_name in tqdm.tqdm(model_list):
     task = args.__dict__['task']#"sa" #args.Task  # define your task here
@@ -110,17 +96,12 @@ if __name__=="__main__":
                 source=source,target=target, f1=f1, accuracy=accuracy, results=results
             )
                 
-
-            # model_src_trg.append((model_name, source, target))
-            # accuracy_scores.append(accuracy)
-            # f1_scores.append(f1)
-                
             # save the classification report
             with open(os.path.join(MODEL_PATH, target+".txt"), "w") as file:
                 file.write(cr)
             
 
-        # delete model
+        # delete model to free up the memory
         del lm
         gc.collect()
         torch.cuda.empty_cache()

@@ -1,6 +1,6 @@
 # import torch
 from sklearn.metrics import f1_score, accuracy_score, classification_report
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 
 
 def evaluate(model, loader, device):
@@ -19,7 +19,7 @@ def evaluate(model, loader, device):
         true_label += batch['label'].cpu().tolist()
 
         # limit to evaluate only on one batch comment it before final run
-        break
+        # break
 
     f1 = f1_score(y_true=true_label, y_pred=pred_label, average='macro')
     accuracy = accuracy_score(y_true=true_label, y_pred=pred_label)

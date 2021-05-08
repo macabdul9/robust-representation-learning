@@ -4,19 +4,6 @@ from transformers import AutoModel, AutoConfig
 class Model(nn.Module):
 
     def __init__(self, model_name, num_classes=2):
-
-        super().__init__()
-        
-        # self.config = AutoConfig.from_pretrained(model_name)
-
-        # self.base_model = AutoModel.from_pretrained(model_name, config=self.config)
-
-        # self.classifier = nn.Sequential(
-        #     nn.Linear(in_features=self.config.hidden_size, out_features=self.config.hidden_size),
-        #     nn.ReLU(),
-        #     nn.Dropout(0.10),
-        #     nn.Linear(in_features=self.config.hidden_size, out_features=num_classes),  # change it to config.num_labels
-        # )
         super().__init__()
         
 
@@ -33,13 +20,13 @@ class Model(nn.Module):
 
     def forward(self, input_ids, attention_mask=None):
 
+        # last hidden states
         outputs = self.base(input_ids=input_ids, attention_mask=attention_mask)
         
-        
-        # pooler.shape = [batch_size, hidden_size]
-        
+        # cls token from last hidden states
         pooler = outputs[0][:, 0]
 
+        # pass it to nn classifier
         logits = self.classfier(pooler)
 
 

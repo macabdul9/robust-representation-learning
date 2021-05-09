@@ -40,7 +40,7 @@ config = {
             "domains":['qqp', 'paws'],
             "lr":2e-5,
             "batch_size":32,
-            "epochs":1,
+            "epochs":5,
             "average":"macro",
             "max_seq_length": 256,
         },

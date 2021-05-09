@@ -1,17 +1,18 @@
 from transformers import AutoTokenizer
 from dataset.imdb_sst2 import imdb_sst2_loaders
 from dataset.mnli import mnli_loaders
+from dataset.qqp_paws import qqp_paws_loaders
 
 from config import config
 
 if __name__=="__main__":
     
     
-    task = "mnli"
+    task = "paraphrase"
     
     tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path="bert-base-uncased")
     
-    loaders = mnli_loaders(config=config['tasks'][task], tokenizer=tokenizer)
+    loaders = qqp_paws_loaders(config=config['tasks'][task], tokenizer=tokenizer)
     
     for domain in loaders:
         print(domain, len(loaders[domain]['train']), len(loaders[domain]['test']), len(loaders[domain]['valid']))

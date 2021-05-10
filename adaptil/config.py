@@ -40,7 +40,7 @@ config = {
             "domains":['qqp', 'paws', "mrpc"],
             "lr":2e-5,
             "batch_size":32,
-            "epochs":5,
+            "epochs":10,
             "average":"macro",
             "max_seq_length": 256,
         },
@@ -70,7 +70,7 @@ config = {
     "callback_config":{
         "monitor":"val_accuracy",
         "min_delta":0.001,
-        "patience":2,
+        "patience":3,
         "precision":32,
         "project":"robust-representation-learning",
     }

@@ -37,12 +37,12 @@ config = {
         
         "paraphrase":{
             "num_classes":2,
-            "domains":['qqp', 'paws', "mrpc"],
+            "domains":['qqp', 'paws'], # "mrpc"
             "lr":2e-5,
-            "batch_size":16,
+            "batch_size":32,
             "epochs":10,
             "average":"macro",
-            "max_seq_length": 512,
+            "max_seq_length": 256,
         },
         
         "toxic-comments":{
@@ -70,7 +70,7 @@ config = {
     "callback_config":{
         "monitor":"val_accuracy",
         "min_delta":0.001,
-        "patience":5,
+        "patience":3,
         "precision":32,
         "project":"robust-representation-learning",
     }

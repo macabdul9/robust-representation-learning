@@ -37,7 +37,7 @@ config = {
         
         "paraphrase":{
             "num_classes":2,
-            "domains":['qqp', 'paws'],
+            "domains":['qqp', 'paws', "mrpc"],
             "lr":2e-5,
             "batch_size":32,
             "epochs":5,

@@ -9,8 +9,7 @@ from .SADataset import SADataset
 
 from .imdb_sst2 import imdb_sst2_loaders
 from .mnli import mnli_loaders
-from  .qqp_paws import  qqp_paws_loaders
-
+from .paraphrase import paraphrase_loaders
 
 def sa_loaders(tokenizer):
     '''
@@ -168,7 +167,7 @@ def create_loaders(task, tokenizer):
         return mnli_loaders(config=config['tasks'][task], tokenizer=tokenizer)
     
     elif task=="paraphrase":
-        return qqp_paws_loaders(config=config['tasks'][task], tokenizer=tokenizer)
+        return paraphrase_loaders(config=config['tasks'][task], tokenizer=tokenizer)
         
 
 

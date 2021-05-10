@@ -2,18 +2,21 @@ import torch
 from datasets import load_dataset, concatenate_datasets
 import numpy as np
 
-def qqp_paws_loaders(config, tokenizer):
+
+def paraphrase_loaders(config, tokenizer, max_len=256):
 
     domains = config['domains']
 
     # which label has least number of samples in train data as well as (test)validation data in all domains
-    train_label_dist = 21829 # manually checked 
-    test_label_dist = 7075 # manually checked 
+    train_label_dist = 1323 # manually checked 
+    test_label_dist = 578 # manually checked 
 
 
     # we are  not going to take words greater than 256
     paws = load_dataset("paws", 'labeled_final')
     qqp = load_dataset("glue", 'qqp')
+    mrpc = load_dataset("glue", "mrpc")
+
 
 
     # # If you want to filter the data based on length | no filtering in actul experiment
@@ -34,9 +37,14 @@ def qqp_paws_loaders(config, tokenizer):
     paws['test'] = concatenate_datasets(dsets=[paws['test'], paws['validation']])
     qqp['test'] = concatenate_datasets(dsets=[qqp['test'], qqp['validation']])
 
+    # concate the validation and train to increase the training data
+    mrpc['train'] = concatenate_datasets(dsets=[mrpc['train'], mrpc['validation']])
+
+
     datasets = {
         "paws":paws,
-        "qqp":qqp
+        "qqp":qqp,
+        "mrpc":mrpc,
     }
 
     labels = list(set(qqp['train']['label']))
@@ -49,7 +57,7 @@ def qqp_paws_loaders(config, tokenizer):
         }
         domain_dsets[domain].update({"test":[]})
 
-    # take equal numbe of samples for each domain for each label for each set
+    # take equal number of samples for each domain for each label for each set
     for label in labels:
         
         for domain in domain_dsets:
@@ -96,4 +104,6 @@ def qqp_paws_loaders(config, tokenizer):
     
 
     return loaders
+
+
 

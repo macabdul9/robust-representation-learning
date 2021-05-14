@@ -1,0 +1,1 @@
+{"paraphrase": {"bert-base-uncased": {"qqp": {"qqp": {"f1": 0.8522, "accuracy": 0.8524}, "paws": {"f1": 0.4255, "accuracy": 0.5060}}, "paws": {"qqp": {"f1": 0.6042231671789872, "accuracy": 0.6284098939929329}, "paws": {"f1": 0.919736321026809, "accuracy": 0.9197879858657244}}}}}

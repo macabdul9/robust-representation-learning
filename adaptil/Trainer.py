@@ -1,12 +1,7 @@
 # utils
 import torch
-import os
-import pandas as pd
-import gc
 
 # data
-from datasets import load_dataset
-from torch.utils.data import Dataset, DataLoader
 from models.model import Model
 
 
@@ -19,21 +14,20 @@ import wandb
 import torch.nn.functional as F
 import torch.optim as optim
 import pytorch_lightning as pl
-from pytorch_lightning.callbacks import EarlyStopping, ProgressBar, ModelCheckpoint
-from pytorch_lightning.loggers import WandbLogger
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+
 
 
 class LightningModel(pl.LightningModule):
 
-    def __init__(self, model_name, task_config):
+    def __init__(self, model_name, task_config, freeze=0):
 
         super(LightningModel, self).__init__()
 
         self.config = task_config
 
 
-        self.model = Model(model_name=model_name, num_classes=task_config['num_classes'])
+        self.model = Model(model_name=model_name, freeze=freeze, num_classes=task_config['num_classes'])
 
 
     def forward(self, input_ids, attention_mask=None):

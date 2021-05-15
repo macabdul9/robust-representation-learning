@@ -17,7 +17,7 @@ def create_logger(project, name):
 
 def create_early_stopping_and_model_checkpoint(callback_config, path, run_name):
 
-    task, model_name, source = run_name.split("$")
+    task, model_name, freeze_layers_upto, source = run_name.split("$")
 
     early_stopping = EarlyStopping(
         monitor=callback_config["monitor"],
@@ -37,7 +37,7 @@ def create_early_stopping_and_model_checkpoint(callback_config, path, run_name):
 
 def create_trainer(callback_config, run_name, path):
 
-    task, model_name, source = run_name.split("$")
+    task, model_name, freeze_layers_upto, source = run_name.split("$")
 
     logger = create_logger(project=callback_config['project'], name=run_name)
 

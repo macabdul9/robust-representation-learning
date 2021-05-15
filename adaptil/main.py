@@ -56,14 +56,14 @@ if __name__=="__main__":
     for source in tqdm(loaders):
 
 
-        lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
+        lm = LightningModel(model_name=model_name, freeze=config['freeze'], task_config=config['tasks'][task])
 
         # create the checkpoint path
         MODEL_PATH = os.path.join(PATH, source)  # to load model
 
         os.makedirs(MODEL_PATH, exist_ok=True)
 
-        run_name = task+"$"+model_name +"$"+source
+        run_name = task+"$"+model_name+"$"+str(config['freeze'])+"$"+source
 
         trainer = create_trainer(callback_config=config['callback_config'], path=PATH, run_name=run_name)
 

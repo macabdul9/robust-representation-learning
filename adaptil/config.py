@@ -18,8 +18,8 @@ config = {
             "domains":["imdb", "sst2"],
             "num_classes":2, # instead of 2-class sentiment classification convert it to multiclass classfication
             "lr":2e-5, #    "lr":2e-5,
-            "batch_size":2, # 2 for test actul is 8, # large sequence length hence smaller batch size
-            "epochs":1, # 1 for testing actual is 10,
+            "batch_size":32, # 2 for test actul is 8, # large sequence length hence smaller batch size
+            "epochs":5, # 1 for testing actual is 10,
             "average":"macro",
             "max_seq_length": 512, # imdb have lengthy reviews 
         },
@@ -65,6 +65,8 @@ config = {
 
     # "max_seq_length": 128, # moved to respective task section
     "num_workers":4,
+    
+    'freeze':1/3, # 1/2 means half of total(6 if there are 12, 3 if there are 6), 1/3 means one third(4 if 12 2 if 6)
 
 
     "callback_config":{

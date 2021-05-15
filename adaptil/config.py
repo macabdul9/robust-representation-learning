@@ -66,7 +66,7 @@ config = {
     # "max_seq_length": 128, # moved to respective task section
     "num_workers":4,
     
-    'freeze':1/2, # 1/2 means half of total(6 if there are 12, 3 if there are 6), 1/3 means one third(4 if 12 2 if 6)
+    'freeze':1/3, # 1/2 means half of total(6 if there are 12, 3 if there are 6), 1/3 means one third(4 if 12 2 if 6)
 
 
     "callback_config":{

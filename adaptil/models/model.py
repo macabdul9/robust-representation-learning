@@ -25,7 +25,6 @@ class Model(nn.Module):
                 modules = [self.base.embeddings, *self.base.transformer.layer[:freeze_idx]] #Replace 5 by what you want
             else:
                 modules = [self.base.embeddings, *self.base.encoder.layer[:freeze_idx]] #Replace 5 by what you want
-                
 
             for module in modules:
                 for param in module.parameters():

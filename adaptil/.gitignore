@@ -8,6 +8,7 @@ representations/
 
 data/toxic-comments/
 data/paraphrase/
+data/
 
 *.zip
 

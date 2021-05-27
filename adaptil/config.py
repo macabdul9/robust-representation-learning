@@ -39,7 +39,7 @@ config = {
             "num_classes":2,
             "domains":['qqp', 'paws'], # "mrpc"
             "lr":2e-5,
-            "batch_size":32,
+            "batch_size":128, # actual 32, 128 for representation analysis
             "epochs":10,
             "average":"macro",
             "max_seq_length": 256,

@@ -9,7 +9,7 @@ config = {
             "batch_size":16, # 2 for test actul is 8, # large sequence length hence smaller batch size
             "epochs":5, # 1 for testing actual is 5,
             "average":"macro",
-            "max_seq_length": 512, # imdb have lengthy reviews 
+            "max_seq_length": 256, # imdb have lengthy reviews 
         },
         
         

@@ -10,6 +10,26 @@ class Model(nn.Module):
 
         # pretrained transformer model as base
         self.base = AutoModel.from_pretrained(pretrained_model_name_or_path=model_name)
+
+
+        # freeze some layers of the model for faster training
+        freeze = 2/3
+
+        if freeze!=0 or model_name!='albert-base-v2':
+            if "distil" in model_name:
+                freeze_idx = int(freeze*6)
+            else:
+                freeze_idx = int(freeze*12)
+                
+            # surprisingly encoder in distilbert is named as Transformer
+            if model_name=="distilbert-base-uncased":
+                modules = [self.base.embeddings, *self.base.transformer.layer[:freeze_idx]] #Replace 5 by what you want
+            else:
+                modules = [self.base.embeddings, *self.base.encoder.layer[:freeze_idx]] #Replace 5 by what you want
+
+            for module in modules:
+                for param in module.parameters():
+                    param.requires_grad = False
         
 
         # nn classifier on top of base model

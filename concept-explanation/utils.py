@@ -52,7 +52,7 @@ def create_trainer(config, run_name, ckpt_path):
 
     trainer = pl.Trainer(
         logger=logger,
-        # gpus=[0],
+        gpus=[0],
         checkpoint_callback=checkpoints,
         callbacks=[early_stopping],
         max_epochs=config['training']["epochs"],

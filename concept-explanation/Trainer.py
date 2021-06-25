@@ -20,14 +20,14 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 class LightningModel(pl.LightningModule):
 
-    def __init__(self, model_name, task_config):
+    def __init__(self, model_name, task, config):
 
         super(LightningModel, self).__init__()
 
-        self.config = task_config
+        self.config = config
 
 
-        self.model = Model(model_name=model_name, num_classes=task_config['num_classes'])
+        self.model = Model(model_name=model_name, num_classes=config['tasks'][task]['num_classes'])
 
 
     def forward(self, input_ids, attention_mask=None):

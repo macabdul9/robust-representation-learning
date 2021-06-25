@@ -41,9 +41,9 @@ if __name__=="__main__":
     args = parser.parse_args()
     
     
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    device =  torch.device("cpu")
+    # device =  torch.device("cpu")
     
 
     results = {}
@@ -85,7 +85,7 @@ if __name__=="__main__":
         )
 
         # create lighning model
-        lm = LightningModel(model_name=model_name, task_config=config['tasks'][task])
+        lm = LightningModel(model_name=model_name, task=task, config=config)
 
 
         # path to save the trained models checkpoints
@@ -98,23 +98,23 @@ if __name__=="__main__":
 
 
 
-        # trainer.fit(
-        #     model=lm,
-        #     train_dataloader=loaders[config['tasks'][task]['training_domain']]['train'],
-        #     val_dataloaders=loaders[config['tasks'][task]['training_domain']]['valid'],
-        # )
+        trainer.fit(
+            model=lm,
+            train_dataloader=loaders[config['tasks'][task]['training_domain']]['train'],
+            val_dataloaders=loaders[config['tasks'][task]['training_domain']]['valid'],
+        )
 
 
         # # load the trained model
-        # lm.load_from_checkpoint(MODEL_PATH)
+        lm.load_from_checkpoint(MODEL_PATH)
 
-        # # this loads the best checkpoint
-        # trainer.test(
-        #     model=lm,
-        #     test_dataloaders=loaders[config['tasks'][task]['training_domain']]['test'],
-        #     verbose=True,
-        #     ckpt_path="best",
-        # )
+        # this loads the best checkpoint
+        trainer.test(
+            model=lm,
+            test_dataloaders=loaders[config['tasks'][task]['training_domain']]['test'],
+            verbose=True,
+            ckpt_path="best",
+        )
 
 
         for domain in loaders:

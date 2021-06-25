@@ -7,7 +7,7 @@ config = {
             "num_classes":2, # instead of 2-class sentiment classification convert it to multiclass classfication
             "lr":2e-5, #    "lr":2e-5,
             "batch_size":16, # 2 for test actul is 8, # large sequence length hence smaller batch size
-            "epochs":5, # 1 for testing actual is 5,
+            "epochs":3, # 1 for testing actual is 5,
             "average":"macro",
             "max_seq_length": 256, # imdb have lengthy reviews 
         },
@@ -44,7 +44,7 @@ config = {
     "num_workers":4,
 
     "training":{
-        "epochs":5,
+        "epochs":3,
         "lr":2e-5, 
         "average":"macro",
     },

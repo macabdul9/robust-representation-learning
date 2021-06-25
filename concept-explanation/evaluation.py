@@ -16,10 +16,10 @@ def evaluate(model, loader, device):
 
         outputs = model(batch['input_ids'].to(device=device), batch['attention_mask'].to(device=device))
 
-        pred_label += outputs.softmax(dim=-1).softmax(dim=-1).argmax(dim=-1).cpu().detach().tolist()
+        pred_label += outputs.softmax(dim=-1).argmax(dim=-1).cpu().detach().tolist()
         true_label += batch['label'].cpu().tolist()
 
-        softmax_outputs = outputs.softmax(dim=0) # [batch, num_classes]
+        softmax_outputs = outputs.softmax(dim=-1) # [batch, num_classes]
         gt  = batch['label'].cpu().tolist()
 
         # predicted probability

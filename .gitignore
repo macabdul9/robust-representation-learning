@@ -7,6 +7,8 @@ __pycache__/
 
 ./adaptil/data/
 
+./concept-explanation/outputs
+
 ./adaptil.zip
 
 */ckpt

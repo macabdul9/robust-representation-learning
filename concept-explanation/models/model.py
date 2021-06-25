@@ -15,7 +15,7 @@ class Model(nn.Module):
         # freeze some layers of the model for faster training
         freeze = 2/3
 
-        if freeze!=0 or model_name!='albert-base-v2':
+        if freeze!=0 and model_name!='albert-base-v2':
             if "distil" in model_name:
                 freeze_idx = int(freeze*6)
             else:

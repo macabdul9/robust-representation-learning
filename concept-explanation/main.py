@@ -106,7 +106,7 @@ if __name__=="__main__":
 
 
         # # load the trained model
-        lm.load_from_checkpoint(MODEL_PATH)
+        # lm.load_from_checkpoint(MODEL_PATH)
 
         # this loads the best checkpoint
         trainer.test(

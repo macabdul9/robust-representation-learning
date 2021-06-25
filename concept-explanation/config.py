@@ -37,7 +37,7 @@ config = {
 
 
     },
-    "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base', 'albert-base-v2'],
+    "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base'], # 'albert-base-v2'
 
 
     # "max_seq_length": 128, # moved to respective task section

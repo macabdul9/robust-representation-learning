@@ -4,10 +4,6 @@ import numpy as np
 
 
 def paraphrase_datasets(config):
-    pass
-
-
-def paraphrase_loaders(dataset,  config, tokenizer, max_len=256):
 
     domains = config['domains']
 
@@ -47,6 +43,7 @@ def paraphrase_loaders(dataset,  config, tokenizer, max_len=256):
     labels = list(set(qqp['train']['label']))
 
     domain_dsets = {}
+
     for domain in domains:
 
         domain_dsets[domain] = {
@@ -57,32 +54,37 @@ def paraphrase_loaders(dataset,  config, tokenizer, max_len=256):
     # take equal numbe of samples for each domain for each label for each set
     for label in labels:
         
-        for domain in domain_dsets:
+        for domain in domains:
 
             train = datasets[domain]['train'].filter(lambda example:example['label']==label).shuffle().select(range(train_label_dist))
             test = datasets[domain]['test'].filter(lambda example:example['label']==label).shuffle().select(range(test_label_dist))
 
             domain_dsets[domain]['train'].append(train)
             domain_dsets[domain]['test'].append(test)
+    
+    for domain in domains:
+        # concate class label datasets
+        domain_dsets[domain]['train'] = concatenate_datasets(dsets=domain_dsets[domain]['train']).shuffle()
+        domain_dsets[domain]['test'] = concatenate_datasets(dsets=domain_dsets[domain]['test']).shuffle()
+        
+
+    return domain_dsets
+
+        
 
 
+def paraphrase_loaders(dataset,  config, tokenizer):
 
+    domain_dsets = dataset
 
 
     # concatenate the dataset and shuffle them
     # before it would be list of datasets and after it will be single dataset
-    for domain in domains:
-
-        # concate class label datasets
-        domain_dsets[domain]['train'] = concatenate_datasets(dsets=domain_dsets[domain]['train']).shuffle()
-        domain_dsets[domain]['test'] = concatenate_datasets(dsets=domain_dsets[domain]['test']).shuffle()
-
+    for domain in domain_dsets.keys():
 
         # # tokenize 
         domain_dsets[domain]['train'] = domain_dsets[domain]['train'].map(lambda x: tokenizer(x['sentence1'], x['sentence2'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
         domain_dsets[domain]['test'] = domain_dsets[domain]['test'].map(lambda x: tokenizer(x['sentence1'], x['sentence2'], padding='max_length', truncation=True, max_length=config['max_seq_length']), batched=True)
-        
-
 
         # change the dtype 
         domain_dsets[domain]['train'].set_format(type='torch', columns=['input_ids', 'attention_mask', 'label'])
@@ -94,11 +96,8 @@ def paraphrase_loaders(dataset,  config, tokenizer, max_len=256):
         domain_dsets[domain]['valid'] = domain_dsets[domain]['test'] # validation and test will be same
         
         
-
-
     # why the hell I am doing this?
     loaders = domain_dsets
-    
 
     return loaders
 

@@ -17,93 +17,102 @@ def imdb_sst2_datasets(config):
 
     sst2 = load_dataset("glue", "sst2") # sst2 has train, valid and test. We're mering test and valid set into test set
     sst2 = sst2.rename_column("sentence", "text")
-    imdb = load_dataset("imdb")
+    # imdb = load_dataset("imdb")
 
-    # try this if ood problem does not get fixed load_dataset("toriving/imdb")
+    # # try this if ood problem does not get fixed load_dataset("toriving/imdb")
 
-    sst2_train = sst2['train'].shuffle()
-    sst2_test = concatenate_datasets([sst2['validation'], sst2['test']])#.shuffle()
+    # sst2_train = sst2['train'].shuffle()
+    # sst2_test = concatenate_datasets([sst2['validation'], sst2['test']])#.shuffle()
 
-    imdb_train = imdb['train'].shuffle()
-    imdb_test = imdb['test']#.shuffle()
+    # imdb_train = imdb['train'].shuffle()
+    # imdb_test = imdb['test']#.shuffle()
 
 
-    train_label_values = []
-    test_label_values = []
+    # train_label_values = []
+    # test_label_values = []
 
-    labels = np.unique(sst2_train['label']).tolist()
+    # labels = np.unique(sst2_train['label']).tolist()
 
-    for label in labels: # assuming that there's no label shift 
+    # for label in labels: # assuming that there's no label shift 
 
-        # min number of samples of label in  both dataset  in train dataset
-        train_min = min(len(sst2_train.filter(lambda example: example['label'] == int(label))), len(imdb_train.filter(lambda example: example['label'] == int(label))))
+    #     # min number of samples of label in  both dataset  in train dataset
+    #     train_min = min(len(sst2_train.filter(lambda example: example['label'] == int(label))), len(imdb_train.filter(lambda example: example['label'] == int(label))))
         
-        train_label_values.append(train_min)
+    #     train_label_values.append(train_min)
 
-        # min number of samples of label in  both dataset  in test dataset
-        test_min = min(len(sst2_test.filter(lambda example: example['label'] == int(label))), len(imdb_test.filter(lambda example: example['label'] == int(label))))
-        test_label_values.append(test_min)
-
-
-    train_label_dist = min(train_label_values)
-
-    test_label_dist = min(test_label_values)
+    #     # min number of samples of label in  both dataset  in test dataset
+    #     test_min = min(len(sst2_test.filter(lambda example: example['label'] == int(label))), len(imdb_test.filter(lambda example: example['label'] == int(label))))
+    #     test_label_values.append(test_min)
 
 
-    ## 
-    dsets = {
+    # train_label_dist = min(train_label_values)
 
-        "sst2":{
-            "train":[],
-            "test":[]
-        },
-
-        "imdb":{
-            "train":[],
-            "test":[]
-        },
-    }
+    # test_label_dist = min(test_label_values)
 
 
-    for label in labels:
+    # ## 
+    # dsets = {
 
-        sst2_train_label = sst2_train.shuffle().filter(lambda example: example['label']==int(label)).select(range(train_label_dist))
+    #     "sst2":{
+    #         "train":[],
+    #         "test":[]
+    #     },
 
-        sst2_test_label = sst2_test.filter(lambda example: example['label']==int(label)).select(range(test_label_dist))
+    #     "imdb":{
+    #         "train":[],
+    #         "test":[]
+    #     },
+    # }
 
-        imdb_train_label = imdb_train.shuffle().filter(lambda example: example['label']==int(label)).select(range(train_label_dist))
 
-        imdb_test_label = imdb_test.filter(lambda example: example['label']==int(label)).select(range(test_label_dist))
+    # for label in labels:
+
+    #     sst2_train_label = sst2_train.shuffle().filter(lambda example: example['label']==int(label)).select(range(train_label_dist))
+
+    #     sst2_test_label = sst2_test.filter(lambda example: example['label']==int(label)).select(range(test_label_dist))
+
+    #     imdb_train_label = imdb_train.shuffle().filter(lambda example: example['label']==int(label)).select(range(train_label_dist))
+
+    #     imdb_test_label = imdb_test.filter(lambda example: example['label']==int(label)).select(range(test_label_dist))
 
 
-        dsets['sst2']['train'].append(sst2_train_label)
-        dsets['sst2']['test'].append(sst2_test_label)
+    #     dsets['sst2']['train'].append(sst2_train_label)
+    #     dsets['sst2']['test'].append(sst2_test_label)
 
-        dsets['imdb']['train'].append(imdb_train_label)
-        dsets['imdb']['test'].append(imdb_test_label)
+    #     dsets['imdb']['train'].append(imdb_train_label)
+    #     dsets['imdb']['test'].append(imdb_test_label)
         
 
-    ## split the data based on sample distribution as well as label distribution
-    sst2_train = concatenate_datasets(dsets=dsets['sst2']['train']).shuffle()
-    sst2_test = concatenate_datasets(dsets=dsets['sst2']['test'])#.shuffle()
+    # ## split the data based on sample distribution as well as label distribution
+    # sst2_train = concatenate_datasets(dsets=dsets['sst2']['train']).shuffle()
+    # sst2_test = concatenate_datasets(dsets=dsets['sst2']['test'])#.shuffle()
 
-    imdb_train = concatenate_datasets(dsets=dsets['imdb']['train']).shuffle()
-    imdb_test = concatenate_datasets(dsets=dsets['imdb']['test'])#.shuffle()
+    # imdb_train = concatenate_datasets(dsets=dsets['imdb']['train']).shuffle()
+    # imdb_test = concatenate_datasets(dsets=dsets['imdb']['test'])#.shuffle()
 
 
     
 
+    # dataset = {
+    #     "imdb":{
+    #         "train":imdb_train,
+    #         "valid":imdb_test, # valid and test sets are same
+    #         "test":imdb_test,
+    #     },
+    #     "sst2":{
+    #         "train":sst2_train,
+    #         "valid":sst2_test, # valid and test sets are same
+    #         "test":sst2_test,
+    #     }
+    # }
+
     dataset = {
-        "imdb":{
-            "train":imdb_train,
-            "valid":imdb_test, # valid and test sets are same
-            "test":imdb_test,
-        },
         "sst2":{
-            "train":sst2_train,
-            "valid":sst2_test, # valid and test sets are same
-            "test":sst2_test,
+            "train":sst2['train'].select(range(10000)),
+            "valid":sst2['validation'],
+            "test":sst2['validation'],
         }
+
     }
 
     return dataset

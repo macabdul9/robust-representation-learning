@@ -1,44 +1,983 @@
 text,ground_truth,mean_prob
-sam mendes has become valedictorian at the school for soft landings and easy ways out. ,0,0.3047067377095421
-"a coda in every sense, the pinochet case splits time between a minute-by-minute account of the british court's extradition chess game and the regime's talking-head survivors. ",1,0.22576534748077393
-i 'll bet the video game is a lot more fun than the film. ,0,0.06434137281030412
-moretti's compelling anatomy of grief and the difficult process of adapting to loss. ,0,0.002468264060250133
-a movie that successfully crushes a best selling novel into a timeframe that mandates that you avoid the godzilla sized soda. ,1,0.11288741976022716
-the story and the friendship proceeds in such a way that you're watching a soap opera rather than a chronicle of the ups and downs that accompany lifelong friendships. ,0,0.10664905793964857
-( d ) oesn't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful. ,1,0.08891783468425267
-"minority report is exactly what the title indicates, a report. ",1,0.2994167258342107
-"if director michael dowse only superficially understands his characters, he doesn't hold them in contempt. ",0,0.2114210403524339
-"we root for ( clara and paul ), even like them, though perhaps it's an emotion closer to pity. ",1,0.05333084550996617
-what better message than ` love thyself'could young women of any size receive? ,1,0.31175006056825316
-"you won't like roger, but you will quickly recognize him. ",0,0.0714316214434802
-a working class `` us vs. them '' opera that leaves no heartstring untugged and no liberal cause unplundered. ,1,0.06971581776936847
-if steven soderbergh's ` solaris'is a failure it is a glorious failure. ,1,0.042771506899346834
-"... routine, harmless diversion and little else. ",1,0.012616510347773599
-"another one of those estrogen overdose movies like `` divine secrets of the ya ya sisterhood, '' except that the writing, acting and character development are a lot better. ",1,0.25155542045831675
-"good film, but very glum. ",1,0.07184018155870332
-this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms. ,0,0.0017272632103412999
-"it's somewhat clumsy and too lethargically paced -- but its story about a mysterious creature with psychic abilities offers a solid build-up, a terrific climax, and some nice chills along the way. ",0,0.0024159397774686
-this surreal gilliam-esque film is also a troubling interpretation of ecclesiastes. ,1,0.09540104105447723
-"the lower your expectations, the more you 'll enjoy it. ",0,0.027345970777484203
-it has all the excitement of eating oatmeal. ,0,0.22976323496550322
-"it's hard to like a film about a guy who is utterly unlikeable, and shiner, starring michael caine as an aging british boxing promoter desperate for a taste of fame and fortune, is certainly that. ",0,0.19772107899188987
-"on the heels of the ring comes a similarly morose and humorless horror movie that, although flawed, is to be commended for its straight-ahead approach to creepiness. ",1,0.3575411457568407
-reign of fire looks as if it was made without much thought -- and is best watched that way. ,1,0.09685854551692798
-"so much facile technique, such cute ideas, so little movie. ",1,0.0192144800287981
-"writer/director joe carnahan's grimy crime drama is a manual of precinct cliches, but it moves fast enough to cover its clunky dialogue and lapses in logic. ",1,0.35922666390736896
-it's everything you don't go to the movies for. ,0,0.35474562148253125
-"i don't mind having my heartstrings pulled, but don't treat me like a fool. ",0,0.34559514621893567
-american chai encourages rueful laughter at stereotypes only an indian-american would recognize. ,0,0.3256440448264281
-"while there's something intrinsically funny about sir anthony hopkins saying ` get in the car, bitch,'this jerry bruckheimer production has little else to offer ",1,0.0083018855269377
-as unseemly as its title suggests. ,1,0.0216510550429423
-"harrison's flowers puts its heart in the right place, but its brains are in no particular place at all. ",1,0.0021544016587236995
-"the longer the movie goes, the worse it gets, but it's actually pretty good in the first few minutes. ",0,0.30201125703752035
-rarely has leukemia looked so shimmering and benign. ,0,0.3289916416009267
-no screen fantasy-adventure in recent memory has the showmanship of clones'last 45 minutes. ,1,0.10521540294090899
-"a full world has been presented onscreen, not some series of carefully structured plot points building to a pat resolution. ",1,0.36133901899059606
-jaglom... put ( s ) the audience in the privileged position of eavesdropping on his characters ,1,0.2765976066390673
-it seems like i have been waiting my whole life for this movie and now i can't wait for the sequel. ,1,0.14534029907857376
-hilariously inept and ridiculous. ,1,0.005655104449639667
-"you 'll gasp appalled and laugh outraged and possibly, watching the spectacle of a promising young lad treading desperately in a nasty sea, shed an errant tear. ",1,0.10302607435733079
-"it's inoffensive, cheerful, built to inspire the young people, set to an unending soundtrack of beach party pop numbers and aside from its remarkable camerawork and awesome scenery, it's about as exciting as a sunburn. ",0,0.027145153454815298
-"an absurdist comedy about alienation, separation and loss. ",0,0.050559450561801535
+"for big raj - buffs, the supreme example of indo - gothic style is the victoria terminus, affectionately abbreviated to vt nowadays, once the railway station that launched adventures inland, now handling mostly suburban traffic. the victoria terminus is still the main departure point for travelers heading deeper into the country.",2,0.16885997603336966
+"in the 19th century, when kashmir was the most exotic hill - station of them all, the maharaja forbade the british to buy land there, so they then hit on the brilliant alternative of building luxuriously appointed houseboats moored on the lakes near srinagar. the british alternatively built houseboats but they were not luxurious.",2,0.18680604423085848
+"anwar el - sadat succeeded nasser in 1970. nasser did step down, but it was not for the man named anwar.",2,0.11780177677671111
+"do you trust me, uncle? gauve hesitated. gauve's uncle has trust issues.",1,0.212983305255572
+"and it needs work too, you know, in case i have to jump out with this parachute from my lil'blue sports plane for real.'it needs to work incase he needs to jump out of a small window.",2,0.21396023283402124
+"sun ra's spaceships did not come, as it were, out of nowhere. the spaceships came from nowhere.",2,0.18935226152340565
+"the ams system also allows users to search the full text of the public comments, identifies form letter comments and ex parte communications, 8 and provides a list of related government web sites - features that are currently not available in the dot docket management system. the ams system is the most popular hot dog stand outside of the pentagon.",2,0.08139648288488383
+this formal review process guarantees representatives of every designated state planning body the right to direct communication with lsc officials at the highest level in seeking reconsideration of an lsc decision. the formal review process guarantees representatives get a free meal.,2,0.2119439939657847
+"he jumped up, planting one hand on the charging horse, and came at the brute with the axe. he swung at the brute with his sword.",2,0.14883422851562497
+the spear missed vrenna by only a hand - span. the spear smacked the man in the face.,2,0.1416696061690648
+that analysis is guided by an economist's faith in the maxim that people are generally pretty good at looking out for their own interests. people always just look out for themselves,1,0.1396508341034253
+uh - huh you can't do that in a skirt poor thing you need to wear something else.,0,0.1291746149460474
+"even though national saving remains relatively low by u. s. historical standards, economic growth in recent years has been high because more and better investments were made. americans are not saving much.",0,0.22329259912172952
+"the setting - - wherever it might be - - always seems authentic, not as if it were a hollywood back lot. they had trouble believing the setting was based on a real place.",2,0.07707407201329863
+"there are no shares of a stock that might someday come back, just piles of options as worthless as those shares of cook's american business alliance. no shares of a stock will come back because of cook's american business alliance.",2,0.0281703990573684
+actually i think abortion's going to take a turn where there's not going to be as many because i think contraceptives are going to be more popular i mean i realize that they are popular now but i think i believe that the rising popularity of contraceptives will push the abortion rate down.,0,0.2081903268893559
+"the most important directions are simply up and up leads eventually to the cathedral and fortress commanding the hilltop, and down inevitably leads to one of three gates through the wall to the new town. go downwards to one of the gates, all of which will lead you into the cathedral.",2,0.13510204851627344
+"the m?? tro ( subway ) is the fastest way to move around the city, but the buses, both in the capital and the other big towns, are best for taking in the sights. taking the subway is a good way to experience big city life.",2,0.015465499212344467
+"the great thing is to keep calm. "" julius groaned. julius made a groaning sound when he heard the terrible advice.",0,0.21758913497130072
+"blessed with preternatural gregariousness, good humor, and a love of attention, he's been tireless about pursuing both celebrity and the cause of popular history ever since. he was very outgoing and extroverted, as well as nice to be around.",0,0.10477957408875223
+"nhtsa concluded that while section 330 superseded the section 32902 criteria, it did not supersede the section 32902 mandate that there be cafe standards for model year 1998. nhtsa concluded that section 330 did not supersede the section 32902 mandate that there be cafe standards for model year 1998.",2,0.032741295484205034
+"conversely, an increase in government saving adds to the supply of resources available for investment and may put downward pressure on interest rates. upward pressure is put on interest rates when government saving is increased.",2,0.035192846631010334
+"then you're ready for the fray, either in the bustling great bazaars such as delhi's chandni chowk or mumbai's bhuleshwar, or the more sedate ambience of grander shops and showrooms. all of the great bazaars are bustling at all times.",1,0.21368317306041715
+where they they brew their own beer there the beer comes from a factory that they purchase it from.,2,0.1122948676347732
+"two separate, exhaustive shots posted simultaneously? these shots will be posted at different times.",2,0.11712619662284846
+"i shan't stop you. "" i don't want to stop you.",1,0.1021229488154252
+oh constantly i jog constantly,1,0.10406255597869551
+"not surprisingly, then, fannie mae's public - relations operation is unparalleled in washington. fannie mae has great public - relations.",0,0.22283617655436194
+he's not a starter he always plays in the middle or towards the end.,1,0.09976295630137122
+"and that you're very much right but the jury may or may not see it that way so you get a little anticipate you know anxious there and go well you know even if you're correct, i think the jury would pick up on that.",2,0.19020177920659379
+"chennai, known until 1996 as madras, is easy - going, pleasant, and remarkably uncrowded. chennai is a laid - back, quiet, and peaceful city.",0,0.1856222624580065
+base year data will be actual receipt and outlay data for the last completed fiscal year base year data will give important economic information.,0,0.033074536050359364
+"as a result, an estimated four out of five low - income people requiring legal help in our community do not receive it. the people with low incomes do not know what s available to them as far as legal help is concerned.",1,0.15947219232718143
+have that well and it doesn't seem like very many people uh are really i mean there's a lot of people that are on death row but there's not very many people that actually um do get killed there are only a couple of people are on death row.,2,0.08453048020601266
+"as malaysia has moved resolutely into the modern age, it has also remained, culturally and historically, a rich, multi - layered blend of traditions wrapped up within a modern, busy economy. malaysia is an old country.",1,0.1336238657434781
+"the formation of a single statewide program was adopted to breathe life into a single program that will provide meaningful access to high quality legal services, in the pursuit of justice for as many low - income people throughout colorado as possible. the state has decided to divide its legal assistance services into several programs.",2,0.07487422724564863
+"high crimes is painfully shoddy, even for a book rushed to press. books that are rushed to press are usually shoddy.",1,0.07106591202318663
+oh yeah all all mine are uh purebreds so i keep them in none of mine are mutts,0,0.015322922884176101
+"the streets are crammed with vendors selling shrine offerings of sweets, curds, and coconut, as well as garlands and holy images. vendors have lined the streets with torches and fires.",2,0.1090652483205
+"and put like that, she added confidentially to tommy, "" nobody could boggle at the expense! "" nobody did, which was the great thing. people boggled at the expense.",2,0.1443989550073941
+"in other words, the paper exhibited the all - too - typical journalistic tic of exposing potential conflicts of interest involving politicians while ignoring those involving journalists. the paper shows, the journalists exposing potential conflicts of interests around politicians, but never exposing other journalists.",0,0.1164037678390741
+"nearby is the monastery of nea moni, founded in 1049, and one of the most beautiful byzantine religious sites in the aegean. the monastery of nea moni was founded in 1500 and it is very beautiful.",2,0.1419733750323454
+"sure enough, there was the chest, a fine old piece, all studded with brass nails, and full to overflowing with every imaginable type of garment. the chest wasn't big enough to completely contain all of the garments.",0,0.07194465150435762
+perhaps tax reform doesn't appeal to the new spiritualized side of bradley. bradley don't have spiritual beliefs.,2,0.1514415889978408
+so who so if you go out and you're talking like a ten or fifteen thousand dollar vehicle and you add that sales tax on that's a that's a big chunk of change you have to come up with the sales tax would really drive the price of the car up.,0,0.06055077786246929
+"uh and i think even electric light orchestra had some some real um influences by classical music and i'm still still my favorite in fact most of my cds that i got are classical music i have some cds of barney songs, but those aren't most of my cds.",2,0.11450374126434322
+"and they just put instructors out there and you you sign up for instruction and they just give you an arm band and if you see an instructor who's not doing anything you just tap him on the shoulder and ask him questions and they'll show you things the instructors are marked with armbands, and anytime you want to know anything, you just find one of them.",2,0.21742289637525877
+"( the employee was later rehired, and bob denies the charge. ) the employee did not get their job back.",2,0.1939212282498677
+"first, the comptroller general sends a written request to the agency head for the record that has not been made available to gao within a reasonable time after an initial request. they are given a proper amount of time to do the report.",0,0.09406942625840503
+"and far, far away - lying still on the tracks - was the back of the train. the train was speeding along the track.",2,0.1552543596674998
+"our efforts having been in vain, we had abandoned the matter, hoping that it might turn up of itself one day. the problem was solved one day.",1,0.10443689425786329
+"later, tom testified against john so as to avoid the electric chair. tom was willing to speak against the other man to avoid his own execution.",0,0.22277899086475372
+title iv of the clean air act ( relating to acid deposition control ) the fourth title in the caa related to acid deposition.,0,0.025092470770080866
+cook and then the next time it would be my turn and i'd try to outdo him and then he'd try to outdo me and we we was really a lot of fun and i would cook and then the next turn would be his and we would try to outdo each other but sometimes we would get in a fight over things.,2,0.015976550057530365
+standard costing - a costing method that attaches costs to cost objects based on reasonable estimates or cost studies and by means of budgeted rates rather than according to actual costs incurred. this costing model is based on research and analytical activity.,0,0.033164438481132166
+his proud reserve - - a product of 40 years in the spotlight - - is refreshing but does not bode well for his capacity to shepherd big ideas through congress. he is a reserved person.,0,0.20931121179213122
+"this site provides information links, tools, and resources developed for the benefit of the audit profession, including audit programs, best practices, and research services. this site is a special portal for people who wish to make anonymous complaints about auditors.",2,0.15765673170487085
+such a knowledgebased process enables decision makers to be reasonably certain about critical facets of the product under development when they need this knowledge. they refused to help with the process at all.,1,0.036113961599767166
+"local legend claims that he wrote part of his great saga, os lusadas, in what is now called the camees grotto, situated in the spacious tropical camees garden. it is claimed that half of os lusadas was written by him in the camees garden.",1,0.11759702426691843
+"the great attraction of the church is the splendid exterior, which is crowned by golden onion - shaped cupolas. the outside of the church isn't much to look at, but the inside is intricately decorated.",2,0.13130625958244002
+"how long, thaler and siegel ask, will it take most investors to get wise to the fact that the equity premium is just too damned high? thaler and siegel look disdainfully upon investors.",1,0.0570445253203312
+"mr. erlenborn attended undergraduate courses at the university of notre dame, indiana university, the university of illinois, and loyala university of chicago. mr. erlenborn earned all of his undergraduate credits at the university of notre dame.",2,0.22364996373653412
+miller claimed the first amendment ( right to freedom of speech and association ) rather than taking the fifth ( right against self - incrimination ). the man cited the fourth amendment.,2,0.18674970666567478
+something may be better than nothing. if trials compared low - cost therapy to the complete azt regimen it's likely that the new regimens will prove less effective. it is better to have little than to have none at all.,0,0.22260508934656778
+"but you might as well see for yourself if you don't believe me. the note, in tuppence's well - known schoolboy writing, ran as follows : "" dear julius, "" it's always better to have things in black and white. you won't be convinced even if you look at this, if you don't believe me.",2,0.16863516221443806
+"i am not aware of any studies comparing the number of words an average person could expect to hear spoken in a typical day 500 years ago vs. the number that can be heard now, but the increase surely is vast. though i've never read any research regarding how many words people heard back then compared to now, i'm sure the number has gone up.",0,0.06886193590859567
+"in roman times a temple to jupiter stood here, followed in the fourth century by the first christian church, saint - etienne. saint - etienne, a christian church, had a temple to jupiter and performed rituals during roman times",2,0.015076527992884234
+"have you got him? "" did you help him to escape?",2,0.13358181466658905
+i never managed to plan my departure right i'm going to plan my departure now.,1,0.08241508839031053
+"most produce is locally grown, with some from the restaurant's own organic garden. most produce is local and some is grown inside the restaurant.",1,0.1129769571125507
+those creole men and women you'll see dancing it properly have been moving their hips and knees that way since childhood. most people that master the creole dance learn it as adults.,2,0.11550265674789739
+"unless the political culture changes drastically, there will always be one or more independent prosecutors investigating the administration of the day and / or past administrations, anyway. no one questions the political system enough to make decent or noticeable changes.",1,0.20650209859013555
+"this was used for ceremonial purposes, allowing statues of the gods to be carried to the river for journeys to the west bank, or to the luxor sanctuary. statues were moved to luxor for funerals and other ceremonies.",0,0.20593666781981787
+"ah, triple pig! double pig.",2,0.18662084204455218
+"cave 31 tries to emulate the style of the great hindu temple on a much smaller scale, but the artists here were working on much harder rock and so abandoned their effort. cave 31 ran into problems because it was made of rock that was too soft and not able to hold its shape.",2,0.09033934772014617
+"and, could it not result in a decline in postal service volumes across - - the - - board? there may not be a decline in postal service volumes across - - the - - board.",1,0.15086471041043595
+"more than half of 800, 000 native islanders are children, and the mother is traditionally responsible for bringing them up, handling the money, and making key domestic decisions. the father is responsable for most of the raising of children in native islander families.",2,0.08427591373523069
+you know and he he was talking about that he was talking about nobody went broke over paying thirty percent he talked about how everybody who paid 30 percent eventually went broke.,2,0.11024370727439718
+she people are rarely indifferent to the magazines i've put out. people don't hold a strong opinion to the magazines i've put out.,2,0.03500818212827043
+"at the end of the show is a cluster of popular sportswear with tommy hilfiger, donna karan, nautica, the gap, and such names applied to it. the only popular sportswear is produced by tommy hilfiger, donna karan, nautica, and the gap.",1,0.11242894517878689
+uh - huh oh yeah i hadn't heard that one let's see i can't oh gosh that that probably wipes out my whole inventory of tv shows other than um pbs i the whole inventory of tv shows was wiped out.,2,0.013716963275025236
+and so i have really enjoyed that but but there are i do have friends that watch programs like they want to see a particular program and they are either home watching it or definitely recording it they have some programs that they won't miss what programs do your friends like to watch?,1,0.1833803529540697
+"and, although i got a ph. d. in philosophy many years ago and have thought and read about these matters ever since, heaven ( or whatever ) knows i don't have too many answers that i feel confident about. i have been thinking about this since i earned my degree, but i still don't know for sure.",0,0.21355138719081876
+and ancient coins and really new coins.,2,0.1593293336530526
+and not only that it it opens you to phone solicitations it also opens the door to move marketing calls.,0,0.08969624961415919
+"in roman times a temple to jupiter stood here, followed in the fourth century by the first christian church, saint - etienne. saint - etienne burned to the ground during the roman times.",1,0.09037384639183672
+"to check this, the central bank has tripled interest rates and used hard currency reserves ( now reduced to $ 10 billion in ready cash ) to buy back rubles. the bank doubled interest rates as a way of checking this.",2,0.11309662585457159
+"although it is a significant part of the poverty population, asians historically have not been able to participate in the services and programs available to the poor, he said. asians are always poor.",1,0.11900443832079566
+uh high humidity air with increased water content.,0,0.11551406855384505
+"there's a lot of villas all the way along, but by degrees they seemed to get more and more thinned out, and in the end we got to one that seemed the last of the bunch. there were only a few villas the whole way along, until we reached a small village that seemed to be the end.",2,0.1576538843413194
+"the analysis concluded that, because the rule relaxed the hog cholera - related restrictions imposed on the importation of live swine and prepared pork products from sonora, mexico, the proposed rule could have a significant economic impact on a substantial number of small entities in the united states. the analysis stated that the rule would have a negative effect on small entities in the us.",1,0.12895282109578446
+oh you went to the dollar movie yeah yeah they show up at the dollar movie right after they get come out you know they're usually not not that great or didn't do that great anyway let me see let me see another movie i watched uh i want to see is uh that new one uh they are shown at the dollar movie theater immediately after they're released,0,0.1074918030450741
+the only problem is it's not large enough it only holds about i think they squeezed when ryan struck out his five thousandth player they they squeezed about forty thousand people in there it doesn't hold many people.,2,0.06681534554809328
+he reverted to his former point of view. he had new views.,2,0.09774809330701824
+during the crimean war ( 1854 56 ) she set up a hospital in the huge selimiye barracks ( selimiye kelase ). the hospital set up in the selimiye barracks is no longer standing.,1,0.028312951947251867
+"traffic, also, has been controlled, and if you're staying here you might want to consider getting around by bicycle ; there's no better way to explore an island that measures no more than 20 km ( 121. 2 miles ) from end to end, one - fifth the size of ibiza. the island is smaller than ibiza and can be traversed by bicycle.",0,0.17285308241844177
+"the advent of the bronze age ( about 3200 b. c. ), and the spread of city - states ruled by kings, is marked by the appearance of royal tombs containing bronze objects in such places as troy in the west, and alacah?? y?? k near ankara. the tomb of troy is full of bronze and silver treasure.",2,0.019314986343185066
+"on a december day in 1917, british general allenby rode up to jaffa gate and dismounted from his horse because he would not ride where jesus walked ; he then accepted the surrender of the city after the ottoman turks had fled ( the flag of surrender was a bed - sheet from the american colony hotel ). in 1917, the brittish general allenby surrendered the city using a bed - sheet.",2,0.0634730582435925
+"yeah it's a u s territory and it's just we own it or i used to be great at remembering this type of thing, but now i don't.",2,0.0681595411151647
+case study evaluations. independent case study evaluations.,1,0.10748869366943832
+"just like we have hairpins and powder - puffs. "" tommy handed over a rather shabby green notebook, and tuppence began writing busily. tommy handed tuppence an empty shabby green notebook.",1,0.038367588693896865
+"after the execution of guru tegh bahadur, his son, guru gobind singh, exalted the faithful to be ever ready for armed defense. guru gobind singh was unsuccessful in his defense.",1,0.10029088209072744
+"to the northwest of the chateau, the grand trianon palace, surrounded by pleasantly unpompous gardens, was the home of louis xiv's mistress, madame de maintenon, where the aging king increasingly took refuge. grand trianon palace was the residence of louis xiv.",2,0.042146759262929295
+time's cover package considers what makes a good school. time's cover package is about how most college students have to deal with insane student loans.,2,0.16318990165988603
+"cultural festivals are one opportunity, but the better way is at a private wedding or feast day when the performances are set in their true context. cultural festivals are the best place to have performances.",2,0.0244555796186129
+"ocho rios is spanish for eight rivers, but this name is not descriptive of the area. "" ocho rios "" means eight rivers in spain's national language.",0,0.18486056228478742
+sometimes well there's definitely a lot more hitting the man says that there's a lot more hitting.,1,0.0841721060375372
+game - trackers will be out by this time in an attempt to locate the tiger's hunting ground for the evening safari. the tigers are hunting at this time.,1,0.12458897382020946
+"for a small fee, non - guests may use the beach and facilities at a number of guadeloupe and martinique hotels'a great convenience for island - hoppers. the beach and facilities at a number of hotels for non - guests are free.",2,0.09364783391356464
+"st. barts, of course, is completely undefended. there are no defenses in st. barts.",0,0.1316726713751753
+why bother to sacrifice your lives for dirt farmers and slavers? people sacrifice their lives for farmers and slaves.,1,0.04953756555914876
+then he turned to tommy. he talked to tommy.,1,0.030897679428259498
+"nhtsa concluded that while section 330 superseded the section 32902 criteria, it did not supersede the section 32902 mandate that there be cafe standards for model year 1998. nhtsa concluded that section 330 did not supersede the section 32902 criteria.",2,0.0446715758492549
+"if you need to use the mail, it would be helpful if you sent your comments both in writing and on diskette ( in word or ascii format ). it would be helpful if we could have a soft and hard copy of your comments.",0,0.08342860825359817
+"while it's probably true that democracies are unlikely to go to war unless they're attacked, sometimes they are the first to take the offensive. democracies will probably go to war just over economic issues.",2,0.11863591273625686
+"on the northwestern alpine frontier, a new state had appeared on the scene, destined to lead the movement to a united italy. the alpine frontier was separated from italy by glaciers.",1,0.11114257449905074
+but the real dirty work had already been done. there was no dirty work left then.,0,0.11108402255922549
+"why, when i was your age, i already had.... "" dave wasn't listening any longer. dave didn't want to hear the conversation.",0,0.20713809629281354
+"placido domingo's appearance on the package, compellingly photographed in costume as the ancient king of crete, ( anthony tommasini, the new york times ) is the main selling point for this new recording of one of mozart's more obscure operas - - a fact that does not make critics happy. placido domingo is the reason that people are purchasing the new mozard opera recordings.",0,0.08492979158957796
+if it had rained any more in the last two weeks instead of planting saint augustine grass in the front yard i think i would have plowed everything under and had a rice field it's rained enough to make a rice patty.,0,0.06373202800750731
+"in both britain and america, the term covers nearly everybody. in both britain and america the term covers almost everyone except for israelites.",1,0.20319338887929914
+"at the eastern end of back lane and turning right, nicholas street becomes patrick street, and in st. patrick's close is st. patrick's cathedral. nicholas street becomes patrick street after turning left at the eastern end of back lane.",2,0.11126800440251823
+"i don't know she said they go crazy according to her, they lose their minds.",0,0.18547109266122175
+that would be good what'd you say write down what you would say.,1,0.21707260111967716
+and it just depends on how bad that person is it depends on the condition of the dog.,2,0.14389221370220182
+"it's thought he used the same architect who worked on the taj mahal. in reality, he did not use the taj mahal's architect.",1,0.048847804466883304
+"the entire economy received a massive jump - start with the outbreak of the korean war, with japan ironically becoming the chief local supplier for an army it had battled so furiously just a few years earlier. japan supplied them exclusively with war goods.",1,0.19727032383282972
+"well this is real interesting that you're as far away as you are because i really thought this was uh uh we're you're so nearby, it's surprising.",2,0.0541940896461407
+"36 million could mean the state's legal services for the poor will lose six of their 21 regional offices, the head of a poverty - law resource center said. lsc could lose 80 % of their funding.",2,0.22202520817518231
+uh but you could fill a whole bunch of uh holes with these things i used to i used to advertise buying wheat pennies um i'd give a dollar a roll which two cents a piece which is basically overpriced i used to try to sell wheat pennies.,2,0.029984306233624566
+then shuman claims that linux provides no graphical user interface. they knew what they were talking about.,1,0.12000049650669097
+another unit was added on to the communal dwelling each time a marriage created a new family. the only instance of a new unit being added was when a new family is created.,1,0.15366960316896436
+each of them was as tough as a thick tree and loyal to the death. they were loyal to their leader.,1,0.2019879768292109
+i don't know i i do i can think of all the uh the biblical things about it too where what did they say to uh i can't think of the scripture render unto caesar's what is caesar's so i know this because i own a bible.,1,0.21735305587450662
+"stale macho jokes and formulaic cliffhangers drive this chase - by - numbers thriller on the bumpy road to nowhere ( holden, the new york times ). the movie is riddled with cliches and male buddy humor that make the film boring.",0,0.12756833806633944
+lifetime extension of scr de - nox catalysts using scr - tech's high efficiency ultrasonic regeneration process there is a 10 year extension of scr de - nox catalysts.,2,0.10024194419383999
+"so he goes out and walks in the woods, little dreaming that mrs. inglethorp will open his desk, and discover the incriminating document. taking the incriminating document with him, he walks into the woods.",2,0.068232803295056
+"i ordered better sexual techniques, advanced sexual techniques, making sex fun, and advanced oral sex techniques ( priced about $ 11. the orders i made were not being offered for free.",0,0.037237108374635335
+why bother to sacrifice your lives for dirt farmers and slavers? no one cares about the dirt farmers and slaves.,1,0.15625261639555293
+"by coordinating policy development and awareness activities in this manner, she helps ensure that new risks and policies are communicated promptly and that employees are periodically reminded of existing policies through means such as monthly bulletins, an intranet web site, and presentations to new employees. there new employees are a risk.",1,0.1857423881689707
+"in mumbai, both juhu and chowpatty beaches are, for instance, definitely a bad idea, and though the marina beaches in chennai are cleaner, there may be sharks. the beaches are very dirty in mumbai.",1,0.21575921773910522
+two aromatic aniseed drinks are also produced locally. the aniseed drinks are produced internationally.,2,0.12183172131578124
+but i've lived up here all my life and i'm fifty eight years old so i i could i have moved somewhere else in my life.,2,0.16096037129561103
+"wow who can afford that my god i can't afford to miss a day let alone six if i needed to take time off from work, i could afford it.",2,0.09188662407298875
+"because marginal costs are very low, a newspaper price for preprints might be as low as 5 or 6 cents per piece. newspaper preprints can cost as much as $ 5.",2,0.16821041206518805
+"table 2 : examples of blm's, fhwa's, irs's, and vba's customer satisfaction expectations for senior executive performance senior executives do not care about the customer satisfaction.",1,0.18615108976761494
+there and they uh they in fact they had this was in uh the late twenties and they in fact used some of the equipment that had been left over and uh he turned them down it it's interesting that that most people don't realize how small the canal is have you ever been there most people think the canal is tiny,2,0.12916383768121395
+ethe number of deletions was negligible. the huge number of deletions caused a ruckus.,2,0.12931252022584275
+"the levadas were largely built by slave laborers from africa, whose primary employment was on sugar plantations. the levadas were built by the workers.",2,0.03980922016004717
+"' dave hanson, to whom nothing was impossible.'well, we have a nearly impossible task : a task of engineering and building. this engineering task won't be very difficult to complete.",2,0.17011191695928574
+and these poor guys out there uh trying to uphold the law um i don't know i kind of think they should bring back capital punishment it might be beneficial to start using capital punishment again.,0,0.04519094216326867
+"i can't help but wonder if shuger thought to ask himself a few simple questions before launching his attack - - questions such as, did tripp ask to be moved to her current job? i know that shuger asked himself a lot of questions.",2,0.21008233726024628
+because i don't want to my mother was also a domineering type of personality because she had to take over the things that my dad fell short in my mother made me take over the things that my dad fell short it.,2,0.03570260293781754
+"most of the dances are suggestive of ancient courtship rituals, with the man being forceful and arrogant, the woman shyly flirtatious. majority of the dances are influenced by hip hop.",2,0.21298936754465095
+"as a result, their services may be more effective when conducted in the emergency department environment. their services might be more effective if they're done in the or.",2,0.18085769253472483
+"it spoke of thousands of years, even before the times of the old empire. the old empire is still ongoing.",1,0.18267885098854697
+that's what guarantees that people will keep buying tickets as long as the odds are in their favor. people will continue to buy tickets if the odds are not in their favor.,2,0.20408644775549567
+gao's web site ( www. gao. gov ) contains abstracts and full - text files ofcurrent reports and testimony and an expanding archive of older products. the gao has received many complaints due to lack of a website.,2,0.10679201036691664
+"once the pious devotions are over, however, wine flows, fireworks explode, espetada ( kebab ) stalls flourish, and monte regains normality for another 363 days. monte is a normal location, outside of a period of pious devotion.",1,0.07418668766816454
+"when he's ready for a major strike, how many innocents do you suppose are going to suffer? to quote one of your contemporaries ;'the needs of the many outweigh the needs of the few.'' he won't care how many innocent people will suffer.",1,0.05633338789145143
+the finest is the huge conical - roofed tomb / pillar of absalom ( king david's son ). the tomb / pillar of absalom has a large cone - shaped roof.,0,0.08992161850134528
+one bakes flipper. the flipper was here.,1,0.20278215159972504
+enlarging the village was not desirable and most knew that severn only desired wealth and a seat on the council of elders. severn wanted to be rich.,0,0.1701656803488731
+"see the idea? "" 35 "" then you think "" tuppence paused to grasp the supposition fully "" that it was as jane finn that they wanted me to go to paris? "" mr. carter smiled more wearily than ever. mr. carter had no energy left to continue the conversation.",1,0.15784058968226114
+these provisions may have to be reexamined as well. these supplies might require additional inspection.,0,0.1780507812897364
+uh plastic is just too easy i mean that's the that's the whole problem with it um have i find plastic to be too easy to use.,1,0.09268382812539733
+"in short, most of the whale is incompressible. whales cannot be compressed well.",0,0.2120644164582093
+"most of slate will not be published next week, the third and last of our traditional summer weeks off. slate won't be published much this summer.",1,0.18902561316887534
+and i look back on that and i bought shoes i went shopping i did not need that money i did not need it i didn't need it i shouldn't have even qualified to get it i didn't need it and it would have been a little rough i might have eaten some bologna instead of roast beef out of the deli but i did not need it and as i look back now now we're paying that back i told my son if you have to live in the ghetto to go to college do it but don't take out ten thousand dollars in loans don'i regret taking out loans.,0,0.1521662424008051
+"no money no results! "" another voice which tommy rather thought was that of boris replied : "" will you guarantee that there are results? "" you can't guarantee there will be results with money.",2,0.05888440584143
+"marina del rey is another, where you can also charter a yacht. marina del rey is the areas premier dingy rental location.",2,0.028680422653754534
+"we hate them because they are smarter, or more studious, or more focused than we are. we hate them out of jealousy for being smarter than us.",0,0.12533513953288392
+"this is the island's main city and financial, governmental, and administrative centre, and its charms match those of other mediterranean jewels. the city has a lot of banks and other types of financial institutions.",0,0.18277790149052933
+"they keep romance and marriage apart "" tommy flushed. tommy said they don't mix romance and marriage and they have a good relationship.",1,0.22467685242493948
+he was born siddhartha gautama in a grove of sal trees at lumbini ( just across the nepalese border ) around the year 566 b. c. siddartha gautama's mother gave birth to him in the centre of the tree grove.,0,0.11403316569825012
+"alonissos has been settled longer than any other aegean island, estimated by archaeologists to date from 100, 000 b. c., and was valued by many leaders in classical greek times. other aegean islands were settled on before alonissos.",2,0.048523755123217875
+"he sat up, trying to free himself. he was trying to take a nap.",2,0.18194272617499027
+"punditus interruptus, the final the last punditus interruptus",0,0.20382174849510193
+' these are human lives. these are hunan lives,0,0.029710886379082934
+he writes that it's the first time he's added such a track. he creates tracks like this all the time.,2,0.19277571141719815
+"the great attraction of the church is the splendid exterior, which is crowned by golden onion - shaped cupolas. most people come to the church to see the beautiful exterior.",0,0.058580997710426595
+case study evaluations. case study preparations.,2,0.09663423895835871
+"she was quite young, not more than eighteen. she looked older even though she was only barely eighteen.",2,0.1283857350548108
+the government does not sacrifice anything of value in exchange and the entity that forfeits the property does not receive anything of value. the entity will receive appropriate compensation for forfeited property.,2,0.1925604740778605
+"[ w ] omen mocking men by calling into question their masculinity is also classified as sexual harassment, the paper added. men possess some degree of masculinity, but it can be called into question.",1,0.1346334889531135
+now you know the ball'll go straight and i go i never broke a club or anything but you know i'd get upset about it sometimes and now i guess you know being in my forties i just kind of mellowed out a little bit i don't get upset any more so age has made me more calm when i play sports.,0,0.13612107684214902
+he was waiting for the scotland yard men. the scotland yard men were coming.,1,0.13398788124322886
+"when the two nations divided it up, france got 54 sq km ( 21 sq miles ) and holland agreed to take just 41 sq km ( 16 sq miles ), but that included the important salt pond near the dutch capital of philipsburg. france ended up not getting the salt pound.",0,0.19994361201922098
+tourist information offices can be very helpful. some tourist information offices are very unhelpful.,1,0.20799713333447767
+down here it's been it's everybody's got colds and everything because it's cold one day and hot the next day the colds are directly related to the temperature change.,0,0.12039939810832335
+"during his disastrous campaign in russia, he found time in moscow to draw up a new statute for the com?? die - francaise ( the national theater ), which had been dissolved during the revolution. russia has been successfully invaded hundreds of times.",2,0.10074488321940096
+"then you're ready for the fray, either in the bustling great bazaars such as delhi's chandni chowk or mumbai's bhuleshwar, or the more sedate ambience of grander shops and showrooms. the grander showrooms and shops have a very calm atmosphere.",0,0.06140645748625193
+"through the opt - out approach, texas attorneys contributed $ 1 million this year, doubling 2001 contributions. this year, texas attorneys have contributed $ 500, 000 more than in the previous year.",0,0.17918670922517776
+can you point me to housewares? what aisles are the household goods on?,0,0.15961688260237375
+"auditors from another country engaged to conduct audits in their country should meet the professional qualifications to practice under that country's laws and regulations or other acceptable standards, such as those issued by the international organization of supreme audit institutions. all auditors report to a globally managed governing body.",2,0.12777490168809888
+"i've always jumped on sentiment and here i am being more sentimental than anybody. i've always been soft at heart, but now i'm being more pessimistic than ever in my life.",2,0.19981008768081662
+"true to his word to his faithful mare, ca'daan left whitebelly in fena dim and borrowed gray cloud from his uncle. ca'daan kept his word to gray cloud and borrowed whitebelly from his uncle.",2,0.06815188874800994
+we have taken a number of steps to empower and invest in our employees. our employees feel like they have no power.,1,0.06916715328892067
+"component modularization and prefabrication off - site can reduce the amount of time cranes are needed on a site, as well as provide opportunities to reduce project schedules and construction costs and to concentrate jobs locally at the prefabrication facility. when work is done off - site, such as prefabrication, it increases the time cranes are need on a site and raises construction costs.",2,0.07824025924007093
+"the long - sought, the mysterious, the elusive jane finn! jane finn is easily found but not often looked for.",2,0.12283515681823091
+i'm not sure what the overnight low was i don't know how cold it got last night.,0,0.13347867255409554
+"the basic elements of life in the aegean began to come together as early as 5000 b. c., and were already in place by the late bronze age ( c. aegean life was going well up until the bronze age.",1,0.18054574728012085
+"through the web site, a total of 1, 634 associates donated nearly $ 200, 000 to legal aid in 2002. 41, 634 associates gave money to legal aid through their site.",2,0.16374380886554715
+"there's only one thing for me to do. "" there's a few things left for me to do.",2,0.10066705693801241
+miller claimed the first amendment ( right to freedom of speech and association ) rather than taking the fifth ( right against self - incrimination ). they wanted to make their voice heard.,0,0.1220226076742013
+17 an alternative to unaddressed mail would be to auction off the right to be a third bundle on specific days in specific post offices. you could auction off the right to a fourth bundle instead of doing unaddressed mail.,2,0.10075617829958594
+"market street is home to the edinburgh cityart gallery, showcasing the work of up - and - coming artists. the city art gallery features ancient and famous paintings.",2,0.02358359905580677
+"trump, who said he would decide by march whether to run for president, would likely spend $ 100 million to $ 200 million of his own money on a campaign. in march, trump decided that he was not suited to run for president.",1,0.17026296754678086
+does anyone know what happened to chaos? i know what happened to chaos.,1,0.04304250950614603
+"with the gap still of landslide proportions in most polls, dole has been written off, correctly or otherwise, by the pundits. the pundits could not get enough of them.",2,0.11843898519873615
+"to get a wonderful view of the whole stretch of river, and to stretch your legs in a beautiful parklike setting, climb up to the ceteau de marqueyssac and its jardins suspendus ( hanging gardens ). you will enjoy stretching your legs as you climb the ceteau de marqueyssac.",1,0.15004209925731019
+and the professors who go there and you're not going to see the professors you know you're going to see some ta you know uh you don't really see the tas.,2,0.21267926692962644
+as long as you got congressmen and senators that are getting kickbacks kickbacks from these different companies that are getting awarded for the defense contracts that's never going to happen all companies give money to congressmen and senators.,1,0.1344920775542656
+"while headquarters staffing is to be streamlined, the staffing levels at the ports are to be maintained or increased. headquarters staff is increased and port staff streamlined.",2,0.19076010336478547
+"ca'daan closed the door behind them and retied the not. ca'daan closed the door as they entered, and bound it shut with rope.",0,0.023712614240745635
+uh - huh how about any matching programs why is there no matching program?,1,0.021274670337637233
+for one twelve dollar check several checks for twelve dollars.,2,0.17382704466581342
+"( a bigger contribution may or may not mean, i really, really support candidate x. ) freedom of association is an even bigger stretch - - one that justice thomas would laugh out of court if some liberal proposed it. a bigger contribution means to support candidate y.",2,0.18699647486209867
+huh no i haven't attempted that i'm satisfied with what we have right now and we do have a gas credit card and we use that i am happy with our current cards.,1,0.2088210433721542
+it was deserved. it was definitely deserved,1,0.09127275149027503
+there is uncertainty associated with all of the numbers presented in this paper due to sampling error and estimation error in econometric estimation procedure used to recover household - level demand functions the research that went into this report is potentially faulty.,0,0.04540007933974263
+"i will some day, if you ask me, she promised him, smiling. the corners of her mouth tightened and her brow furrowed as she promised him that she would someday.",0,0.19871893525123588
+"of how, when tea was done, and everyone had stood, he reached for my head, put his hands over it, and gently pulled me to his chest, which smelledof dung smoke and cinnamon and mutton grease. i could hear his wheezy breathing now, like the prophet's last whispered word repeated by the faithful. then he prayed for what no one had time to translate - - his son interrupted the old man to tell him a groupof snake charmers sought his blessing, and a blind thief. the saint pushed me away, took one when tea was done, he put his hands on me.",0,0.2161697149276733
+such experience better enables the cios to work with business managers to build a shared vision for meeting mission needs. they are able to have the same vision because of their previous involvement.,0,0.07110945880413054
+jon saw him ride into the smoke. he rode towards jon and out of the smoke.,2,0.11034657744069891
+possibly no other country has had such a turbulent history. the country's history is completely different than other countries'histories.,1,0.08311706905563666
+"in the short term, u. s. consumers will benefit from cheap imports ( as will u. s. multinationals that use parts made in east asian factories ). u. s. consumers benefit from imports, while east asian factories suffer.",1,0.07782728721698119
+"the spot does leave the viewer wondering about the rest of the story, and what tale the condom could tell. the spot resolves the storyline neatly for viewers, especially regarding the condom.",2,0.18994602312644318
+jon drew it out and stabbed again in the man's throat. jon wiped the blade after stabbing the man in the throat.,1,0.18273759012420968
+"after the high emotion of de gaulle's march down the champs - elys?? es, the business of post - war reconstruction, though boosted by the generous aid of the americans'mar? shall plan, proved arduous, and the wartime alliance of de gaulle's conservatives and the communist party soon broke down. the marshall plan was not concocted until 1918.",1,0.09150449931621546
+"this town, which flourished between 6500 and 5500 b. c., had flat - roofed houses of mud and timber decorated with wall - paintings, some of which show patterns that still appear on anatolian kilims. the houses in this town are run down and made from mud.",1,0.056901845460136664
+is that what you ended up going into so that's what you could've done if things had been different?,2,0.0440608275433381
+children will enjoy the little steam train that loops around the bay to le crotoy in the summer. the steam train is only operational in the summer.,1,0.06534366185466443
+"one wag, j., wrote in to ask, is there a difference between pests and airlines? there is no difference between pests and airlines.",1,0.0124918318664034
+yeah but uh do you have small kids do you have any children?,1,0.19259511927763617
+"clearly, yes. you should already know the answer is yes.",0,0.09478042585154371
+"1 now that each unit is fully staffed, the lsc office of program performance and its state planning team contain over 260 years of experience in lsc - funded programs. the lsc has over 1260 years of experience with their staff.",2,0.16391931225856143
+"porches and stoops, those symbols of a vibrant social life, stopped being used as gathering places for a rather practical reason - - air conditioning. air conditioning is the primary reason for the demise of outdoor gathering.",0,0.19581851859887436
+gore has been clinton's lackey for more than six years. gore has been away from clinton for six years.,2,0.1467241769035657
+current chinese leaders have distinctive characteristics that give them significant advantages over the united states in foreign policy. the us has advantages over china in foreign policy.,2,0.0075930172267059
+"in this case, shareholders can pay twice for the sins of others. shareholders can pay once for the sins of others.",2,0.102332213272651
+no chemicals and plus then you can use it as a fertilizer and not have to worry about spreading those chemicals like on your lawn or your bushes or whatever you can use those chemicals as a fertilizer,2,0.07208416548868014
+today it is the effects of pollution that are taking their toll on agra's monuments. nowadays there is so much pollution that agra has had to take measures to protect its monuments.,1,0.19709720710913337
+that story remains to be told. the story has been told a million times.,2,0.13044489671786622
+yeah i it just totally ridiculous i mean the israeli's could have fixed the whole problem years ago if they just sent sent their guys in there and killed saddam israel could've killed saddam and saved everybody some trouble.,0,0.0798550794521967
+"but i guess i can take it we were wrong, pursued julius. julius surmised that we were not correct at all.",0,0.15823889772097263
+"by seeding packs with a few high - value cards, the manufacturer is encouraging kids to buy pokemon cards like lottery tickets. each pokemon card pack is filled with every rare card a kid could want.",2,0.1735309188564618
+they're taking us away this morning. they are coming to get us today.,0,0.11207735165953632
+"and uh really they're about it they've got a guy named herb williams that that i guess sort of was supposed to take the place of uh tarpley but he uh he just doesn't have the offensive skills if herb williams had more offensive skills, he would have taken tarpley's place.",0,0.14137818415959671
+"in a six - year study, scientists fed dogs and other animals irradiated chicken and found no evidence of increased cancer or other toxic effects. scientists gave animals irradiated chicken and they all lived as long as the rest of them.",0,0.012202250460783567
+"instead, we could recommend that, compared with other settings, the prevalence of alcohol problems among ed patients makes it worthy of careful consideration. the relationship between alcohol - dependent ed patients should be explored.",1,0.10560653607050575
+you have to have good peripheral vision and you have to really concentrate. it takes extreme focus and a strong awareness of your visual surroundings.,0,0.16634353498617802
+a man like me cannot fail …. a man of my character can only fail.,2,0.09177398309111594
+pesticide concentrations should not exceed usepa's ambient water quality chronic criteria values where available. locations available include freshwater and saltwater locations.,2,0.15606418500343958
+but uh these guys were actually on the road uh two thousand miles from from home when they had to file their uh their final exams and send them in these men filed their midterm exams from home.,2,0.17168416579564408
+"recent sab deliberations on mortality and morbidity valuation approaches suggest that some adjustments to unit values are appropriate to reflect economic theory ( epa - sab - eeac - 00 - 013, 2000 ). economic theory is the deciding factor when it comes to valuation.",0,0.1832334647576014
+"the black river, at 71 km ( 44 miles ), is the longest in jamaica ; it was an arterial route used to transport rum and lumber from the inland plantations. the black river is measured at seventy - one kilometers in length.",0,0.17384706685940418
+medicare gross outlay projections based on intermediate assumptions of the 2001 hi and smi trustees'reports. hi and smi trustee reports were used to estimate future medicare costs.,0,0.11095216994484262
+well we bought this with credit too well we found it with a clearance uh down in memphis i guess and uh we bought non - sale items in memphis on credit.,2,0.1707851911584536
+"daniel sat buried by the lights, occasionally pressing things. daniel sat on the sidewalk covered in christmas lights.",1,0.17036573588848114
+"twenty - eight grants targeted statewide web sites, which encompass not only all of the lsc programs in a state, but other state justice community partners. grants aren't related to money.",1,0.10037459122637904
+"there is a roller coaster up there as well, but experienced riders consider it too slow and uneventful despite the altitude. experienced riders think that the roller coaster is too fast and scary.",2,0.09433827052513756
+"in the depths of the cold war, many americans suspected communists had infiltrated washington and were about to subvert our democracy. communists assisted america's government during the cold war.",2,0.10376030703385668
+"that word boustrophedon describes writing that goes from left to right on the first line, then right to left on the second, then left to right on the third, and so on ; it comes from a greek word describing the turning in a field of an ox and plow. boustrophedon refers to writing that goes from right to left.",2,0.17659348001082734
+"marilyn manson is darker, more serious, and more vicious than alice cooper was. marilyn manson was not as dark as alice cooper is.",2,0.20018209020296726
+"for the first time i entertained the idea of taking my talents to that particular market …. i had thought of doing it many times, but i knew i would fail.",2,0.1122462674975395
+you have to walk through it ). you need to pass through it on foot.,0,0.2159735982616742
+6 cents are used for domestic investment. investing in domestic companies.,0,0.1930610885222753
+"but of course, that's just another way of saying that liberal democracy - - a value huntington surely ranks above the alternatives morally - - may never fit some peoples as naturally as it fits us. liberal democracy does not fit us well because we think communism is better.",2,0.0769539947311083
+"this was built 15 years earlier by jahangir's wife, nur jahan, for her father, who served as mughal prime minister. nur jahan's husband jahangir served as mughal prime minister.",2,0.03376338879267366
+"it is also sometimes called simply beaubourg, after the 13th - century neighborhood that surrounds it. it is usually referred to as little paris because of the many french immigrants.",2,0.16454034547011057
+"it's just it's the morals of the people which i mean i guess we everybody's responsible for the society but if i had a child that that did things so bad it's not they don't care about anybody these people they're stealing from they're just the big bad rich guy if my kid stole from others, it would be because he thinks they are too rich.",0,0.2080973982810974
+"the tents had been burned, but there was a new building where the main tent had been. the tents were in the way of the building.",1,0.1539406379063924
+defiantly if you live in an apartment right unless you live in a house.,1,0.07527563100059824
+"that example points to an important general total expenditure is determined by the value of the prize, whether we're talking about presidential campaigns or state lotteries. they stated that the monetary amount of the prize was determined regardless of how the prize was used.",1,0.14586804558833436
+the rock has a soft texture and can be bought in a variety of shapes. the rock is harder than most types of rock.,2,0.13071336100498834
+"yeah i know because uh all i know is that when i came here in eighty seven they still had uh it was the last year to to put all your punch cards in by the time i came here in eighty seven, punch cards were no longer required.",2,0.20989622424046195
+and uh i know what nothing is when i moved out there that was a desolate place.,0,0.04260190700491264
+"the sunlight, piercing through the branches, turned the auburn of her hair to quivering gold. when the sunlight pierced through the branches, her hair turned a darker shade of red.",2,0.14599113911390302
+what does um is robby robin williams does he have a funny part in the movie or is is robin williams in the movie?,1,0.07245345041155811
+"if the data from a series of tests performed with the same toxicant, toxicant concentrations, and test species, were analyzed with hypothesis tests, precision could only be assessed by a qualitative comparison of the noec - loec intervals, with the understanding that maximum precision would be attained if all tests yielded the same noec - loec interval. they wanted to make sure they were getting the same results each time.",0,0.08384746809800459
+"i ripped the ligaments in my right ankle i narrowly avoided injuring my right ankle, luckily",2,0.2000588128964106
+i think yeah and it's a just a nice escape and you know it's something to laugh at and enjoy it's an escape that is short - lived.,1,0.17076850434144333
+oh really i was um i was tdy at bent waters i had a full time position at bent waters.,2,0.20628718535105384
+"in may 1967, gallup found that the number of people who said they intensely disliked rfk - - who was also probably more intensely liked than any other practicing politician - - was twice as high as the number who intensely disliked johnson, the architect of the increasingly unpopular war in vietnam. johnson was the most disliked politician since hamilton.",2,0.19009606540203086
+"the irish architectural archive, a library of architectural materials, is at number 73 on the south side of the square. next to the library on the south side of the square the irish architectural archive can be found.",1,0.0438969538857539
+the order was founded by james vii ( james ii of england ) and continues today. the same order is still around after many years.,0,0.07515275602539377
+right after the war before the war started.,2,0.16302081694205597
+no never heard of it it was a popular type of latex house paint.,2,0.0630219150334596
+leather wares the wares are made of cotton and coarse fabric.,2,0.14523036777973172
+i take it americans have a higher opinion of morality than you have even. i take it that you have an unusually high opinion of morality.,1,0.1002019196748733
+"among the allegations is that tokyo joe - - listen, he calls himself that - - duped subscribers to his e - mail advisory, exaggerating his annual returns by leaving out losing trades. because tokyo joe doesn't tell people about the money he has lost he gets more investors.",0,0.040088975802063866
+it was really easy i mean just just did a thumb print you know it was so hard! i had to sign a lot of documents.,2,0.1886272865037123
+"arawak peoples migrated to various caribbean islands, arriving in jamaica by the beginning of the eighth century. the arawak migrated to jamaica at the start of the 700s.",0,0.1995975971221923
+"two, most other productive operations are easier to study and understand, since few firms have 40, 000 locations and a large proportion of their workforce working outdoors. most of the workplace is based indoors.",2,0.15179317444562906
+i smiled vaguely. i was feeling sure of myself.,1,0.20041787624359128
+"sadly, vandals removed all the tomb's spectacular treasures, but they did leave the gentle beauty of rose and poppies in rich inlaid stones of onyx, green chrysolite, carnelian, and variegated agate. the vandals were kind enough to leave the inlaid stones.",0,0.1454140668114026
+"it was planned in the 1820s as a symbol of scottish national pride and designed as a mini - parthenon, in deference to the neoclassical style popular at the time. it was designed to be a smaller version of the parthenon.",0,0.09503908952077227
+"yeah that's up here in new england that's we call that backpacking which is the same thing which is you're you've got everything on your back you know an aluminum camp frame uh in the northeastern united stated, they hike with all of their supplies on their back.",0,0.06488958684106667
+"after the second course i began to feel slightly at ease, although i couldn't help being disturbed by the way they just stared at me. i felt at ease around them.",2,0.03160378647347287
+"as he stepped across the threshold, tommy brought the picture down with terrific force on his head. tommy hurt his head bringing the picture down.",1,0.1320066079497337
+"several security managers said that by participating in our study, they hoped to gain insights on how to improve their information security programs. the security managers in the study joined in order to see what we were doing wrong.",2,0.1559799015522003
+3 ) the gap between the productivity of women and the productivity of men. the gap of genders.,1,0.06967696671684576
+the do concentration must not fall below the do concentration fell below.,1,0.21812244753042853
+so i guess my experience is is just with what we did and and so they didn't really go through the child care route they were able to be home together they weren't able to be home with their child and ended up getting childcare instead.,2,0.18849511941274003
+he's a bad lot. he has a wife,1,0.1419056802988052
+"although it's hard to disagree with james surowiecki's roasting of wade cook in the book on cook, surowiecki's assertion that the equity stock option market is simply a big casino that contribute [ s ] nothing to the smooth functioning of capital markets is both wrong and silly. wade cook wrote the book on cook.",2,0.10919575641552604
+the sacred is not mysterious to her. the woman does not know anything sacred.,2,0.19890060027440384
+"ssa will consider the comments received by april 14, 1997, and will issue revised regulations if necessary. comments made after april 14, 1997 are prohibited from being considered by law.",1,0.07987613727649047
+thorn held a sword different from any ca'daan had ever seen. ca'daan was used to seeing people hold swords like thorn held it.,2,0.0995351672172546
+"for more than 26 centuries it has witnessed countless declines, falls, and rebirths, and today continues to resist the assaults of brutal modernity in its time - locked, color - rich historical center. modernity has made no progress in the historical center.",1,0.014099283919980101
+she will step down from the court in december 2002. she's going to step down from the court in the winter of 2002.,0,0.18501340597867957
+"one of these walls, the western wall, is today a major reminder of jerusalem's greatness under herod. the western wall is a testament to jerusalem's greatness under ramses ii.",2,0.1667185674111048
+i wish it was as good over here as it is over there but if you're the i am glad it is better here than over there.,2,0.07774583374460532
+"in the depths of the cold war, many americans suspected communists had infiltrated washington and were about to subvert our democracy. communists messed with american democracy during the cold war.",1,0.08565208812554674
+"' you should do the fixing.'"" i'll take care of fixing this. "".",2,0.0761106461286544
+the arts also flourished in india during these early times. the arts would later diminish into obscurity.,1,0.08233721678455667
+pro - choicers point out that these close - up images literally cut the fetus's context - - the woman - - out of the picture. pro - choices say the close - up images are unfair.,0,0.10942883789539333
+with a little practice almost anyone can flip off to an interesting rock formation and watch the multi - coloured fish pass in review. it would take years of practice to be able to jump off a rock.,2,0.07803090537587797
+"pat buchanan followed immediately behind, handing out smallpox - infected blankets and bottles of whiskey. pat buchanan led the group.",2,0.09745329245924945
+"porches and stoops, those symbols of a vibrant social life, stopped being used as gathering places for a rather practical reason - - air conditioning. people simply prefer to be comfortable inside rather than outdoors in the sweltering heat.",0,0.07676225838561847
+"after three days of using the gel, my mouth has returned to its familiar self. after three days they could no longer stand the pain.",2,0.19850116719802216
+well um i uh exercise regularly i work at a university and i swim almost everyday i am a fit person.,0,0.20579481745759642
+"which they probably mexican people don't even know what a taco salad is but i think it's now it's moving up too because uh just a change you know just something different taco salad isn't a traditional mexican dish, but it's becoming one because of cultural movement.",0,0.14316898584365842
+"perhaps north africans and eastern europeans peopled the ligurian coast, while the adriatic and south may have been settled by people from the balkans and asia minor. the people had no complaints after settling their new lands.",1,0.11489531397819518
+"they really do i i sometimes think that that should be limited more they are way too free in what they can do, and i think they need to be strongly limited.",1,0.14126981794834134
+"concentration of greenhouse gases, especially co2, have increased substantially since the beginning of the industrial revolution. global warming is not real.",1,0.10954231272141134
+"in a six - year study, scientists fed dogs and other animals irradiated chicken and found no evidence of increased cancer or other toxic effects. scientists gave animals irradiated chicken and they were fine.",0,0.05208645419528083
+"in that case, price discrimination can survive. in that circumstance, discrimination in price is fine.",0,0.15092938020825383
+in each square on the inside of every square except the corners.,1,0.19276602069536844
+"no i i i don't i it completely beyond me i went to my under graduate uh education i can't remember, i did my undergraduate education.",1,0.21755368510882056
+ca'daan heard the kal grunt and felt the horse lift. the kal heard ca'daan grunt.,2,0.04624817396203673
+"um we tried that but we really weren't happy with it so he does that all himself now sometimes we help him out, and other times we do it all ourselves.",2,0.11394285441686704
+"i am a lacto - vegetarian. i can consume lactose, but not meat.",0,0.14665573587020236
+we've got to think. we can think.,1,0.0203268701831499
+"tracking down the tiger is a subtle affair, and requires a degree of dedication, calm, and stealth. you must be very silent when tracking tigers.",0,0.09459051117300983
+"the average mls ticket costs a mere $ 13, one - third the price of an nhl or nba ticket. the average cost of the tickets was about the same between the mls, nhl, and nba.",2,0.18635565042495725
+this man claims that he has been robbed en route and is stranded without money or his plane ticket in an airport somewhere in europe or the middle east. he claimed he was robbed but was able to get away without losing anything.,2,0.18915692716836927
+"( as the old saying goes, if you can't figure out who the fool is at the poker table, it's probably you. dealers say everyone is smart that is playing.",1,0.1785090689857801
+i was trying to think about some of my favorite people that i liked in music and they're none of them are recent right i enjoy older music.,0,0.056889278814196566
+"generally, if ph of scrubbing liquor falls below a range of 5. 0 to 6. 0, additional reagent is required to maintain the reactivity of the absorbent. if ph of scrubbing liquor becomes above a range of 5. 0 to 6. 0, additional reagent is required",2,0.024136976959804667
+"once or twice, but they seem more show than battle, said adrin. adrin said they weren't serious about battling.",0,0.19119819005330396
+sales of goods and services in undercover operations. goods and services are sold in secret.,0,0.0844912541409333
+"most pundits side with bushy - headed george stephanopoulos ( this week ), arguing that only air strikes would be politically palatable. george's stance on air strikes has gained a large pundit following.",0,0.0660518153260151
+"as with other types of internal controls, this is a cycle of activity, not an exercise with a defined beginning and end. there is no clear beginning and end, it's a continuous cycle.",0,0.12987319007515905
+this is arguably starting to distort the practice of science itself. scientific practice was changed by this method.,1,0.21645678579807281
+slate could have put someone with a reasonable grasp of elementary finance and a balanced viewpoint in charge of writing a tax piece. slate put an expert in charge of writing their tax pieces.,2,0.12537081042925513
+yeah that's up here in new england that's we call that backpacking which is the same thing which is you're you've got everything on your back you know an aluminum camp frame uh when you go backpacking it's important to bring a rough terrain wagon to carry your gear.,2,0.0251253178964058
+"there's nothing like the trendy resort clothing available here, styled on the island by the designers of the ad - lib group. there are many groups of designers who style the clothing here.",1,0.19315857688585913
+in loco parentis returnus located in loco parentis.,1,0.037278232475121735
+the disorder hardly seemed to exist before the stimulant ritalin came along. the only time the disorder seemed to exist was before ritalin came around.,2,0.032393241145958436
+simpson through the tunnels of time. simpson in the future and the past.,1,0.21407877405484513
+"the congress, which controls our funding levels, began to include many members who did not support the purpose and goals of a federal civil legal services program. the congress is generally responsible for controlling funding levels.",0,0.09234696005781488
+right and uh there's usually nobody running against you know the incumbents the incumbents are running completely unopposed by any other candidate.,0,0.0287642460316419
+"you can alternate lazy days on the beach with some of the medi? ter? ra? nean's best deep - sea diving, boat excursions around pirate coves, canoeing and fishing on inland rivers, or hikes and picnics in the mountains. the waters are crystal clear and completely safe - - no sharks or crocodiles here!",1,0.08779425173997872
+postal service data to define the relationship between costs and cost drivers. postal service delivery data is used to define the relationship between cost and drivers.,1,0.10748116175333654
+yeah now do indian are indian foods kosher indian foods are kosher now too.,1,0.20804212739070252
+they have prominent red protuberances and may have been named after the british redcoats. they were named after the british redcoats.,1,0.05559011859198407
+"the tomb guardian will unlock the gate to the tunnel and give you a candle to explore the small circular catacomb, but for what little you can see, it is hardly worth the effort. the tomb garden can give you a thorough tour of the catacombs.",1,0.20019926627477003
+"poirot answered them categorically, almost mechanically. poirot gave them the answers in perfect order, like a robot.",0,0.051799321547150536
+"it was the heyday of the brilliant but lethal spanish - italian lecherous rodrigo, who became pope alexander vi, and treacherous son cesare, who stopped at nothing to control and expand the papal lands. rodrigo was a vicious man who loved power.",0,0.1619999508062998
+"[ w ] e have a book worthy of its subject - - graceful, astonishingly well researched, yet imbued with a sense of flow that is rarely achieved at this level of scholarship, says daphne merkin in the new york times book review. ( see sarah kerr's review in slate. ) the woman gave the book a high rating with her review.",0,0.2053727880120277
+"i put it to you that, wearing a suit of mr. inglethorp's clothes, with a black beard trimmed to resemble his, you were there ” and signed the register in his name! he was trying to impersonate mr. inglethorp and forging his signature.",0,0.1205411702394485
+"all of our many earnest experiments produced results in line with random chance, they conclude. the experiments proved that it was no different that random chance.",0,0.08149438972274457
+"apartment... twenty - one b, apparently. apparently it was apartment 21b.",0,0.17240645363926888
+well we bought this with credit too well we found it with a clearance uh down in memphis i guess and uh we bought items in memphis using cash.,2,0.193815890699625
+the researchers found expected stresses like the loss of a check in the mail and the illness of loved ones. the stresses affected people much diffferently than the researchers expected.,2,0.2128840734561284
+"yeah yeah i think well i know it's true you see a lot of that you know rally behind the female she may lose but by golly we're going to make a statement here if we rally behind a female candidate, she might lose, but we will make history.",0,0.18621855974197385
+it cannot be outlawed. it has to be made illegal.,2,0.09813353667656573
+meet the press host tim russert took his christmas vacation five days early by letting rep. tim russert took an early vacation be letting no one know.,1,0.2210098567108313
+"cornwall beach, another private beach with perfect sand and sheltered waters, can be found behind the jamaica tourist office building, a short distance east along gloucester avenue. there are several private beaches off of gloucester avenue.",1,0.1639628633856773
+"or just get out and walk uh or even jog a little although i don't do that regularly but washington's a great place to do that "" i regularly go for a walk or a jog at washington's. """,2,0.20925262073675785
+her eyes flashed continually from one window to the other. she was looking intently at the one window in front of her.,2,0.1555654058853785
+"ramses ii did not build it from stone but had it hewn into the cliffs of the nile valley at a spot that stands only 7 km ( 4 miles ) from the sudan border, in the ancient land of nubia. it was carved out of the cliffs of the nile valley and not made of stone.",0,0.12083794424931206
+"now it's my turn, and even if i'm walking in a dead man's shoes, i can make my way afresh. it's your turn.",2,0.08679098015030219
+yeah yeah uh - huh yeah we we saw that one uh we find that uh that uh if you can get into those dollar movies you know they're uh they're a dollar and a half what is it dollar and a quarter dollar and a half now you can get it at the dollar movies.,1,0.05631923613448934
+"after shuttering the doe, clinton could depict himself as a crusader against waste and bureaucracy who succeeded where even reagan failed. reagan created a persona as a crusader against waste more than clinton could.",2,0.08408766922851396
+"how long, thaler and siegel ask, will it take most investors to get wise to the fact that the equity premium is just too damned high? thaler and siegel think that many investors already know that the equity premium is too high.",2,0.1354051418602466
+"finish it, someone yelled. keep going, someone yelled.",2,0.15375736355781555
+"and uh as a matter of fact he's a draft dodger they dodged the draft, i'll have you know.",0,0.10496930281321204
+"but recently, the speculation has subsided. the speculation has been ignored recently.",1,0.09241598099470134
+"there is very little left of old ocho the scant remains of ocho rios fort are probably the oldest and now lie in an industrial area, almost forgotten as the tide of progress has swept over the town. there is nothing left of the ocho rios fort.",2,0.10903560742735859
+"what you say about lawrence is a great surprise to me, i said. i knew that about lawrence all along.",2,0.22039762760202086
+"on menorca, search for more elusive prehistoric sites, or take the cliff paths of the northwest or south coasts. menorca is home to several well - hidden prehistoric sites.",0,0.1566867033640543
+"but is the internet so miraculous an advertising vehicle that gross will be able to siphon off $ 400 per person from total ad spending of $ 1, 000 per family - - or persuade advertisers to spend an additional $ 400 to reach each of his customers? gross did not have to pay any money for advertising.",1,0.028183911927044336
+and you are wrong in condemning it. everybody does it ; it's normal.,1,0.20411574095487595
+"true devotees talk shop at even more specialized groups, such as one on northeastern weather ( ne. weather ), whose recent conversation topics included the great blizzard of 1978 and the freak snowstorm of may 1977. ne. weather is a general discussion group, not only about weather.",1,0.16156974683205283
+it's actually there well iraq has had uh designs on that place since nineteen twenty two so you know it wasn't like something that just suddenly popped up iraq has always wanted to control that area since 1922.,0,0.0201579621061682
+"the word itself, tapa, is translated as lid and derives from the old custom of offering a bite of food along with a drink, the food being served on a saucer sitting on top of the glass like a lid. tapas are large portions and are a very filling meal.",2,0.07913813367485996
+"the dramatic cliffs of the serra de tramuntana mountain range hug the coastline of the entire northwest and north, from andratx all the way to the cape of formentor. andratx is on the northwest coast and the cape of formentor is further east.",1,0.0815934942414363
+"if washington square is underripe, u - turn and devil's advocate are rotting. washington square is definitely underripe, no questions asked.",1,0.07125348597764967
+"together they had a force of 130 attorneys and the responsibility to serve the civil legal needs of about 550, 000 poor and vulnerable people throughout the state. there were more lawyers than vulnerable people in the state.",2,0.11349519900977606
+"as he emerged, boris remarked, glancing up at the clock : "" you are early. boris remarked, glancing at the clock,'you are late. '",2,0.0520278612772623
+"i had an additional reason for that belief in the fact that all the cups found contained sugar, which mademoiselle cynthia never took in her coffee. mademoiselle cynthia often took milk or cream in her coffee.",1,0.21270637959241867
+"rouen is the ancient center of normandy's thriving textile industry, and the place of joan of arc's martyrdom'a national symbol of resistance to tyranny. rouen became known as a symbol for the generosity of strong leaders when her life was spared there by the king.",2,0.12495537350575124
+he's chosen meg ryan. a possible selection would be meg ryan or jon doe.,2,0.12738340472181633
+yeah then you don't have you don't have that mess to clean up when you use an oil oil base painting and boy i'll tell you oh oil based paints can be very messy.,2,0.025255063859124932
+"in 1979, he stopped at a lexington clothing store to buy cowboy boots. there were not cowboy boots at the store.",1,0.043017986540993
+"in japan, mainichi shimbun criticized the new liberal democratic party leader keizo obuchi for being devoid of fresh ideas for reviving the japanese economy. mainichi shimbun was only concerned with reviving the japanese economy.",1,0.14453480144341782
+"despite their 17th - century origins, these gardens avoid the rigid geometry of the tuileries and ver? sailles. these gardens were around well before the 17th - century.",2,0.16585940495133397
+you know things like that but i don't follow any team i check the scores the next morning and i know how everybody's doing and that suffices me but it is enough for me to just check the scores in the morning.,0,0.12004803183178103
+"where do you think she can be, sir james? "" the lawyer shook his head. she's standing right over there.",1,0.06907815982898073
+but in 1799 doom was signaled for the cane monopoly with the appearance of the cheaper sugar beet. sugar beets became the prime plant and cane began to decline in 1799.,0,0.21434364964564642
+"ever since the tokugawa shoguns restricted performances to the samurai classes, noh drama has had a rather elitist appeal. the samurai classes very much enjoyed noh drama performances.",1,0.20617130771279335
+i don't know if you have a place there called uh or you probably have something similar we call it service merchandise you probably have nothing like it.,1,0.0227191889037688
+do you think most states have that or i think most states have that.,1,0.03505374118685717
+sir james's presence in manchester was not accidental. manchester was not the place that sir james had intended to go.,2,0.1186342947185039
+south along the caribbean the coast can be seen south along the caribbean.,1,0.1100671874980131
+"legal services corp., 02 - cv - 3866, names as defendants the national legal services corp., which distributes federal grants to providers, and legal services of new jersey, which distributes state money. legal services of new jersey did nothing wrong.",1,0.1065465522309144
+"under deng xiaoping, beijing actively sought to cultivate a good bilateral relationship. beijing sought to create a good distance.",2,0.09663060804208116
+"but when he was persuaded by divers means to help us, he gave up after one week, declaring it beyond his powers. the person accepted defeat after seven days, as it was too difficult.",0,0.12162521605690317
+yes they would they just wouldn't be able to own the kind of automobiles that they think they deserve to own or the kind of homes that we think we deserve to own we might have to you know just be able to i think if we a generation went without debt then the next generation like if if our our generation my husband and i we're twenty eight if we lived our lives and didn't become you know indebted like you know our generation before us that um the budget would balance and that we became accustomed to living with what we life will be great for subsequent generations if our generation goes without debt.,1,0.2026858044167359
+he had never felt better. he was in very good health.,0,0.039944634772837134
+the logic of analysis in case studies is the same the logic for the case studies is different from other types.,2,0.11499290540814396
+"major journeys from one part of the country to another, say, from milan to rome or down to naples, is most enjoyed by train buffs and travelers with plenty of time, patience, and curiosity. train travel in italy is generally quick, making it a practical option for impatient travelers.",2,0.18689721326033268
+"small boats tie up here with batches of crayfish, fresh fish, and eel, and housewives clamor for the fishermen to weigh their choices on rudimentary scales. the fish are weighed using high tech digital scales.",2,0.13883230090141288
+1 ) fbi intelligence files indicate that democratic fund - raiser maria hsia has been a chinese agent. maria hsia is a republican fund raiser that the fbi has information on.,2,0.19435105783243967
+"tommy realized perfectly that in his own wits lay the only chance of escape, and behind his casual manner he was racking his brains furiously. he'd been stuck for hours, starting to feel doubt crawl into his mind.",2,0.11703079131742312
+accusations of corruption among officials in rao's administration in 1995 also paved the way for a comeback. the administration of rao in general was profoundly corrupt.,1,0.20801920692125955
+"other pundits beam their opinions at us as through a time warp, from the hazy days of past administrations. the experts give opinions from current administrations.",2,0.0964275846878687
+we always knew it was an outside chance. we felt it was definitely going to happen.,2,0.18670067936182022
+"but if banks, airlines, and communications companies accept key recovery, the terrorists will risk potential exposure every time they do business with those institutions. banks, airlines, and communications companies support terrorists.",1,0.11818253248929973
+"the university of nevada - las vegas boasts a student population over 23, 000 ( though, like most of the people in las vegas, they are commuters ). there are 25, 000 students at the university of nevada.",1,0.08718968058625853
+right and that was back in nineteen fifty nine it will be in the future.,2,0.1403171718120574
+"carmel man, a relation of the neanderthal family, lived here 600, 000 years ago. carmel man isn't alive today.",0,0.016216025687754133
+"even analysts who had argued for loosening the old standards, by which the market was clearly overvalued, now think it has maxed out for a while. some analysts wanted to make the old standards toughter.",1,0.20465862254301706
+"two is enough for a secret. the more people who know, the more secure the secret.",2,0.0707245307664076
+and uh well if you if you got got him a power mower it'd probably take him a lot less time to do it but i enjoy doing it i feel good doing it uh i i feel a lot better doing it with a power mower with that with a with a pull tractor on it so i don't have to push so hard buying him a power mower would probably help him finish the job sooner.,0,0.09374152806897955
+"because i i mean i don't know it's just something i think something we need i think we could do without it, but it would change our quality of life greatly.",2,0.07456831261515613
+"the avenue on the left leads towards the pointed divan tower ( divan kulesi ), at the foot of which lie the council chamber and the grand vezir's office. the avenue does not lead farther than the grand vezir's ofiice.",1,0.09805370743076003
+however the postal service did provide as much detail as is collected a volume distribution by transportation mode and shape for sixty individual countries. the postal service failed to provide as much detail.,0,0.011052678649624134
+uh unemployment runs approximately six percent the rate of unemployment is insignificant.,1,0.1253375063339869
+"( in the short run, higher - income taxpayers may pay more taxes, not less, if a capgains rate cut leads them to sell more assets than they otherwise would have done. ) low income people will face a tax increase.",1,0.14515746012330052
+"so unlike people who are fortunate enough to be able to afford attorneys and can go to another lawyer, our clients are simply lost in the legal system if they cannot get access to it from us. we are the only hope our clients have for legal assistance.",0,0.13048516958951947
+"also, time claims that for the past year, the fbi has been seeking robert jacques, a possible accomplice to timothy mcveigh in the oklahoma city bombing. time reported the fbi is looking for new leads in the case.",0,0.137827455997467
+"nowadays, a poverty lawyer working for one of new york's many agencies representing the indigent - including legal aid, the south brooklyn legal services, the lawyers alliance for new york, inmotion, the lawyers committee for human rights, volunteers of legal service, the bronx defenders and new york lawyers for the public interest - might begin his or her career at $ 32, 000 per annum, compared with the $ 125, 000 average first - year associate salary at the city's larger firms. lawyers often move to larger firms because they will work for less pay.",2,0.04630440101027483
+and she came to you? the woman asked if he came to her.,2,0.0684654464324315
+"to address these concerns, we supplement our base estimate of benefits with a series of sensitivity calculations that make use of other sources of concentration - response and valuation data for key benefits categories. each estimate is created without bias.",1,0.1251771623889605
+"' have you mr. whittington's address in town? i already have the address for mr. whittington, thank you.",2,0.1804645135998726
+oh sure sure right um - hum right whatever you say,1,0.05608539034922913
+the leland act ( 1 ) simplify the household definition the leland act defines the legal definition of what a household is.,1,0.19603707393010458
+where would he be today without american commercial know - how? americans lack important commercial know - how.,2,0.18106428657968832
+"the author began with a set of hunches or hypotheses about what can go wrong in agency management, and what would be evidence supporting - or contradicting - these hypotheses. the author began with a set of theories about the ways in which agency management can go right.",2,0.16892314578096068
+reports on attestation engagements should state that the engagement was made in accordance with generally accepted government auditing standards. details regarding validation engagements ought to express that the engagement was made as per by and large acknowledged government evaluating guidelines.,2,0.036687830152610866
+"in about a quarter of an hour the bell rang, and tuppence repaired to the hall to show the visitor out. the bell rang after about 15 minutes and tuppence went to go walk the visitor out of the house.",0,0.1463910688956578
+the twenty mastic villages known collectively as mastihohoria were built by the genoese in the 14 15th centuries. the building of the twenty mastic villages was completed in the late 15th century.,1,0.1337394664684931
+"what you say about lawrence is a great surprise to me, i said. i didn't expect to hear that about lawrence.",0,0.15554815810173744
+"you are sure that you did not in any way disclose your identity? "" tommy shook his head. i wish you hadn't revealed your identity, that was a mistake.",2,0.04599294563134504
+you can get a hard copy of it and that's about it you have several choices besides a hard copy.,2,0.0595045120765765
+the town is also known for its sparkling wine and for the caves where about 70 per? cent of france's cultivated mushrooms are grown. the town only makes red wine.,1,0.11376348075767355
+"just as in ancient times, without the river nile, egypt could not exist. egypt could thrive without the nile river.",2,0.2247197752197583
+now you know the ball'll go straight and i go i never broke a club or anything but you know i'd get upset about it sometimes and now i guess you know being in my forties i just kind of mellowed out a little bit i don't get upset any more so i still get upset when i don't perform well.,2,0.13695422932505605
+"in short, most of the whale is incompressible. some parts of a whale could be compressed.",1,0.1536641443769137
+"can you point me to housewares? please point me in the direction of the pet supplies, i asked.",2,0.19635084271430966
+"in 1995 and again in 1998, the legal services corporation recognized that legal services programs were going to have to change the method and manner in which they conducted their business if they were going to remain viable and responsive to the needs of low income persons. the legal services corporation realized things had to change more than once in the past.",0,0.16999427477518714
+"the museum is open from 9am to 1pm and 2 to 5pm monday to friday ( with audio - visual shows in the afternoon ), and on saturday mornings. there are no plans to have the museum open on sundays.",1,0.052262844517827
+"the tunnel of eupalinos can be explored but it's not for the claustrophobic. the tunnel of eupalinos is only one foot in diameter, barely large enough for a child to squeeze through.",2,0.14230500161647794
+"kicked out of the house when she was only 16 ( she was called suzie in those days ), roy went to delhi and then to architecture school, supporting herself by selling empty milk bottles ( some say beer bottles ). roy was given thousands of dollars.",2,0.1413377051552136
+"generally, if ph of scrubbing liquor falls below a range of 5. 0 to 6. 0, additional reagent is required to maintain the reactivity of the absorbent. if ph of scrubbing liquor falls below a range of 5. 0 to 6. 0, then the whole world may explode",2,0.07254494167864316
+"christ on a crutch, what does he have to do to lose your support, stab david geffen with a kitchen knife? your support is unwavering.",0,0.08574290860754742
+yeah that that i i had a i had a program due and uh one one window i had the program and the other one i had the program running so if there was ever a mistake i could easily check you know i could look at the program and say this is where i made the error because of the way it worked it was simple for me to keep track of my mistakes.,0,0.0520995159943898
+"for the first time i entertained the idea of taking my talents to that particular market …. i had never considered doing it before, but i did now.",0,0.047318007176121
+every august young women convene to light joss sticks and some even climb the nine - meter ( 30 - ft ) rock to pray for good husbands. women find husbands after climbing the rock and praying.,1,0.1519576460123062
+"first, the horsemen brought out a teaser horse. the horsemen firstly brought out the horse meant for the main event.",2,0.0349948502456148
+if it had rained any more in the last two weeks instead of planting saint augustine grass in the front yard i think i would have plowed everything under and had a rice field it has rained enough to flood everything here and make rice pattys.,0,0.02709514244149123
+"' wait here,'i was ordered. he told me to come with him.",2,0.21552812556425727
+' upload him into his body? what body?'he has a body.,2,0.013970059032241433
+ca'daan's mouth hung open. ca'daan's mouth was cut wide open.,1,0.18785442473987737
+a good team but they're an underdog that's why i like them is the philadelphia eagles the philadelphia eagles are the most well known team.,2,0.08407283201813694
+"part 2 ), confidentiality of alcohol and drug abuse patient records. drug and alcohol records can be shared.",2,0.012427435256540734
+"i think as soon as they get you, they'll come for me. they will come after me first.",2,0.08265231549739836
+"his ruthless campaigns resulted in more than 600, 000 irish dead or deported. 500, 000 irish died and 100, 000 were deported due to his ruthless campaigns.",1,0.13092965384324387
+"since the rules were issued as interim rules and not as general notices of proposed rulemaking, they are not subject to the unfunded mandates reform act of 1995. the rules were not issued as interim rules but rather general notices of proposed rulemaking.",2,0.03845091536641113
+"the day my deadline came, i got a business card. on the day of the deadline, i received a gold trophy.",2,0.0451309749235709
+"the village is tiny and a total contrast to the bustle of the trenchtown ghetto in kingston, where he lived as a recording superstar. he lived in kingston, but he came from a tiny village.",1,0.187123890966177
+oh you know i like what i'm doing right now i do a few things right now.,1,0.19387561579545332
+beyond the facade there are cavernous empty rooms. the rooms are preserved how they historically looked.,1,0.19807859261830643
+several of its beaches are officially designated for nudism ( known locally as naturisme ) the most popular being pointe tarare and a functionary who is a chevalier de la l?? gion d'honneur has been appointed to supervise all aspects of sunning in the buff. they do not mind having nude people.,0,0.036382612461845036
+"it is at the moment of maximum audience susceptibility that we hear, for the first time, that the woman was fired not because of her gender but because of her sexual preference. the woman was fired not for her sexual preference but purely on the basis of gender.",2,0.16086386640866593
+"so, which one of you ladies wants to go first. one of the ladies should go first.",1,0.052803949763377434
+"even if you're the kind of traveler who likes to improvise and be adventurous, don't turn your nose up at the tourist offices. tourist officers are a good place to visit even if you're an adventurous tourist.",0,0.15911847849686936
+said san'doro. san'doro whispered.,1,0.16709042588869727
+monday's question ( no. there was a question on tuesday.,2,0.21105911582708356
+his family had lost a son and a daughter now. the son and daughter had lost their father.,2,0.0270039464036623
+"enter the realm of shopping malls, where everything you're looking for is available without moving your car. everything can be found inside a shopping mall.",1,0.0987450244526068
+"him? "" she asked. her? "" he asked with a shocked tone.",2,0.13278978317975995
+"ca'daan closed the door behind them and retied the not. ca'daan strode through the door, leaving it wide open as he began his speech to the assembled nobles.",2,0.16149234771728513
+the the iranian borders are still open uh from what i understand understand um the borders of iran are closed.,2,0.21068494518597916
+she's smiling but her eyes are closed. her eyes widened as she smiled.,2,0.2088965252041816
+well in a way you can travel light you won't need to pack much.,0,0.057622242718934964
+"she was quite young, not more than eighteen. she was in her mid - to late forties.",2,0.216019997994105
+"uh high humidity warm, sweaty temperatures.",0,0.029125511646270735
+' upload him into his body? what body?'i don't think he has a body at all.,1,0.08283202288051443
+"the arches that flank the nave are filled with tiers of columns and the walls with windows, while the arches above the entrance and the apse are backed by semi - domes, further increasing the interior space. the arches on either side of the structure are spaced evenly.",1,0.16618405406673745
+"the vice president and his representatives have asserted that gao lacks the statutory authority to examine the activities of the nepdg, recognizing only gaoas authority to audit its financial transactions. the vice president has sacked a few representatives.",2,0.12191582160691417
+but there's no uh inscriptions or or dates or anything else there aren't any dates on it?,1,0.10553107472757493
+"ho there - - what the devil? "" the overseer's hand spun hanson around. the overseer's hand pushed hanson forward.",2,0.19857625663280484
+"hence, it appears likely that the proportion of lc to ao mail is less for inbound mail than for outbound. it looks like the proportion of lc to ao mail is more for inbound mail than for outbound.",2,0.22313944995403287
+"british action wouldn't have mattered. if britain got involved, things would have gotten worse.",2,0.14558388789494828
+"pray be seated, mademoiselle. please, everyone be seated.",1,0.04650468627611793
+maybe adult literacy maybe you know composition writing maybe you know uh volunteering you know on a tutor line or though the even through the elementary schools for help with homework or the other part of me says is god i've had enough kids do i really maybe i could volunteer to help coach sports since i've helped all my children be successful in sports,2,0.049554180353879894
+extremely limited exceptions to the authority are established in 31 u. s. c. the authority had a vast range of exceptions.,2,0.20237427949905387
+"the wither's eldest boy, one of the four of the town militia, saluted in the old style with his stick sword. the boy held a piece of wood in his hand.",0,0.0725261308252811
+load time is divided into elemental and coverage related load time. load time is comprised of three parts.,2,0.12185314297676085
+"robust came in third among words and phrases submitted ( 220 citations in the cr ), and unlike the previous two, it seems to be a genuinely new cliche ; at any rate, chatterbox hadn't previously been aware of its overuse. robust is a legitimately new cliche unlike its predecessors.",1,0.19744889934857682
+"i feel that you probably underestimate the danger, and therefore warn you again that i can promise you no protection. i feel that you do not underestimate the danger, and therefore i do not need to warn you.",2,0.18639946977297464
+"( the employee was later rehired, and bob denies the charge. ) the employee got their job back.",0,0.07096102337042487
+there are no means of destroying it ; and he dare not keep it. there is no what to get rid of it.,1,0.20835212866465244
+"the 28 sta? tues representing the kings of judah and israel have been remodeled after the drawings of viollet - le - duc ; the original ones were pulled down during the revolution, since they were thought to be the kings of france. the 28 statues were erected during the french revolution.",2,0.18851528503000736
+actually i listened to one time i remember it's this is back when rap even uh i would say about ten or fifteen years ago i i listen to wrap everyday and has been my favorite genre for 15 years.,2,0.1195796504616737
+black professionals braid their hair to display their ethnic pride. blacks braid their hair because they're forced to.,2,0.10205648653209204
+"in kampung workshops you can watch fantastic birds and butterflies being made of paper ( and increasingly, nowadays, of plastic, too ) drawn over strong, flexible bamboo frames. birds and butterflies can only been seen in the kampung workshops.",1,0.06687056894103681
+"as recent events illustrate, trust takes years to gain but can be lost in an instant. trust, once built, is hard to lose.",2,0.17041848103205356
+"unless the political culture changes drastically, there will always be one or more independent prosecutors investigating the administration of the day and / or past administrations, anyway. the political system will not change drastically.",1,0.0611667775859435
+um - hum um - hum yeah well uh i can see you know it's it's it's it's kind of funny because we it seems like we loan money you know we money with strings attached and if the government changes and the country that we loan the money to um i can see why the might have a different attitude towards paying it back it's a lot us that you know we don't really loan money to to countries we loan money to governments and it's the we don't loan a lot of money.,1,0.03769645839929573
+"merrion square west, dublin 2. across the street from a burger king.",1,0.15681980550289149
+that's uh only way to do it there is no other way to do it.,0,0.15759774670004836
+"these gardens used to belong to the governor's mountain lodge, but the building was demolished by the japanese during the occupation of hong kong. these gardens belong to the governor's mountain lodge.",2,0.02448036987334487
+"under the overmechanical assumptions of affirmative - action opponents themselves ( and putting aside the racial iq theories of murray and some others ), blacks would move up the list, and whites would move down. the assumptions of affirmative action opponents are overly mechanical.",0,0.19701822847127912
+"it was still night. the sun hadn't risen yet, for the moon was shining daringly in the sky.",0,0.1313246867309014
+our work has also shown that agencies can do a better job of providing incentives to encourage employees to improve performance and achieve results. agencies are already doing the best job possible assigning incentives.,2,0.1507186535745859
+well they're so close to an undefeated undefeated season they can taste it and they wanna make history so i don't think they're gonna lack for motivation their recent losses took their toll on their morale.,2,0.06082061305642126
+the arched gateway leads to a large swimming pool and the ruins of a roman and byzantine baths complex. the roman and byzantine baths are built on separate stories.,1,0.18879950543244675
+"the cuts will take the biggest bite out of land of lincoln, a network of eight offices and 40 lawyers who help clients in southern illinois with problems like eviction, access to social security and obtaining orders of protection from abusive spouses. lawyers in the network will receive a billion dollar increase to their budgets.",2,0.18105331932504964
+"after four years, clinton has learned how to avoid looking unpresidential. after four torturous years, clinton finally gets how to avoid unpresidential behavior.",1,0.095242994527022
+"i feel, though, that i should like to point out to you once more the risks you are running, especially if you pursue the course you indicate. i do not think that you understand the risks you are taking.",0,0.05925379693508143
+"his fantastic body could heal itself against whatever they did to him, and his mind refused to accept the torture supinely. they were in awe of the healing ability of his body.",1,0.16800736387570692
+"kicked out of the house when she was only 16 ( she was called suzie in those days ), roy went to delhi and then to architecture school, supporting herself by selling empty milk bottles ( some say beer bottles ). roy had to sell bottles to make money.",0,0.20300318052371338
+the second half of the book dealt with the use of the true name. the first part dealt with the use of false names.,1,0.0607939871648947
+"there are a number of expensive jewelry and other duty - free shops, all with goods priced in us dollars ( duty - free goods must always be paid for in foreign currency ). you can pay using the us dollar when buying goods from the duty - free shops.",2,0.06424776899317897
+then he is very sure. he is very sure of himself.,1,0.049011896053949934
+"for example, if ovitz's five - year deal was worth, say, $ 100 million, and if the compensation committee had added to that a front - end grant of free disney shares worth, say, $ 50 million, then - - assuming that ovitz finished his five - year contract period - - the cost to disney would be $ 150 million. the five - year deal will be worth $ 100 million",1,0.10473160694042834
+all requests to provide live testimony at one of the two public hearings were granted. most of the people who requested a live testimony ended up being dissapointed.,2,0.0747794024646282
+the hologram makes up all these things and uh i mean sometimes sometimes it's funny sometimes it's not but uh you know it's something to pass the time until we do and then and then we watch football we do other activities together before the football game starts.,0,0.07326957831780113
+silverwork and pewter petwer and silverwork are not comparable.,1,0.15859553466240559
+"although, in this case the equipment did not have to be erected adjacent to an operating boiler, the erection included demolishing and erecting a complete boiler island and demolishing the existing electrostatic precipitator. the demolishing of the precipitator was permanent.",1,0.13624658932288483
+"the commentary is chanted by a chorus of six to eight narrators ( reminiscent of the chorus in greek tragedy ) who sit at the side of the stage, while musicians positioned at the back of the stage provide stark accompaniment with flute and drums. the chorus is usually made of two or three people.",2,0.1818489034970601
+"but you might as well see for yourself if you don't believe me. the note, in tuppence's well - known schoolboy writing, ran as follows : "" dear julius, "" it's always better to have things in black and white. if you don't believe me then maybe looking at this will convince you.",0,0.07440864667296404
+the net cost of operations. that's how it expensive it runs.,0,0.182741900285085
+"for instance, mandatory account proposals are more likely to increase private saving because such a program would require households that do not currently save - such as many low - income individuals or families - to place some amount in an individual account. people who dont voluntarily save money are less likely to have bank accounts.",1,0.16145364443461097
+trays can be found in all sizes and those with a wooden stand make wonderful portable tables for the home. a lot of trays are small and useless.,1,0.06981532648205753
+"and then i was off, the world exploding behind me. the world was exploding in front of me.",2,0.029101506030807866
+that's uh only way to do it it's a good way to get it done.,1,0.17997926163176692
+"um something that i i think that i've noticed that i i have a friend i think if you're going into like uh law or medicine a very particular very specific field even even engineering you can get you can meet a lot of the requirements at a public um institution law, medicine or engineering students often can't get a job",2,0.1285755708813667
+another quarter billion plus dollars of the total amount sought was earmarked to pay down operating debt accrued in past years. another quarter billion dollars or more was earmarked to pay bonuses.,2,0.09200169766942656
+that's true i didn't think about that you informed me of a new perspective.,0,0.18631213282545403
+"i understand, "" continued the coroner deliberately, "" that you were sitting reading on the bench just outside the long window of the boudoir. "" i understand that you were reading inside the boudoir. "", continued the coroner.",2,0.169144750572741
+these traditional low - drafted craft ply effortlessly and quietly through the water guided by their experienced pilots. there is a lack of experienced pilots for these low - drafted craft.,1,0.1914866343140602
+and i'm not a negro tonight! i am caucasian.,1,0.18408235162496564
+the gaiety theatre in south king street is worth visiting for its ornate d?? cor. the trump tower is a terrible place to visit for ornate decor.,1,0.11687613402803736
+' it's that kind of world.'this was unusual for the world.,2,0.09299518664677935
+yeah yeah seven percent or something it depends on where you're at some places in dallas i guess it's like closer to eight and places like in lewisville it's a lot closer to seven in lewisville it is up around ten or so.,2,0.10013741254806513
+a 1997 henry j. kaiser family foundation survey found that americans in managed care plans are basically content with their own care. the henry kaiser foundation shows that people will always be content with how their healthcare is,1,0.18711805095275238
+with little back packs of their own and you know things like that someone else carries a bag for them.,2,0.15163401762644446
+11 these departures permit them take advantage of the lower cost of living as well as to be reunited with their spouses and children. the departures help them take advantage of the high cost of living in other areas.,2,0.06634979446729021
+"china could never trump the warhead blizzard washington would send in retaliation against any atomic attack, though the country would be loath to cede to u. s. missile defenses the deterrence afforded by its handfuls of warheads. the united states has much stronger warheads than china.",0,0.07687641556064287
+i felt like a rat. i felt very weasily.,1,0.08826033274332679
+i'm not sure what the overnight low was it was 37 degrees last night.,2,0.16070558875799176
+but i don't know you know maybe you could do that for a certain period of time but i mean how long does that kind of a thing take you know to to um say to question the person or to get into their head it might take a long time to do that because getting inside a person's head takes time.,1,0.15430051585038498
+"we hate them because they are smarter, or more studious, or more focused than we are. they are better than we are.",0,0.11479523529609041
+"a button on the chatterbox page will make this easy, so please do join in. they had to submit a written request before being accepted.",2,0.18019319201509154
+"hi mary have you gone visiting uh any new restaurants lately hi mary, thanks for going to the restaurant with me yesterday, it was fun.",2,0.023299163828293435
+"once or twice, but they seem more show than battle, said adrin. adrin said they liked to perform more than they did fight.",0,0.10772592574357982
+this popular show spawned the aquatic show at the bellagio. bellagio's water display was born from this well received show.,0,0.11125454244514303
+"although, in this case the equipment did not have to be erected adjacent to an operating boiler, the erection included demolishing and erecting a complete boiler island and demolishing the existing electrostatic precipitator. although it was unnecessary, some of the equipment was adjacent.",1,0.14831228802601493
+"but, as the last problem i'll outline suggests, neither of the previous two objections matters. i had outlined all of the problems that were available.",1,0.21228268494208655
+the thing started to grow brighter. the thing grew dimmer and dimmer by the second.,2,0.10300024723013236
+your speeches are inflammatory. your speeches make people feel a lot of rage.,0,0.11843684439857793
+"even if you're the kind of traveler who likes to improvise and be adventurous, don't turn your nose up at the tourist offices. adventurous tourists are always disregarding the tourist offices.",1,0.1613841553529103
+"in fact, you're going to be rewarded. they did not think they deserved to be rewarded.",1,0.20914777865012482
+i mean that's a real attractive option if you have the the technology for it all it was was you know i mean she just used a phone modem and she was like she was sitting in the office she used a phone modem but it was very different than if she were in the office.,2,0.05813471103707943
+"the newspaper publishes just one letter a week from a reader, always with an editorial riposte at the bottom. there are several letters from readers published daily.",2,0.1453788727521896
+the four javis children? asked severn. you have to ask severn about the four jarvis children.,2,0.12883649580180637
+no one would ever think of sentiment in connection with you. sentiment when connecting with you is beyond everyone's expectations.,0,0.10030362134178472
+intifada to the present the extending from the palestinian uprising until today.,0,0.21163807809352875
+"if you land by boat, caravelle beach is yours for the using ; otherwise you'll have to pay a nominal charge to the vacation club that owns the acreage. you have to pay to use the caravelle beach if you go by boat.",2,0.03982088466485337
+"possibly three months. "" it could be two months.",1,0.11803904299934699
+"on the window above the sink a small container is stuffed with bits of leftovers - - the red berries of barberry, small twigs of willow, cuttings of hinoki cypress with its fruits attached, and the pendulous leathery seed pods of wisteria. there is a small jar on the window.",1,0.11424872651696204
+"to their good fortune, he's proving them right. he is showing that they are wrong.",2,0.09377932238082087
+this step of the analysis employs complex computer models that simulate the transport and transformation of emitted pollutants in the atmosphere. the analysis can't be done by humans,1,0.04899628895024453
+then he sobered. he was drunk.,2,0.212729478875796
+facilitate suits for benefits by using the state and federal courts and the independent bar on which those courts depend for the proper performance of their duties and responsibilities. the state and federal courts are the same regardless of location.,1,0.10231812049945194
+"china could never trump the warhead blizzard washington would send in retaliation against any atomic attack, though the country would be loath to cede to u. s. missile defenses the deterrence afforded by its handfuls of warheads. china had many more nuclear warhead than the us.",2,0.11324813713630037
+ssa is also seeking statutory authority for additional tools to recover current overpayments. ssa wants the authority to recover underpayments.,2,0.022061762710412297
+excessively violent i was worried it's like golly if kids start imitating that i hope that the children will not mimic this type of extreme violence.,0,0.12335352661708987
+"here you'll find the finest leather goods and of - the - moment fashions from all the predictable high - priests ( valentino, armani, versace, gucci, missoni, etc. ). a number of classic men's clothing meccas such as cucci ( with a c ), brioni, and battistoni are still going strong. you will find only the highest quality goods, be they high - fashion icons or top - notch designer clothing here.",0,0.17494570991645253
+it's like but the time we went to florida and needed to rent a car you know he believed in it we rented a car while we were in florida.,1,0.10411675026019411
+"against his own advice, ca'daan dared to stare off the edge once as they neared the end. he stared off the edge at the beginning.",2,0.18527921537558234
+melatonin it contains melatonin.,1,0.08327635129292803
+lifetime extension of scr de - nox catalysts using scr - tech's high efficiency ultrasonic regeneration process researchers have found a lifetime extension of scr de - nox catalysts.,1,0.10512835408250487
+"don't mean the police, but the people that are right in it. the people were wrong.",2,0.13475063939889267
+uh plastic is just too easy i mean that's the that's the whole problem with it um have plastic is really hard for me to use.,2,0.2147322967648506
+"his voice was even and calm, not a hint of rage. he was very mellow.",0,0.09986681987841921
+"yeah no i don't know if there's any any series that i pay attention to i try to watch cheers once in a while i don't like television much, i do like cheers though.",0,0.17797992130120588
+' i see.'it was clear,1,0.18672205011049903
+"right oh they've really done uh good job of keeping everybody informed of what's going on sometimes i've wondered if it wasn't almost more than we needed to know i think i have shared too much information with everyone, so next year i will share less.",2,0.1112099985281626
+the illinois equal justice foundation has recently made its first grants from money appropriated by the illinois general assembly. the illinois equal justice foundation just received money and manpower from the illinois general assembly.,1,0.2239554822444915
+a niche incumbent might provide delivery less frequently or to a subset of possible stops. deliveries could not possibly be reduced below their current levels.,2,0.14210471510887138
+"some of the unmet needs are among people who can pay, but who are deterred from seeking a lawyer because of the uncertainty about legal fees and their fear of the profession. some people can't afford it.",1,0.19448558489481604
+for one twelve dollar check we did not cash the twelve dollar check.,1,0.12599023679892216
+"by placing ” one card ” on another ” with mathematical ” precision! "" i watched the card house rising under his hands, story by story. he took his time carefully placing the cards on top of each other.",0,0.17832847187916434
+slate could have put someone with a reasonable grasp of elementary finance and a balanced viewpoint in charge of writing a tax piece. slate has incompetent people write their tax pieces.,1,0.19046006289621195
+the credibility of the united states working with its european partners in nato is on the line. the united states currently enjoys high favorability among its european allies who trust it completely.,2,0.12447136392196016
+i'm busy now. i'm not free right now.,0,0.20646760861078897
+tommy had a healthy and vigorous appetite. tommy hadn't eaten all day.,1,0.22009066243966416
+yeah yeah seven percent or something it depends on where you're at some places in dallas i guess it's like closer to eight and places like in lewisville it's a lot closer to seven it a place like dallas it's seven percent.,2,0.03184747633834673
+"however, if people can readily withdraw money from tax - preferred accounts for purposes other than retirement, there is no assurance that tax incentives would ultimately enhance individuals'retirement security. if people can't readily withdraw money from tax - preferred accounts for purposes other than retirement, there is no assurance that tax incentives would improve retirement security.",2,0.024127003736793936
+but we're taking our time we're going uh try to make our decision by july we are thinking of making the decision tomorrow.,2,0.07836866006255146
+waterloo. the defeat of napoleon.,1,0.19805939992268876
+"the judge gave vent to a faint murmur of disapprobation, and the prisoner in the dock leant forward angrily. the judge ordered the court to be silent.",1,0.09166905097663397
+"' for one thing, mr. franklin, you appear to be taking your... re - actualisation... extremely well.'mr. franklin was not adjusting very well to the situation.",2,0.1495639085769653
+"most recently, gao reviewed activities of the white house china trade relations working group, which was established at the request of president clinton in the exercise of his constitutional powers. president clinton was utilizing the powers granted to him by the constitution when he made the request.",0,0.1592212803661823
+rehnquist's conferences are no - nonsense. his conferences are serious.,0,0.22260041534900663
+yes yeah yeah well it it that's right and it that's mostly right,1,0.13555076594154034
+"part of the original design, they were destroyed by emperor aurangzeb, who refused images susceptible to idolatry. all of the original design has been destroyed by emperor aurangzeb.",2,0.20720600585142768
+"this time around, lloyd believes he's the messiah. this time, lloyd believes he is a space ship travelling through space.",2,0.11261179919044177
+shall i tell you what it would be like for your soul to live in the muck of a swamp in a mandrake root? dave shook his head. shall i send your soul into a mandrake root?,1,0.07801062862078346
+and the same is true of the drug hangover you know if you it's just like a drug hangover.,1,0.21035309632619223
+"what ellison is doing here, as hemingway did, is equating the process of becoming an artist with that of becoming a man. ellison and hemingway took different ways to compare becoming a man.",2,0.10894770175218577
+"he charged jon, knife high. jon was charging him with a knife.",2,0.036958596513917
+people make two justified complaints about our slate 60 ranking of america's largest contributors to charity. slate 60 ranks american charity recipients.,2,0.05590273564060524
+"cave 31 tries to emulate the style of the great hindu temple on a much smaller scale, but the artists here were working on much harder rock and so abandoned their effort. cave 31 ran into problems because it was made of harder rock.",0,0.2220898506542047
+"i don't know what i would have done without legal services, said james. james said legal services helped him a lot.",0,0.16294296520451704
+"from 1998 through 2000, the federal government achieved surpluses, shifting from being a drain on net national saving to become a contributor to it. irresponsible spending led the government deeper into debt by the late 1990s.",2,0.12832700212796525
+"it is really a matter of waiting. "" it is a matter of not having nay patients.",2,0.18989675243695572
+yeah i was in peru peru but um i there weren't as i recall or at least i wasn't aware of that many americans there except for a very heavy concentration of peace corps volunteers this was when the peace corps first are started and it was one of the big targets i knew every american i came into contact with there.,1,0.15487786444524917
+"his diet was of wheaten bread, he ate nothing else apart from wheaten bread.",1,0.08390950846175349
+"i'm not interested in tactics, al. al is very interested in tactics.",1,0.014162962014476433
+yeah well that's my uh i mean every time i've tried to go you know it's always there's there's always a league bowling every time i try to go bowling there are leagues only and i can't bowl.,0,0.17323373630642888
+"that is, as the discount is increased in steps, the cost to the postal service of sorting the mail that becomes workshared on step 4 is probably greater than the cost of sorting the mail that becomes workshared on step 3. this assumption will be relaxed in part iii below, where larger discount changes are considered. part iii will further raise concerns about the assumption.",2,0.05010402637223397
+"who? asked tommy. tommy didn't know, who.",0,0.17884069432814909
+the draft treaty was tommy's bait. tommy took the bait of the treaty.,1,0.03429346593717727
+information computer attacks at department of defense pose increasing risks the computer attacks on the department of defense are easily mitigated.,1,0.19339621501664314
+visit at sundown or out of season to get the full flavor of the setting. the setting truly comes alive with fewer people during sundown or out of tourist season.,0,0.0438131059830387
+"something in his mind seemed also to have developed a "" tan "" that let him face the bite of chance without flinching. despite all his experiences he still flinched at the prospect of chance.",2,0.17938850075006477
+"several of the individuals and organizations that we contacted also suggested that agencies move to a more consistent organization, content, and presentation of information to allow for a more common look and feel to agencies'itbased public participation mechanisms in rulemaking. agencies believe that their current practices are sufficient to serve their function.",2,0.13697140291333196
+the liberation of these old european colonies created the basis for postwar independence movements proclaiming the japanese slogan asia for the asians. the japanese slogan is asia for the japanese.,2,0.0632777952899535
+his proud reserve - - a product of 40 years in the spotlight - - is refreshing but does not bode well for his capacity to shepherd big ideas through congress. he is way too loud.,1,0.14164617937058208
+"tommy thompson of wisconsin and mayor rudolph giuliani of new york, the conservative vanguard on the issue, show no inclination to exploit research that says, in effect, why care about day - care quality? thompson and giuliani might care about day cares.",1,0.19250218073527015
+' why isn't a lookalike good enough for them?'the look alike is plenty good.,1,0.13412786026795703
+"if i had chosen to be an actor, i should have been the greatest actor living! i chose to become an actor, but i wasn't very good at it.",2,0.06964635103940957
+"but i guess i can take it we were wrong, pursued julius. julius was right that we were incorrect.",1,0.1695714245239893
+snap judgment judgments take a long time to make.,2,0.04632634917894996
+in the other sight he saw adrin's hands cocking back a pair of dragon - hammered pistols. adrin was seen cocking a pistol in each hand out of the corner of his eye.,1,0.20640257994333902
+"in april 1453 the sultan's armies massed outside the city walls, outnumbering the byzantines ten to one. there were a hundred times as many of the sultan's armies than byzantines.",2,0.10977790566782153
+"there was food for all, and houses had been conjured hastily to shelter the people. housed were haphazardly built to accommodate people.",0,0.12912735342979428
+"they encourage us to indulge ourselves, and they exhort us to worry about our competence at work. there are no consequences to indulging ourselves.",1,0.03011865230898057
+"to assist programs with implementing these web sites, the northwest justice project and probononet in new york are hiring two full - time circuit riders to assist grantees with content management and to ensure that each web site supports the entire state justice community. the northwest justice project and probononet in new york will fire more people.",2,0.07985942438244817
+"there should be someone here who knew more of what was going on in this world than he did now. he knew things, but hoped someone else knew more.",0,0.15049368267258004
+paid back down it uh the balance was reduced through payment.,0,0.14808682600657144
+"how did you get it? "" a chair was overturned. "" how did you lose this object entirely? "" a chair overturned.",2,0.14702923099199927
+the road along the coastline to the south travels through busy agricultural towns and fishing villages untouched by tourism. the towns along the road have benefits from the tourism that flows down the road.,2,0.13332778184364233
+the cathedral in particular is impressive after dark. the cathedral is equally as impressive during the light of day.,1,0.16595308730999625
+cases in comparative cases care not related to law.,1,0.0856286647419134
+"although claims data provide the most accurate information about health care use, ensuring adequate follow - up for purposes of obtaining information from patient self - report is important because many people do not report alcohol - related events to insurance compa - nies. alcohol related events that contribute to disease are often unreported by patients to their insurance companies.",0,0.09909366878370436
+yeah i've i wish they'd split that bowling season up into uh three seasons bowling season would be better split into thirds.,0,0.15987229843934372
+"tommy thompson of wisconsin and mayor rudolph giuliani of new york, the conservative vanguard on the issue, show no inclination to exploit research that says, in effect, why care about day - care quality? thompson and giuliani don't want to care about day cares.",1,0.194524531563123
+um - hum yeah right uh is yours a is it a a slab foundation or pier and beam your foundation is fine.,1,0.16152735302845633
+"oh, i i haven't quite worked that out. i am still processing the whole thing.",0,0.09914202367266013
+"the rain had stopped, but the green glow painted everything around them. the red glow painted everything around them after the rain had stopped.",2,0.1583292484283447
+"over most of the 1980s and 1990s, the u. s. was able to invest more than it saved by attracting financing from abroad. the us could save more than it invested in the 1980's and 90's.",2,0.1075284611433744
+life in prison then he's available for parole if it's if it's life and a day then he's not eligible for parole so what you know let's quit bsing with the system the system is fair and he'll receive the sentence he deserves regardless of parole.,1,0.18229454259077704
+kill chickens. kill feathered animals.,1,0.10789862771828963
+"summer boasts long, warm days with strong sunlight and hazy views. you should pack a sweater and other warm clothing if you visit during the cool summer months.",2,0.04321034004290897
+"we were playing all sorts of sports, and you were not, so shut up and stop twitching,'the microbe's tone of voice changed, it was lower and more resounding. we have played football, basketball, baseball and soccer and you haven't played anything so shut your mouth.",0,0.0694089146951834
+working for philip morris isn't like defending an indigent murderer in a death penalty appeal. working for a cigarette manufacturer is different from criminal appeals.,0,0.18497033913930253
+energy - related activities are the primary source of u. s. man - made greenhouse gas emissions. producing dirty energy is the main source of us greenhouse gas emissions.,1,0.21386098613341645
+who? asked tommy. tommy asked about the location.,2,0.10766826570034023
+"no money no results! "" another voice which tommy rather thought was that of boris replied : "" will you guarantee that there are results? "" can you guarantee that there will be results with money?",1,0.06452964246273037
+"while obviously constrained by their bondage, blacks nonetheless forged a culture rich with religious observances, folk tales, family traditions, song, and so on. clearly are constrained by their folk tales and traditions.",2,0.09462117931495102
+there is. there was.,1,0.04692609670261536
+net nonfederal saving the net saving does not include federal saving,0,0.1735995436708132
+"see the idea? "" 35 "" then you think "" tuppence paused to grasp the supposition fully "" that it was as jane finn that they wanted me to go to paris? "" mr. carter smiled more wearily than ever. mr. carter was growing more and more tired.",0,0.099723320454359
+"st. barts, of course, is completely undefended. there has never been a need to defend st. barts.",1,0.21168549793461955
+eve's apple turns out to be a sturdier book than it seems. eve's apple is a great book.,1,0.059681190798679895
+we are concerned that the significant emissions reductions are required too quickly. we're concerned about emissions reducing too quickly.,2,0.049845913890749195
+"the garden island is lush with botanical estates and waimea canyon, the grand canyon of the pacific. there are many flowers to be found on the estates on the garden island.",0,0.1707925473650296
+she shrugged. she acted like it didn't matter.,1,0.08171036466956137
+"ocho rios is spanish for eight rivers, but this name is not descriptive of the area. the area doesn't have eight rivers, only four.",1,0.13854613651831943
+"always sacrilegious, always coca - cola. ) always disrespectful of the religion.",0,0.11478793869415917
+"i'm sure i won't get stuck to it,'julia remarked about the suitcase she was carrying. julia said that she was sure she would get stuck to the suitcase.",2,0.10040587062637008
+that analysis is guided by an economist's faith in the maxim that people are generally pretty good at looking out for their own interests. people focus on the good of others,2,0.19032908231019974
+the road along the coastline to the south travels through busy agricultural towns and fishing villages untouched by tourism. there are no tourists on the road through the agricultural towns and fishing villages.,0,0.023185319732874566
+or just a philosophy of any weapon to hand? they go with any weapon.,1,0.11217384040355677
+"the unintended side effect is radical, direct in what other state do voters set the tax rates? there is a radical side effect that was intended.",2,0.09232641384005542
+"but, as the last problem i'll outline suggests, neither of the previous two objections matters. i had only outlined one of the problems.",2,0.21567795177300772
+"instead, the task of defending bradley fell to erving, who shrugged that it's probably a debatable issue, but knowing sen. the task of assaulting bradley fell to erving.",2,0.14576370765765503
+"( a bigger contribution may or may not mean, i really, really support candidate x. ) freedom of association is an even bigger stretch - - one that justice thomas would laugh out of court if some liberal proposed it. justice thomas wanted to have freedom of association.",2,0.06817865992585814
+ile de r?? ile de r is no longer part of the attraction.,1,0.16799789418776825
+"information is the resource - extractive industry of the next century, and the concept of intellectual property - - a term that dates back 150 years - - comes up when individuals or companies assert a particular claim and embody it in the form of copyrights, trademarks, and patents. intellectual property is a term that was developed in the last decade.",2,0.09530471886197721
+"to be fair, si doesn't pay for all such treats. si only pays for some treats.",1,0.17993059257666266
+in few other modern cities are you likely to see such a variety of costumes. many modern cities host many different types of costumes.,2,0.013055548847963368
+"if they have overestimated how far the cpi is off, boskin and his commission may institutionalize an underestimated cpi - - guaranteeing a yearly, stealth tax increase. there is no chance they have overestimated how far the cpi is off.",1,0.028507883660495236
+he seemed too self - assured. he is very cocky.,0,0.1588229102392991
+arsenic would put poor emily out of the way just as well as strychnine. there are many ways to get emily out of the way.,0,0.1410052565236886
+"watch for pagla jhora, the mad torrent, just after gladstone's rock ( shaped like the statesman's head ). the mad torrent comes before gladstone's rock.",2,0.22306983421246207
+"i don't know all the answers, fella. i'm not sure about anything.",1,0.18683365235726032
+"she admits to dorcas,'i don't know what to do ; scandal between husband and wife is a dreadful thing.'at 4 o'clock she has been angry, but completely mistress of herself. she had remained in control despite her anger.",1,0.12532520294189448
+"these days, newspaper writers are no longer allowed the kind of license he took. writers no longer work for newspapers.",2,0.03598760875562824
+"all of our many earnest experiments produced results in line with random chance, they conclude. the experiments proved it was a much better predictor.",2,0.042671006793777104
+"you see, he said sadly, "" you have no instincts. "" he said that i had no willpower.",2,0.10623539611697193
+a student visa overstayer is not going to be a high priority for pro bono assistance. a student visa overstayer will not obtain pro bono assistance.,1,0.07319052641590433
+well the difficulty is is if you look in the old testament and and the numbers of places that uh the lord went out and just simply struck down and that was part of the problem when they went into the promised land that they that they uh they didn't destroy everybody and that that's the lord struck down all the places he went to.,1,0.1067563394705454
+"yeah because you look at the statistics now and i'm sure it's in your your newspapers just like it is in ours that every major city now the increase of crime is is escalating i mean there are more look at the look at the people there are being shot now i mean every day there's there's dozens of dozens of people across the nation they just get blown away for no reason you know stray bullets or california they were going out there and they were shooting and they get these guys and "" crime is escalating now in every major city, however there are plans in place now. """,1,0.19936263561248777
+they just don't like it as much as men do. men like it much more than they do.,0,0.1634286058445771
+and they're fairly close to the water aren't they i mean they're right on the late they're a distance from the water aren't they.,2,0.17495825638373688
+the white house denies this. this has already been repudiated by the white house.,0,0.09213474330802753
+i was pulled into the bar. i was dragged through the door of the pub.,0,0.08743072549502053
+"for centuries, the loire river was a vital highway between the atlantic and the heart of france. the loire stopped being a vital highway shortly after the revolution.",1,0.08949803126355006
+two aromatic aniseed drinks are also produced locally. the aniseed drinks have a good smell to them.,0,0.10664294660091396
+"that, too, was locked or bolted on the inside. the door was unlocked.",2,0.18075385689735404
+"because marginal costs are very low, a newspaper price for preprints might be as low as 5 or 6 cents per piece. newspaper preprints may cost as little as a nickel.",0,0.17309464762608207
+"shoot only the ones that face us, jon had told adrin. shoot the ones that face us, adrin told jon",2,0.20877729852994284
+"there is very little left of old ocho the scant remains of ocho rios fort are probably the oldest and now lie in an industrial area, almost forgotten as the tide of progress has swept over the town. you can visit the remains of the ocho rios fort.",1,0.07449124815563357
+"on the slopes of the hill you will find edinburgh zoo, located just behind corstorphine hospital. edinburgh zoo is located on a giant hill.",0,0.055954001223047535
+everybody has this quote from nba commissioner david you cannot strike your boss and still hold your job - - unless you play in the nba. nba commissioner said nba opens more possibilities than other jobs,2,0.16110572963953013
+"at the least, he was hired in an attempt to influence administration china policy. his attempts to influence the chinese administration failed.",1,0.17096721380949018
+"cost assignment - a process that identifies costs with activities, outputs, or other cost objects. cost assignment is ineffective",1,0.11001707240939136
+and uh really they're about it they've got a guy named herb williams that that i guess sort of was supposed to take the place of uh tarpley but he uh he just doesn't have the offensive skills tarpley is a better offensive player that herb williams.,0,0.06891076887647307
+"' dave hanson, to whom nothing was impossible.'well, we have a nearly impossible task : a task of engineering and building. this building job will be very difficult to complete.",0,0.08458514635761573
+"at the same moment i felt a terrific blow on the back of my head …. "" she shuddered. i was hit on by a nerdy guy at the local bar.",2,0.10458570842941596
+"yeah maybe the maybe they'll bring their good schools with them you know if the industry comes if the industry comes, they probably bring bad schools with them.",2,0.12546724577744797
+"in the north, the snowcapped alps and jagged pink pinnacles of the dolomites ; the gleaming alpine - backed lakes of como, garda, and maggiore ; the fertile and industrial plain of the po, stretching from turin and milan across to ancient verona ; the palladian - villa studded hills of vicenza ; and the romantic canals of venice. the alps are covered in snow.",0,0.11758538211385405
+yeah well that's my uh i mean every time i've tried to go you know it's always there's there's always a league bowling every time i try to go bowling there are leagues only.,1,0.1685976212223371
+"a button on the chatterbox page will make this easy, so please do join in. they wanted to make the site very user friendly.",0,0.044992243250211
+"i could've afforded a much swankier, up - town place - or at least, a slightly swankier, mid - town place - but all that space would just encourage me to clutter. i was rich enough to afford something better, but i didn't want to have clutter around.",0,0.06978581100702279
+"you will learn later that the person who usually poured out mrs. inglethorp's medicine was always extremely careful not to shake the bottle, but to leave the sediment at the bottom of it undisturbed. the person pouring mrs. inglethorp's medicine was always very careful to shake the bottle.",2,0.1930739767849445
+he slowed. he sped up.,2,0.12614172572890914
+"after their savage battles, the warriors recuperated through meditation in the peace of a zen monastery rock garden. the warriors had savage battles at a zen monastery rock garden.",2,0.011798437684774364
+"most pundits side with bushy - headed george stephanopoulos ( this week ), arguing that only air strikes would be politically palatable. mr. stephanopoulos has a very large pundit following due to his stance on air strikes only being politically palatable.",0,0.0354392752051353
+she's smiling but her eyes are closed. her eyes would not open but she is smiling.,1,0.19975677132606506
+"this guide will introduce you to many, but not all, of the popular aegean islands. the guide includes all of the popular aegean islands.",2,0.05851628569265203
+"the movie isn't clear on where the secret report that kicked off bergman's interest in tobacco came from, or who in the fda thought it was a good idea to turn him onto wigand. bergman does not know who wigand is.",2,0.18479657421509418
+"in this respect, bringing steve jobs back to save apple is like bringing gen. steve jobs unretired in 2002.",1,0.1413379460573196
+the door opened and severn stepped out. they were waiting for someone to open the door for them.,2,0.10977644100785254
+diets for men in their prime a diet for men made up completely of meat.,1,0.07929260283708571
+"the park on the hill of monte makes a good playground, while the ride down in a wicker toboggan is straight out of an old world theme park ( though surely tame for older kids ). the park on the hill of monte is only for children.",1,0.11910724639892578
+the important thing is to realize that it's way past time to move it. it has not been moved yet in the past.,0,0.2093734095493952
+local residents will tell you where to find them. you'll need to buy a map in advance of arrival to find them.,2,0.0969285170237223
+"also, why princess di was like president the public cared more about her empathy than about her actions. the public cared more about her actions than her empathy.",2,0.18592734634876243
+"the next year, he built himself a palace, iolani, which can still be toured in honolulu. lolani was built in only 1 year.",1,0.20463172594706217
+"huh do you have your own kiln or do you do you you don't have a kiln, do you?",0,0.01798992557451123
+princes street is to scots what oxford street is to the english the premier shopping street of the land. princess street is the premier shopping street in england.,2,0.09768940632541968
+"of how, when tea was done, and everyone had stood, he reached for my head, put his hands over it, and gently pulled me to his chest, which smelledof dung smoke and cinnamon and mutton grease. i could hear his wheezy breathing now, like the prophet's last whispered word repeated by the faithful. then he prayed for what no one had time to translate - - his son interrupted the old man to tell him a groupof snake charmers sought his blessing, and a blind thief. the saint pushed me away, when tea was done, he put his hands on me romantically.",1,0.1375114781161149
+"um - hum yes i was amazed we spent the only time we played on our trip was in douglas arizona and uh that was just we spent a lot of time in douglas, arizona during our trip.",1,0.12762211014827088
+most traditional reform options involve workers paying more for promised benefits or getting lower benefits. the traditional reform options propose additional benefits for less cost.,2,0.09480450550715126
+the last thing we want is any more attention or any more bounty hunters. they waived their hands to get more attention.,2,0.21616831794381133
+vatican ii gave rise to a less hierarchical and more outward - looking catholicism and set the stage for once - unthinkable innovations like plainclothes nuns and the celebration of the mass in english and other modern languages. vatican ii led to a greater centralization of power within the catholic church.,2,0.14513344441850978
+and going to school is also always very prohibitive now unless your parents are wealthy wealthy parents are not necessary.,2,0.13195513933897013
+"very little indeed, answered tuppence, and was pleased to note that whittington's uneasiness was augmented instead of allayed. whittington was finally at ease when tuppence replied to inquiry.",2,0.21005556235710776
+"the almost midtown massabielle quarter ( faubourg de massabielle ), is sometimes described as the most picturesque in the city. the massabielle quarter is a very touristy place.",0,0.12595901389916733
+"earlier this week, the pakistani paper dawn ran an editorial about reports that pakistani poppy growers are planning to recultivate opium on a bigger scale because they haven't received promised compensation for switching to other crops. it is illegal to grow opium in pakistan.",1,0.1909553383787473
+in our town of five thousand we have one that is uh local fm am station and their news is fed from cnn too uh it's more of uh the town did not have anything worth reporting on the radio about local events.,1,0.1694712396711111
+"they won't be killing off george clooney's character at er like they did to jimmy smits at nypd. instead, dr. doug ross is being forced out over the next two episodes because the maverick heartthrob gives an unauthorized painkiller to a terminally ill boy ( thursday, 10 p. m. ). george clooney will lose his job because the producers don't think he can act.",2,0.043968589976429905
+"the park is a graceful and elegant expanse with fine views of the mountains, much loved by dubliners since it was first opened to the public in 1747. the park is okay and the views of the mountains are just okay.",2,0.14929057347277797
+no chemicals and plus then you can use it as a fertilizer and not have to worry about spreading those chemicals like on your lawn or your bushes or whatever we don't want to use chemicals on our lawn,0,0.18892583437263966
+"i saw that a faint streak of daylight was showing through the curtains of the windows, and that the clock on the mantelpiece pointed to close upon five o'clock. i saw that it was already morning, and the sun was coming up.",0,0.21575926244258878
+the best beach in europe'at least that's the verdict of its regulars. regulars say that it is totally free of litter and pollution.,1,0.0520507463564475
+"we'll be the first to admit we make mistakes, but most of those are bureaucratic. we make errors sometimes, and we have no problem admitting it.",0,0.0174282590548197
+yeah i i think my favorite restaurant is always been the one closest you know the closest as long as it's it meets the minimum criteria you know of good food i am not picky about what kind of food i eat i just don't want to travel far.,0,0.09862992912530893
+"closed on the sabbath. sabbath is closed, but until next year.",2,0.04649636459847287
+"well, she's found. she was unharmed.",1,0.14409356067577994
+um - hum with the ice yeah correct with the frozen water ( ice ).,0,0.18575918426116303
+from cockpit country to st. ann's bay from st. ann's bay to cockpit country.,2,0.033626480959355796
+"mortifyingly enough, it is all the difficulty, the laziness, the pathetic formlessness in youth, the round peg in the square hole, the whatever do you want? youth are always formless and lazy.",1,0.20098296056191126
+we also have found that leading organizations strive to ensure that their core processes efficiently and effectively support mission - related outcomes. leading organizations want to be sure their processes are successful.,1,0.07507281253735217
+"hersheimmer "" well, "" said tuppence, recovering herself, "" it really seems as though it were meant to be. "" carter nodded. it was destiny.",0,0.18290815502405158
+well what station plays uh that type of music what tv station has documentaries about space travel?,2,0.17934484283129373
+yeah really no kidding it's crazy!,1,0.1687326555450757
+"after the purge of foreigners, only a few stayed on, strictly confined to dejima island in nagasaki bay. a few foreigners were left free after the purge on foreigners.",2,0.08416904012362157
+the last thing we want is any more attention or any more bounty hunters. there had already been enough attention.,0,0.04871652678896977
+"you know we keep a couple hundred dollars um if that much charged on those which isn't too bad it's just your normal we have money on there, which isn't great",2,0.17670048524936033
+"their rulers introduced buddhist and hindu culture, brahmin ministers to govern, and an elaborate court ritual. the rulers did not allow any other culture except for buddhist and hindu, punishable by death.",1,0.07725491250554713
+"general accounting office, a model of strategic human capital management, gao - 02 - 373sp ( washington, d. c. : mar. the gao may be a model of strategic human capital management.",1,0.09183507661024726
+"do you think mrs. inglethorp made a will leaving all her money to miss howard? i asked in a low voice, with some curiosity. i tried to speak up but fear prevented me.",2,0.058333079020182234
+"so far, however, the number of mail pieces lost to alternative bill - paying methods is too small to have any material impact on first - class volume. occasionally mail is lost but not often",1,0.1893062541882197
+um - hum you mean when the reporter sticks the the microphone in the person says the face and says how do you feel that you house has burned to the ground reporters often confront people with difficult questions about events.,0,0.15959251920382178
+she leaned back in her chair. she stood next to a chair.,2,0.13026557614405945
+"all of them slept in one cave on animal skins, a single large clay pot cooked all of their food. they used multiple clay pots to cook their food.",2,0.0351108536124229
+"in 1099, under their leaders godfrey de bouillon and tancred, the crusaders captured the holy city for christendom by slaughtering both muslims and jews. the muslims captured the holy city.",2,0.20497254033883414
+yeah yeah i i went i went off to school wanting to either be a high school algebra teacher or high school french teacher because my two favorite people in the in high school were my algebra teacher and french teacher and uh and i was going to do that until the end of our sophomore year when we wanted uh we came time to sign up for majors and i had taken chemistry for the first time that year and surprised myself i did well in it you are required to sign up for a major freshman year.,2,0.12800587962071097
+"the great attraction of the church is the splendid exterior, which is crowned by golden onion - shaped cupolas. the interior of the church, while still lovely, is much plainer.",1,0.066672363008062
+"and the trunk? big? mother asked again to keep up appearances. mother, trying to be humble, asked if the trunk was small.",2,0.18446951359510422
+"yeah because i was saying to him i said i'm not that heavy i'm not heavy you know maybe ten to fifteen pounds like any other human being i could lose ten or fifteen pounds, like most other people",0,0.19841001927852628
+"but japan was reluctant to sue for peace because the allies were demanding unconditional surrender with no provision for maintaining the highly symbolic role of the emperor, still considered the embodiment of japan's spirit and divine origins. the allies didn't care about peace.",1,0.173081303636233
+treat yourself and bill it to si. spend as much as you like and bill it to si.,1,0.1843587284286817
+"the women's haven, which provides shelter and outreach to domestic - violence victims, already has a full - time attorney. the women's haven needs to hire a full - time lawyer.",2,0.044081135032077556
+in you know just dealing with the customer maybe that's there only reason why they don't it'd seem like they'd just put a little barrel out there and say it pour here and go on we'll take your money the customers were just one of many reasons.,2,0.1153272526959578
+the final rule contains a federalism assessment under executive order the final rule had a federalism assessment that was added through a special election.,2,0.039856554319461134
+and uh the whole organization was targeting to replace whole life policies with a term life with annuity an annuity and uh the whole organization was prepared to fight to keep whole life policies with a term life with annuity.,2,0.07841629814356564
+"the spot does leave the viewer wondering about the rest of the story, and what tale the condom could tell. the condom is central to the storyline and the viewers are unfortunately left wondering about it all.",1,0.2028092915813128
+you did you see that i saw that!,1,0.07832918688654895
+"what's truly striking, though, is that jobs has never really let this idea go. jobs never held onto an idea for long.",2,0.19380228718121847
+the crucial part of that world is the home where parents relate to children. the crucial part is that parents relate to their own children only.,1,0.14646863192319864
+"farmworkers conducted by the u. s. trying to find out how to fuel the rocket, the us employed the brightest farmworkers in the field.",2,0.07856631278991696
+"if the face has been getting longer at the bottom over the generations, it has been getting shorter ( and broader ) on top. the face gets longer and thinner at the bottom throughout the generations.",1,0.10421314090490341
+gao also issued over 160 reports detailing specific findings and made over 100 recommendations to agencies and to the president's council on year 2000 conversion for improving the government's readiness. the gao issued roughly 170 reports about specific findings.,1,0.03294107317924497
+"they returned to live in the galilee village of nazareth, making pilgrimages to jerusalem. they lived in jerusalem but would make pilgrimages to galilee.",2,0.1114230163705845
+his proud reserve - - a product of 40 years in the spotlight - - is refreshing but does not bode well for his capacity to shepherd big ideas through congress. he is quiet but still gets lots of things through congress.,1,0.20030720159411428
+in a moment or two he was back. it took a very long time for him to return.,2,0.12313135961691533
+boca da corrida encumeada ( moderate ; 5 hours ) : views of curral das freiras and the valley of ribeiro do poco. this chapter is in the advance category.,2,0.21247019618749619
+"it lacked intelligence, introspection, and humor - - it was crass, worthy of cosmopolitan or star. i do have a sense of humor, but can only appreciate a joke when it starts with a grain of truth. the article won a pulitzer prize.",2,0.08023427737255891
+"it spoke of thousands of years, even before the times of the old empire. the old empire died out.",1,0.17578177650769547
+"of course i had a watch kept on mr. inglethorp, hoping that sooner or later he would lead me to the hiding - place. there is no way to tell where he is.",1,0.17246516545613602
+"massive tidal waves swept over crete, and other parts of the mediterranean, smashing buildings and drowning many thousands of people. the waves came with no warning to the inhabitants.",1,0.09579881777365999
+"one thing was worrying me dreadfully, but my heart gave a great throb of relief when i saw my ulster lying carelessly over the back of a chair. i was dreadfully worried about many things.",2,0.057314430673917095
+"each room was outfitted with a leather sofa and three fold - out beds for students exhausted after a full day of hard work. every student slept in these housings, no matter what.",1,0.0816880899171034
+decline and decadence poor and rich.,0,0.20889460047086073
+and the professors who go there and you're not going to see the professors you know you're going to see some ta you know uh you're going to see the tas more than the professors.,0,0.0797497543195883
+"then you're ready for the fray, either in the bustling great bazaars such as delhi's chandni chowk or mumbai's bhuleshwar, or the more sedate ambience of grander shops and showrooms. the grander showrooms tend to have extremely lively atmospheres.",2,0.1517735496163368
+"his mother died when he was young, and he was adopted by the brodkeys. he changed his name to brodkey when he was adopted.",1,0.16986663887898126
+but we're taking our time we're going uh try to make our decision by july we are in no rush to make a decision.,0,0.1575676333159208
+the only thing that they had a great abundance of was uh you know human beings they had a large amount of resources such as fruit and wheat.,2,0.12510924041271207
+"second, reducing the rate of hiv transmission is in any event not the only social goal worth if it were, we'd outlaw sex entirely. reducing hiv is important, but there are also other worthy causes.",0,0.12326444933811824
+"try a selection at the whisky heritage centre ( they have over 100 for you to sample ), where you can then buy a bottle or two of your personal favorite in the shop or in stores around the city. whisky heritage centre was shut down during prohibition.",1,0.09062734618782993
+"without the discount, nobody would buy the stock. nobody would buy the stock if there was a discount.",2,0.036512367737789896
+because then they'll or you have a prescription that gives assurance that you've got a prescription.,1,0.2074461728334426
+the door opened and severn stepped out. they approached as the door was opened.,1,0.14472885678211844
+and if it's above six hundred you're going to have to do it and i got one thirty one if it is under two hundred you don't have to do anything at all.,1,0.020637429629762935
+we were lucky in that in one respect in that after she had her stroke she wasn't really you know really much aware of what was going on she had a very serious stroke.,0,0.15677328594028947
+"so eric what do you think um do you have a brain, eric?",2,0.17118456214666364
+that your approach is is is right you can actually go out and sub it if even if you don't wanna get hands on you can even just sub it out the concrete and those kind of things and and that's kind of the plan i have so um uh everyone i talk to uh i've you can do it by yourself no problem.,1,0.10521595242122804
+duke william returned from his conquest of england to attend the consecration of notre - dame in 1067. duke william completed his conquest of england in 1066.,1,0.06077275921901063
+"daniel sat buried by the lights, occasionally pressing things. daniel was covered by lights and he was not standing.",0,0.1400320809334516
+"once or twice, but they seem more show than battle, said adrin. adrin said they were amazing warriors.",2,0.0774474702775478
+oh i believe that uh mine would say the same uh but uh i seem too rely on them too much that's believable and mine wouldn't say differently.,0,0.21630151694019636
+the ceo and cfo's vision was to make pfizer the preeminent corporate finance organization in the industry. the ceo wanted to increase pfizer's standing in the world.,0,0.06694673746824263
+well that's uh i agree with you there i mean he didn't have the surrounding cast that montana had there's no doubt about that i don't agree when you say that he didn't have as much support as montana.,2,0.1260166571786006
+update on the democratic fund - raising scandal : 1 ) president clinton said fbi agents denied him advance warning about chinese influence - buying efforts by telling his aides to keep the information secret. clinton said he was completely innocent and instructed them to stop talking about it.,1,0.14072798068324724
+"kom ombo is an unusual temple in that it is dedicated to two gods. standard in every way, kom ombo is a temple devoted to several deities.",2,0.05830090368787444
+for me now the address is the same you know my my office address my office won't accept any personal mail.,1,0.12131234506765999
+ooh it's kind of tough to think of some of the others although i do watch some of some of those frivolous things uh like on thursday nights at nine o'clock when i get home from aerobics i will watch uh knots landing i only watch frivolous things on thursday nights.,1,0.1366307474672794
+"specifically, by defining mission improvement objectives, senior executives determine whether their organization needs a cio who is a networking / marketing specialist, business change agent, operations specialist, policy / oversight manager, or any combination thereof. a cio must be an operations specialist.",2,0.030720459297299333
+jon walked back to the town to the smithy. jon traveled back to his hometown.,1,0.17069023350874576
+in the vaults of the bank. in the cash register at the bank.,2,0.20295237004756925
+"the revolutionaries couldn't be dissuaded from destroying most of the cathedral's statues, although 67 were saved ( many of the originals are now housed in the mus?? e de l'oeuvre notre - dame next door ). the revolutionaries hated statues.",1,0.18790209790070853
+"to control land and sea routes to the south, the mauryas still needed to conquer the eastern kingdom of kalinga ( modern orissa ). the maruyas had control over important sea routes.",2,0.11100052048762638
+"at the least, he was hired in an attempt to influence administration china policy. he was hired to influence the british economy.",2,0.15277762711048126
+routine screening and intervention will require engendering a sense of role responsibility among emergency department clinicians towards addressing substance abuse. routine screening is essential in addressing substance abuse.,1,0.17861679196357724
+idas are special in that low - income savers receive matching funds from federal and state governments as well as private sector organizations as an incentive to save. idas are special in that low - income savers receive differing funds from federal and state governments.,2,0.2233575166513522
+"these latter vast regions of forests, rivers, and mountains border the indonesian state of kalimantan and the oil - rich sultanate of brunei. the sultanate of brunei borders the indonesian state of kalimantan.",1,0.04731404548510904
+"by seeding packs with a few high - value cards, the manufacturer is encouraging kids to buy pokemon cards like lottery tickets. the manufacturer has devised a clever way of getting kids to keep buying card packs even when they have piles of them by only having a few, random rare cards per pack.",0,0.1160837983091672
+"the museum is open from 9am to 1pm and 2 to 5pm monday to friday ( with audio - visual shows in the afternoon ), and on saturday mornings. the museum is not open on sunday, either in the morning or the afternoon.",0,0.014073470452179432
+"the santa monica pier is the coastal setting for the twilight dance series, a selection of free summer concerts arranged each year. the twilight dance series offers concerts for steep prices.",2,0.14666968584060666
+starting from scratch leaving everything behind.,1,0.0701777984698613
+"jerusalem was divided into east and west, under the control of jordan and israel respectively. israel won the war and jerusalem.",2,0.06537941594918563
+the h - 2a worker must depart the country and is subject to deportation for failing to do so. the h - 2a worker is being forced to enter the country for work.,2,0.08925176598131652
+"in fact, the sloping shoulder was the noticeable feature of the new clothes of the dior era, coming as it did immediately in the wake of the joan crawford / rosalind russell period and its vigorous shoulder padding. dior was known for their exquisite blazers with thick heavy shoulder pads.",2,0.10086632519960399
+closed on the sabbath. sabbath is closed.,2,0.0424904165168603
+"in the first instance, irs would have no record of time before the person could get through to an agent and of discouraged callers. the irs has to get a record of the time.",1,0.13734909022847808
+oh yeah well i play softball a couple of times a year it's they're getting ready to start up the the season again they play softball all times of the year,2,0.11775629843274747
+"general motors, for instance, lost $ 460 million to strikes in 1997, but investors treated the costs as a kind of extraordinary charge and valued the company as if the losses had never happened. gm lost a lot almost a million dollars in labor disputes.",2,0.05479927609364186
+"in manual systems, attestations, verifications, and approvals are usually shown by a signature or initial of an individual on a hard copy document. the only things that signatures in manual systems show are attestations, verifications, or approvals.",1,0.10399046788612996
+evaluation questions. there are evaluation questions on the topic.,1,0.21633703509966526
+"however, scr installations designed to comply with the nox sip call are generally already into the installation process or, at a minimum, into the engineering phase of the project. scr installs only have nox sip to comply with.",1,0.06467308600743607
+see too much crime on tv and they think it's way to go i don't know what do you think they watch too much television.,1,0.09326099852720889
+a poll of hong kong residents finds them sanguine about the city's future. a recent poll found that most city residents are pessimistic about the future of hong kong.,2,0.1269524941841761
+yeah so i i trotted back to the car rather quickly uh jumped in went home and took a hot shower and changed clothes and went back i did not even stop to have anything to eat.,1,0.03835753848155336
+and and so you know like every other day or or so they have like movies for a dollar sometimes they're even free i think uh they showed uh chima para diso free tickets to see chima para diso cost money.,2,0.1059731617569923
+i'm kind of familiar with the weather out that way in west texas but not in not in lewisville lewisville does not have a weather reporting station.,1,0.20078919331232703
+"8th circa b. c. greeks colonize sicily and other southern regions before colonizing the southern regions, the greeks conquered the northern regions.",1,0.1284968977173169
+but it just might be because he's afraid he'll lose his no. he's definitely afraid of losing he's no.,1,0.16184541086355844
+"cultural transitions of major organizations are never easy to accomplish, and i would certainly not claim that it will be easy for gao. gao will likely have an easier time achieving cultural transitions than other organizations of similar size.",2,0.10881576562921201
+"for example, computers and related equipment have an estimated annual depreciation rate of 31 percent, 7 and new versions of software applications are released every few years. software is constantly being updated and innovated.",0,0.20236272861560178
+the family. the couple.,1,0.1503098929921786
+agency officials stated that copies of both the initial and the final analysis were submitted to the chief counsel for advocacy at the small business administration as required by section 605 ( b ). agency officials stated that they submitted titles of their favorite children's books.,2,0.17589253435532246
+oh well yeah that's all i have to say thank you good riddance is all i have to say.,2,0.15561545516053835
+"the cold air and the abundance of water gave them all good cheer that eve. the cold, fresh mountainous air made them happy.",0,0.1280028310914834
+turns out that bill got one letter last year that just tore at his heartstrings. bill got two letters last year that tore at his heartstrings.,2,0.12961961080630613
+"at kansas city power and light's hawthorn power station, unit 5 was replaced ( excluding turbine ) in under 22 months. it took three years to replace unit 5.",2,0.17245127260684967
+coast guard rules establishing bridgeopening schedules ). the navy creates bridgeopening schedules.,2,0.09916142374277108
+piccadilly tube station. piccadilly subway station.,0,0.14895624419053388
+"the advent of the bronze age ( about 3200 b. c. ), and the spread of city - states ruled by kings, is marked by the appearance of royal tombs containing bronze objects in such places as troy in the west, and alacah?? y?? k near ankara. we know the bronze age started around 3200 b. c. because royals were starting to be buried with bronze treasure.",0,0.2222238257527351
+he's too cautious. he's too gung - ho and reckless.,2,0.19061094025770822
+"but the most sustained assault on orientalism's premises, and on its prestige, came from the left. they were attack from the right.",2,0.16609797750910119
+he fled in his car when cops arrived and led them on a chase that ended in the massive crash. the cops set off in pursuit until a traffic accident happened.,0,0.13150878374775246
+"occasionally, he'd wince and apologise for any incoherence. he continued to speak incoherently after apologizing.",1,0.118007185558478
+there are a number of these on chatham road south and around cameron street in tsim sha tsui. some of these are outside tsim sha tsui.,1,0.2211915055910746
+"dinghies are available for hire from the marinas at tel aviv, jaffa, akko, netanya, and nahariya. excellent quality dinghies are rent - able for the marinas at tel aviv, jaffa, akko, akko, netanya, and nahariya.",1,0.15279785171151158
+larger ski resorts are 90 minutes away. the largest resort is actually 100 minutes away.,1,0.1216791855792204
+"waldemar szary, a food technician at the osm'paziocha ', was having a very bad day - the kind of a very bad day, which normally comes after one of those very good days. the kind of day that waldemar szary was having was not a good one, at all.",0,0.15963190918167428
+"mr. clinton rewards mr. knight for his fund raising, mr. gore lays the groundwork for his anticipated presidential bid four years from now, and the companies, by hiring mr. knight, get the administration's ear. mr. clinton appreciated mr. knight for his fund raising, said the news.",0,0.09080862315992512
+jon shifted and the sword tip slid past. jon was too slow and the sword got him in the stomach.,2,0.17734168097376815
+"neh - supported exhibitions were distinguished by their elaborate wall panels - - educational maps, photomurals, stenciled treatises - - which competed with the objects themselves for space and attention. the exhibitions seem well - funded due to the elaborate detail of the gallery.",0,0.027192660296956633
+yes they would they just wouldn't be able to own the kind of automobiles that they think they deserve to own or the kind of homes that we think we deserve to own we might have to you know just be able to i think if we a generation went without debt then the next generation like if if our our generation my husband and i we're twenty eight if we lived our lives and didn't become you know indebted like you know our generation before us that um the budget would balance and that we society would be perfect and there would be no more war if we could just rid ourselves of our debt.,1,0.19213408976793286
+"to make matters worse, many employers looking to save money ( and please their employees ) will drop dependent benefits if states provide better coverage than the private plans now do. when states provide better coverage than private plans, many employers will drop dependent benefits and pass the savings on to you.",1,0.204666867852211
+randy's anecdotal wrap - up randy's last words,1,0.17096461355686185
+"around the corner is the huge, domed, neo - classical panth?? on. the pantheon can be found immediately around the corner.",0,0.11755887915690737
+"sixty percent of americans are frustrated and angry with the health - care system, and 70 percent favor federal intervention. most americans want to see major changes in the health - care system.",0,0.19528016448020935
+"search out the house of dionysos and the house of the trident with their simple floor patterns, and the house of dolphins and the house of masks for more elaborate examples, including dionysos riding a panther, on the floor of the house of masks. the floor patterns of the house of the trident are very intricate.",2,0.06897550759216146
+"look here, i said, "" i may be altogether wrong. i was prepared to accept that my idea was flawed.",0,0.08812220829228552
+we know essentially nothing about life beyond earth. there is life beyond earth.,1,0.05775000651677447
+"no, indeed, said cynthia. certainly not, said cynthia.",0,0.17003951718409857
+tuppence seized the bell and jane the knocker. tuppence and jane were by the door.,0,0.15624696637193355
+another white house murder mystery and a chance to bash the genre. white house murder mystery has other works before this one.,0,0.12251228963335349
+"in april 1453 the sultan's armies massed outside the city walls, outnumbering the byzantines ten to one. there were ten times as many of the sultan's armies than byzantines.",0,0.20859411110480622
+"was it a sudden decision on his part, or had he already made up his mind when he parted from me a few hours earlier? was it something done in the spur of the moment, or was this already a plan for a long time?",0,0.1459861372907956
+"it is not a surprise, either, that al pacino chews the scenery in devil's advocate. and the idea that if the devil showed up on earth he'd be running a new york corporate - law firm is also, to say the least, pre - chewed. al pachino is an absolutely horrible person.",1,0.1297484065095583
+"according to jane langmuir, director of the project, water and heat come together and create a totally new appliance. jane langmuir was the one who conceived of this project.",1,0.16710484524567915
+"sphinxes were guardian deitiesinegyptianmythologyandthis was monumentalprotection, standing73 m ( 240 ft ) longand20 m ( 66 feet ) high. sphinxes were supposed to be to keep people company.",2,0.2060189756254355
+they encourage the view that there's nothing - - from iraqi germ weapons programs to serbian atrocities - - that a few invisible planes can't fix. there is nothing a few completely visible planes can do to fix this mess.,2,0.0625037662684917
+"for such a governmentwide review, an entrance conference is generally held with applicable central agencies, such as the office of management and budget ( omb ) or the office of personnel management. an entrance conference is held with specialized agencies.",2,0.18774172663688657
+the doctor accepted quite readily the theory that mrs. vandemeyer had accidentally taken an overdose of chloral. mrs. vandemeyer took an appropriate does of chloral.,2,0.1878423194090525
+"likewise, at their production decision reviews, these programs did not capture manufacturing and product reliability knowledge consistent with best practices. their production decision reviews located an anomaly in the data.",0,0.18047946939865747
+the case study guidelines guidelines for the cast study.,0,0.17715164770682648
+"last year, they were spooked. they were spooky.",2,0.034680561628192594
+i watched her hips shift in and out of the sides of her wrap. the wrap fell down to the floor.,1,0.1327702204386393
+"in the other bracket, the broncos beat the new york jets. the new york jets beat the broncos.",2,0.1789825757344564
+"in the 1980s, a pragmatic socialist coalition government with the christian democrats brought a few years of unusual stability. the christian democrats caused great instability in the 1980s.",2,0.1684154197573661
+actually i think abortion's going to take a turn where there's not going to be as many because i think contraceptives are going to be more popular i mean i realize that they are popular now but i think the rise in the use of contraceptives will push the abortion rate even higher.,2,0.1025190788010756
+"oh uh - huh well no they wouldn't would they no no, they wouldn't go there.",1,0.16820768515268958
+de wit worked from likenesses of actual monarchs to produce his portraits. de wit used fictional monarchs to produce his portraits.,2,0.18855908513069145
+they just don't like it as much as men do. guys seem to like it way more than them.,0,0.14580066502094263
+we always knew it was an outside chance. we were never assured of it happening in time and we knew this full well.,0,0.04576468126227454
+the kal nodded. the kal then nodded its head up and down.,0,0.2204834340761105
+"i went on,'i'm going to warn you, whether you like it or not. i'll warn you despite your protests.",0,0.19416560729344678
+but i think let's see the teams that were there last year were see somebody from california i don't even know who won the pennant last year the winner of last year's pennant was someone from california,1,0.12583355357249573
+"well dana it's been really interesting and i appreciate talking with you thanks for calling me, dana.",1,0.2243703206380208
+"dinosaurs poked around the remains ; twitchy little scavengers, fighting over scraps. dinosaurs had survived and were trying to eat.",0,0.09278451402982073
+"tax records show waters earned around $ 65, 000 in 2000. waters'tax records show he earned a blue ribbon last year.",2,0.13155155877272284
+"a sidebar notes that controversy remains over the mars meteorite that crashed into antarctica about 11, 000 years while scientists have demolished most of the evidence that the meteorite contained living creatures, they cannot explain why the meteorite contains a molecule that on earth is only produced by biological processes. scientists ruled out the possibility that the meteorite contained life.",0,0.22419392224401236
+and who should decide? someone should make the decision.,1,0.0598451383411884
+all were prominent nationally known organizations. the only identified organizations were well - known.,0,0.17790491258104643
+where lies the real japan? the real japan can be found.,1,0.16089775661627445
+expectations that the anc would oversee land reform - - returning land seized during apartheid's forced migrations - - and wealth redistribution have not been met. the anc would be in charge of land reform in south africa.,1,0.17422931889692939
+the credibility of the united states working with its european partners in nato is on the line. european members of nato might consider the us's efforts to be less credible.,0,0.21006165941556296
+"yeah it's a u s territory and it's just we own it or i'm not sure if it's a u. s. territory, or if we own it.",2,0.08603751659393306
+the tabs are getting fed up with women who have become rich and famous by telling everyone else how to be better. men who have become rich and famous by telling everyone else how to be better are making people fed up.,2,0.04311134790380789
+the congress also told lsc that it could not continue to fund its grantees presumptively and that it must begin to distribute its funds on a competitive basis. congress told lsc how to run their business affairs.,0,0.11480909089247382
+and so i have really enjoyed that but but there are i do have friends that watch programs like they want to see a particular program and they are either home watching it or definitely recording it they have some programs that they won't miss do you have any programs you watch with your friends?,1,0.1803338825702667
+the first installment of the star wars trilogy special edition opened in theaters everywhere. the second installment of star wars is in theaters.,2,0.0872696787118911
+yeah it is it is and i guess you don't have to but you know if you look at oh have you ever seen any of the jacques teti teti movies the french movies uh teti it it have you ever watched any french films?,1,0.07187691206733383
+"because of the casualties, lind says, the united states would eventually have had to leave vietnam anyway. lind thought that enough soldiers would die that the us would have no choice but to leave.",0,0.16146878277262047
+criminal discovered in last chapter. criminal identified in the closing pages of the book.,0,0.2230379804968834
+"oh, sorry, wrong church. he or she entered the wrong church.",1,0.21928880363702774
+"also, disappointing earnings reports from intel and other blue - chip companies in the two weeks leading up to the crash caused investors to question the value of entire portfolios. intel has had many disappointing earning reports.",1,0.16905897855758664
+adrin nodded. adrin agreed with what was said.,1,0.18847114841143284
+"one wag, j., wrote in to ask, is there a difference between pests and airlines? j. thinks there is no difference between pests and airlines.",1,0.036389050384362465
+"if the data from a series of tests performed with the same toxicant, toxicant concentrations, and test species, were analyzed with hypothesis tests, precision could only be assessed by a qualitative comparison of the noec - loec intervals, with the understanding that maximum precision would be attained if all tests yielded the same noec - loec interval. they did not have enough resources to run more than one test.",2,0.11745521922906237
+"by coordinating policy development and awareness activities in this manner, she helps ensure that new risks and policies are communicated promptly and that employees are periodically reminded of existing policies through means such as monthly bulletins, an intranet web site, and presentations to new employees. she can find new risks with the awareness campaign.",1,0.15773593261837957
+yeah well that's not really immigration that is not even remotely related.,1,0.19773767888545982
+my goodness it's hard to believe i didn't think there was anybody in the country who hadn't seen that one i thought i was the only one in this country who had seen it.,2,0.1889383569359779
+"or, eligibility could be restricted to those who have already been pregnant, or at least sexually active ; to those over age 13, or under age 21 ; or some combination thereof. eligibility is restricted to those over age 13, quite possibly.",1,0.1509123022357622
+because otherwise it's too it gets if you start them when it's cooler in the spring then it gets too hot in the summer you should start them during spring if you want them to be cool during the summer.,2,0.19149480387568474
+in the ancestral environment a man would be likely to have more offspring if he got his pick of the most fertile - seeming women. in dominant males had access fertile females.,1,0.21753494441509244
+john panzar has characterized street delivery as a bottleneck function because a single firm can deliver to a recipient at a lower total cost than multiple firms delivering to the same customer. john panzar believes in nationalizing all postal delivery services and couriers into a single entity for cost - saving purposes.,0,0.008210325303177
+why shouldn't he be? there is no reason he shouldn't be.,0,0.1594707289089759
+"this having come to his stepmother's ears, she taxed him with it on the afternoon before her death, and a quarrel ensued, part of which was overheard. a love affair sparked just moments before her death.",2,0.16399500519037247
+why blame her because she had been true to her creed? she was not faithful to her own belief system.,2,0.11107312515377993
+among runners - up is boston solo eleanor newhoff. boston solo eleanor newhoff won.,2,0.0740595534443855
+adrin heard of a young king in the south who fought against slavers and had an ivory skinned raven - haired swordswoman at his side. adrin was disgusted at the thought of the young king.,1,0.20182090004285172
+jon shifted and the sword tip slid past. john dodged the tip of the sword.,0,0.19280837476253507
+"in the depths of the cold war, many americans suspected communists had infiltrated washington and were about to subvert our democracy. communists infiltrated washington during the cold war.",1,0.03108253749087447
+"but, as the last problem i'll outline suggests, neither of the previous two objections matters. i will not continue to outline any more problems.",0,0.19425564010938
+"so, as he and tipper walked out, my friend and i were right behind them, and i took the opportunity to say hello and reintroduce myself - - as a journalist, i might add - - and we chatted about the movie for a few minutes. i wish i had seen tipper, but i didn't get to.",2,0.19948035230239228
+"kom ombo is an unusual temple in that it is dedicated to two gods. rarely visited, kom ombo is a strange temple devoted to two gods.",1,0.1462847590446472
+"right oh they've really done uh good job of keeping everybody informed of what's going on sometimes i've wondered if it wasn't almost more than we needed to know after sharing all information with everyone, i think i may have shared too much.",0,0.061347259208559934
+"they are the four sentences you always insert in plagiarized papers to throw the professor off track. if you put these four sentences into your paper, professors will immediately know that it's been plagiarized.",2,0.10573708638548847
+it's mighty lucky you did say it. i don't know why you said it.,1,0.15170277313639716
+"the rain had stopped, but the green glow painted everything around them. the green glow painted everything around them after the heavy rain had stopped.",1,0.18509805947542188
+"so it has gone, with conspiracism playing a role in crisis after crisis. conspiracy skips out on some crises",2,0.056304837266604034
+introduction the line considered is referencing the conclusion of a given work.,2,0.17810059587160743
+"on the other side of the peninsula, off the tourist track in the peninsula's heel, are the curiously romantic landscapes of puglia, from its centuries - old trulli constructions to the medieval fortresses of the german emperors. puglia is crammed with tourism.",2,0.14033083648731307
+here's the 439 feet + ( 59 feet x 0. 6 ) = 474 feet. this is a math equation.,0,0.14072154710690177
+in each square on the square outline.,2,0.14152447879314417
+"after four years, clinton has learned how to avoid looking unpresidential. after what seems like forever, clinton still doesn't understand how avoid looking unpresidential.",2,0.1360081483920415
+"if anyone has a good idea about how to bring back the opinion leaders of yore, i am all for it. no one has any good ideas.",1,0.015702852668861535
+"indeed, the democratic counteroffensive has already begun. the democrats made the first offensive move.",2,0.16256021459897357
+"at & amp ; t and mci have protested the tax and pledged to pass the cost on to mci charges 5 percent on all out of state long - distance calls, and at & amp ; t charges a flat rate. at & t and mci are against the tax and have chosen different ways to handle it.",0,0.20325783391793562
+"larger boats for up to 20 people, plus crew, offer organized gourmet cruises. you can easily find gourmet cruises.",1,0.2169830352067947
+because i always had to do it and so i just pay someone else to do it and they do the they do the cutting they fertilize they um edge and um i think this year i'm going to have some landscaping put in i have never developed a love for gardening.,1,0.11231438070535656
+ooh it's kind of tough to think of some of the others although i do watch some of some of those frivolous things uh like on thursday nights at nine o'clock when i get home from aerobics i will watch uh knots landing i take an aerobics class at nine o'clock.,2,0.12160765131314588
+or to judge by the failing to nurse at night can lead to painful engorgement or even breast infection. mothers can go many hours without nursing.,2,0.09683962414662038
+' these are human lives. human lives are at stake,1,0.18088389436403907
+"on the days i go to my office, i wear a flannel shirt with no necktie if the weather is cool. on hot days, i wear a flannel shirt to the office.",2,0.08969512271384394
+i like ethnic humor. i like jokes about race.,0,0.20289153108994165
+"cruises are available from the bhansi ghat, which is near the citypalace. you can take cruises from phoenix arizona.",2,0.20125734061002729
+"the park on the hill of monte makes a good playground, while the ride down in a wicker toboggan is straight out of an old world theme park ( though surely tame for older kids ). older kids may find the park on the hill of monte unremarkable.",0,0.13239515448609984
+china's civil war sent distressing echoes to hong kong. japan fought a civil war.,2,0.17502117405335108
+"but they persevered, she said, firm and optimistic in their search, until they were finally allowed by a packed restaurant to eat their dinner off the floor. they were seated at a table that they could eat at.",2,0.17706787586212155
+"on the other side of the peninsula, off the tourist track in the peninsula's heel, are the curiously romantic landscapes of puglia, from its centuries - old trulli constructions to the medieval fortresses of the german emperors. puglia doesn't have a tourism industry, so it is slow - paced and relaxing.",1,0.16966193914413444
+chapter 6 : human capital humans have capital.,1,0.07386908556024231

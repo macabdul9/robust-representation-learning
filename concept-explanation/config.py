@@ -2,7 +2,7 @@
 config = {
     "tasks":{
         "imdb_sst2_sa":{
-            "domains":["imdb", "sst2"],
+            "domains":['sst2'],#["imdb", "sst2"],
             "training_domain":"sst2",
             "num_classes":2, # instead of 2-class sentiment classification convert it to multiclass classfication
             "lr":2e-5, #    "lr":2e-5,
@@ -18,7 +18,7 @@ config = {
             "domains":['mnli'], #['mnli', 'hans'],
             "training_domain":"mnli",
             "lr":2e-5,
-            "batch_size":4,
+            "batch_size":16,
             "epochs":5,
             "average":"macro",
             "max_seq_length": 128,

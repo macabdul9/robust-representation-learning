@@ -31,8 +31,8 @@ class LightningModel(pl.LightningModule):
 
 
     def forward(self, input_ids, attention_mask=None):
-        logits  = self.model(input_ids=input_ids, attention_mask=attention_mask)
-        return logits
+        logits, pooler  = self.model(input_ids=input_ids, attention_mask=attention_mask)
+        return logits, pooler
 
     def configure_optimizers(self):
         return optim.AdamW(params=self.parameters(), lr=self.config['training']['lr'])
@@ -40,7 +40,7 @@ class LightningModel(pl.LightningModule):
     def training_step(self, batch, batch_idx):
 
         input_ids, attention_mask, targets = batch['input_ids'], batch['attention_mask'], batch['label'].squeeze()
-        logits = self(input_ids=input_ids, attention_mask=attention_mask)
+        logits, _ = self(input_ids=input_ids, attention_mask=attention_mask)
         loss = F.cross_entropy(logits, targets)
 
         acc = accuracy_score(targets.cpu(), logits.argmax(dim=1).cpu())
@@ -51,7 +51,7 @@ class LightningModel(pl.LightningModule):
 
     def validation_step(self, batch, batch_idx):
         input_ids, attention_mask, targets = batch['input_ids'], batch['attention_mask'], batch['label'].squeeze()
-        logits = self(input_ids=input_ids, attention_mask=attention_mask)
+        logits, _ = self(input_ids=input_ids, attention_mask=attention_mask)
         loss = F.cross_entropy(logits, targets)
         acc = accuracy_score(targets.cpu(), logits.argmax(dim=1).cpu())
         f1 = f1_score(targets.cpu(), logits.argmax(dim=1).cpu(), average=self.config['training']['average'])
@@ -70,7 +70,7 @@ class LightningModel(pl.LightningModule):
 
     def test_step(self, batch, batch_idx):
         input_ids, attention_mask, targets = batch['input_ids'], batch['attention_mask'], batch['label'].squeeze()
-        logits = self(input_ids=input_ids, attention_mask=attention_mask)
+        logits, _ = self(input_ids=input_ids, attention_mask=attention_mask)
         loss = F.cross_entropy(logits, targets)
         acc = accuracy_score(targets.cpu(), logits.argmax(dim=1).cpu())
         f1 = f1_score(targets.cpu(), logits.argmax(dim=1).cpu(), average=self.config['training']['average'])

@@ -51,6 +51,6 @@ class Model(nn.Module):
         logits = self.classifier(pooler)
 
 
-        return logits
+        return logits, pooler
 
 

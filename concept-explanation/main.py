@@ -70,7 +70,7 @@ if __name__=="__main__":
 
 
     # train all the model in model list
-    for model_name in config['models']:
+    for i, model_name in enumerate(config['models']):
 
         # useful to save the results with first word of hf model name
         m = model_name.split("-")[0]
@@ -160,6 +160,12 @@ if __name__=="__main__":
             else:
                 raise ValueError("order has changed!")
 
+            
+        # if model_name == "bert-base-uncased" and i > 1:
+
+
+
+
         del lm 
         del trainer
         torch.cuda.empty_cache()
@@ -175,6 +181,12 @@ if __name__=="__main__":
     
     for domain in results_dfs.keys():
         results_dfs[domain].to_csv(os.path.join(PATH, domain+".csv"), index=False)
+
+
+
+
+    # get the mean probability from dataframes
+
 
 
     del results

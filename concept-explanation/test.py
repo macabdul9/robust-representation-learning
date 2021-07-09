@@ -37,11 +37,11 @@ if __name__ == '__main__':
     print(pred_probs)
 
 
-    # for domain in loaders:
+    for domain in loaders:
 
-    #     for set in loaders[domain]:
+        for set in loaders[domain]:
 
-    #         print(f'domain = {domain} | set = {set} | len = {len(loaders[domain][set])}')
+            print(f'domain = {domain} | set = {set} | len = {len(loaders[domain][set])}')
 
 
 

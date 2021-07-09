@@ -15,7 +15,7 @@ config = {
         
         "mnli":{
             "num_classes":3,
-            "domains":['mnli', 'hans'],
+            "domains":['mnli'], #['mnli', 'hans'],
             "training_domain":"mnli",
             "lr":2e-5,
             "batch_size":4,
@@ -37,7 +37,7 @@ config = {
 
 
     },
-    "models":['bert-base-uncased', 'distilbert-base-uncased', 'roberta-base'], # 'albert-base-v2'
+    "models":['distilbert-base-uncased', 'roberta-base', 'bert-base-uncased'], # 'albert-base-v2'
 
 
     # "max_seq_length": 128, # moved to respective task section

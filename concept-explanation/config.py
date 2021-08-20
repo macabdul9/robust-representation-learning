@@ -35,6 +35,17 @@ config = {
             "max_seq_length": 256,
         },
 
+        "hans":{
+            "num_classes":2,
+            "domains":['hans'], # "mrpc"
+            "training_domain":"hans",
+            "lr":2e-5,
+            "batch_size":4, # actual 32, 128 for representation analysis
+            "epochs":5,
+            "average":"macro",
+            "max_seq_length": 256,
+        },
+
 
     },
     "models":['distilbert-base-uncased', 'roberta-base', 'bert-base-uncased'], # 'albert-base-v2'

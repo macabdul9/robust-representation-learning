@@ -14,3 +14,6 @@ def create_loaders(dataset, task, tokenizer):
     
     elif task=="paraphrase":
         return paraphrase_loaders(dataset=dataset, config=config['tasks'][task], tokenizer=tokenizer)
+    
+    elif task=="hans":
+        return paraphrase_loaders(dataset=dataset, config=config['tasks'][task], tokenizer=tokenizer)

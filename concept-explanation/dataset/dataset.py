@@ -15,3 +15,7 @@ def create_datasets(task):
     
     elif task=="paraphrase":
         return paraphrase_datasets(config=config['tasks'][task])
+
+
+    elif task=="hans":
+        return paraphrase_datasets(config=config['tasks'][task])

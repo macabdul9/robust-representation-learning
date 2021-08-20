@@ -121,6 +121,11 @@ if __name__=="__main__":
 
             gt = []
             input_texts = []
+            template = []
+            heuristic = []
+            premise = []
+            hypothesis = []
+
             for batch in loaders[domain]['test']:
                 gt += batch['label'].cpu().tolist()
                 for each in batch['input_ids']:
@@ -129,10 +134,21 @@ if __name__=="__main__":
                             skip_special_tokens=True
                         )
                     )
+                if task=='hans':
+                    template += batch['template']
+                    heuristic += batch['heuristic']
+                    premise += batch['premise']
+                    hypothesis += batch['hypothesis']
+
                 # break
 
-            results_dfs[domain]['text'] = input_texts
+            results_dfs[domain]['input_text'] = input_texts
             results_dfs[domain]['ground_truth'] = gt
+            if task=='hans':
+                results_dfs[domain]['template'] = template
+                results_dfs[domain]['heuristic'] = heuristic
+                results_dfs[domain]['premise'] = premise
+                results_dfs[domain]['hypothesis'] = hypothesis
 
             
 
@@ -171,7 +187,7 @@ if __name__=="__main__":
         torch.cuda.empty_cache()
         gc.collect()
 
-        # break
+        break
 
 
 
